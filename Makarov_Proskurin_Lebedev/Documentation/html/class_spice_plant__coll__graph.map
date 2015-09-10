@@ -1,0 +1,8 @@
+<map id="SpicePlant" name="SpicePlant">
+<area shape="rect" id="node2" href="$class_structure.html" title="Общий класс для зданий: Спайсовый завод, Силос, Машинный завод и т.д. " alt="" coords="65,1803,174,1983"/>
+<area shape="rect" id="node3" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="5,1371,156,1565"/>
+<area shape="rect" id="node4" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="39,248,157,809"/>
+<area shape="rect" id="node7" href="$class_resource.html" title="Общий класс для ресурсов: Спайс, Электроэнергия и т.д. " alt="" coords="121,859,229,1347"/>
+<area shape="rect" id="node5" href="$class_state.html" title="Состояние объекта " alt="" coords="53,5,143,185"/>
+<area shape="rect" id="node6" href="$class_spice.html" title="Спайс &#45; ресурс. Используется для покупки юнитов и зданий. " alt="" coords="130,1589,213,1740"/>
+</map>

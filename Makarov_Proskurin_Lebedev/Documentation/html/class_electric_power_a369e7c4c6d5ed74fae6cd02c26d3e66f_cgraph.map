@@ -1,0 +1,5 @@
+<map id="ElectricPower::ElectricPower" name="ElectricPower::ElectricPower">
+<area shape="rect" id="node2" href="$class_resource.html#a019fb432790da5fb0c4052f48142e0b8" title="Функция установки количества ресурса " alt="" coords="256,5,383,32"/>
+<area shape="rect" id="node4" href="$class_resource.html#ab35e9a5b5a99706b5f267865d1823d91" title="Функция установки предела кол&#45;ва ресурса " alt="" coords="244,56,395,83"/>
+<area shape="rect" id="node3" href="$class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd" title="Получить максимальное значение ресурса " alt="" coords="443,5,593,32"/>
+</map>

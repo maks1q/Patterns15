@@ -1,0 +1,7 @@
+<map id="Game" name="Game">
+<area shape="rect" id="node2" href="$class_map.html" title="Класс карта. Хранит в себе все подкарты и слои карты. " alt="" coords="61,1131,164,1340"/>
+<area shape="rect" id="node3" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="54,248,171,809"/>
+<area shape="rect" id="node5" href="$class_map_landscape.html" title="Карта ландшафта &#45; хранит все слои ландшафта. " alt="" coords="33,873,192,1053"/>
+<area shape="rect" id="node6" href="$class_map_spice.html" title="Карта спайса &#45; хранит в себе все слои спайса, находящегося на карте. " alt="" coords="216,859,344,1068"/>
+<area shape="rect" id="node4" href="$class_state.html" title="Состояние объекта " alt="" coords="67,5,158,185"/>
+</map>

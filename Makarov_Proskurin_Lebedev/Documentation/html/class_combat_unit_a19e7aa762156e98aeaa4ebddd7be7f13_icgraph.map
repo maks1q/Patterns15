@@ -1,0 +1,5 @@
+<map id="CombatUnit::setRechargeTime" name="CombatUnit::setRechargeTime">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="279,5,418,32"/>
+<area shape="rect" id="node3" href="$class_combat_unit.html#ae544ca5f1e07929cca7243735d54c7dd" title="Установить информацию о боевом юните " alt="" coords="252,56,445,83"/>
+<area shape="rect" id="node4" href="$class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="493,56,580,83"/>
+</map>

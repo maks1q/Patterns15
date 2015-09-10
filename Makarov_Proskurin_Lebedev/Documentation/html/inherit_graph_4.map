@@ -1,0 +1,29 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="5,183,65,209"/>
+<area shape="rect" id="node2" href="$class_a_i.html" title="Искусственный интеллект &#45; набор правил и действий, направленных на добычу ресурсов, защиту собственной базы и атаки на врага. " alt="" coords="155,5,194,32"/>
+<area shape="rect" id="node3" href="$class_division.html" title="Подразделение &#45; содержит определенную группу, состоящую из юнитов. " alt="" coords="141,56,208,83"/>
+<area shape="rect" id="node4" href="$class_map.html" title="Класс карта. Хранит в себе все подкарты и слои карты. " alt="" coords="151,107,198,133"/>
+<area shape="rect" id="node5" href="$class_map_landscape.html" title="Карта ландшафта &#45; хранит все слои ландшафта. " alt="" coords="119,157,230,184"/>
+<area shape="rect" id="node6" href="$class_map_spice.html" title="Карта спайса &#45; хранит в себе все слои спайса, находящегося на карте. " alt="" coords="135,208,215,235"/>
+<area shape="rect" id="node7" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="113,259,236,285"/>
+<area shape="rect" id="node23" href="$class_resource.html" title="Общий класс для ресурсов: Спайс, Электроэнергия и т.д. " alt="" coords="136,360,213,387"/>
+<area shape="rect" id="node27" href="$class_team.html" title="Команда &#45; военная структура, состоящая из юнитов, зданий, ресурсов. " alt="" coords="147,411,202,437"/>
+<area shape="rect" id="node8" href="$class_ammunition.html" title="Класс Боеприпасы " alt="" coords="297,81,388,108"/>
+<area shape="rect" id="node10" href="$class_layer_landscape.html" title="Слой ландшафтного поля. " alt="" coords="284,157,401,184"/>
+<area shape="rect" id="node11" href="$class_layer_spice.html" title="Слой спайсового поля. " alt="" coords="299,208,386,235"/>
+<area shape="rect" id="node12" href="$class_structure.html" title="Общий класс для зданий: Спайсовый завод, Силос, Машинный завод и т.д. " alt="" coords="305,259,380,285"/>
+<area shape="rect" id="node18" href="$class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="320,309,365,336"/>
+<area shape="rect" id="node9" href="$class_ammo_shell.html" title="Боевой снаряд " alt="" coords="467,81,557,108"/>
+<area shape="rect" id="node13" href="$class_construction_plant.html" title="Строительный завод &#45; строит здания. " alt="" coords="449,132,575,159"/>
+<area shape="rect" id="node14" href="$class_machine_plant.html" title="Машинный завод &#45; производит юнитов. " alt="" coords="461,183,563,209"/>
+<area shape="rect" id="node15" href="$class_silo.html" title="Силос &#45; здание, хранит в себе ресурс: спайс. " alt="" coords="490,233,534,260"/>
+<area shape="rect" id="node16" href="$class_spice_plant.html" title="Спайсовый завод &#45; ведет переработку Спайса. " alt="" coords="469,284,555,311"/>
+<area shape="rect" id="node17" href="$class_wind_turbine.html" title="Ветряк &#45; здание, производящее электроэнергию. " alt="" coords="465,335,559,361"/>
+<area shape="rect" id="node19" href="$class_combat_unit.html" title="Класс &#45; боевая единица. " alt="" coords="467,385,557,412"/>
+<area shape="rect" id="node21" href="$class_extracting_unit.html" title="Класс юнитов, добывающих ресурсы. " alt="" coords="460,436,564,463"/>
+<area shape="rect" id="node20" href="$class_tank.html" title="Танк " alt="" coords="635,385,686,412"/>
+<area shape="rect" id="node22" href="$class_harvester.html" title="Юнит, добывающий ресурс Спайс. " alt="" coords="623,436,699,463"/>
+<area shape="rect" id="node24" href="$class_electric_power.html" title="Электроэнергия &#45; ресурс, дающий энергию зданиям. " alt="" coords="291,360,394,387"/>
+<area shape="rect" id="node25" href="$class_price.html" title="Цена &#45; стоимость какого&#45;либо объекта. " alt="" coords="317,411,369,437"/>
+<area shape="rect" id="node26" href="$class_spice.html" title="Спайс &#45; ресурс. Используется для покупки юнитов и зданий. " alt="" coords="315,461,370,488"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="irr::IAtmosphereSkySceneNode::generateMesh" name="irr::IAtmosphereSkySceneNode::generateMesh">
+<area shape="rect" id="node2" href="$classirr_1_1_i_atmosphere_sky_scene_node.html#af103fbc0728725396ab35c69100c8e55" title="Constructor. " alt="" coords="228,5,451,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1_i_atmosphere_sky_scene_node.html#a44aa7ec6deec7ce2d18e1d81ada0f996" title="Reads attributes of the scene node. " alt="" coords="250,71,429,112"/>
+<area shape="rect" id="node3" href="$classirr_1_1_i_atmosphere_sky_scene_node.html#ad8f26005cb64417cd4ab417e30542416" title="Creates a clone of this scene node and its children. " alt="" coords="499,5,673,47"/>
+</map>

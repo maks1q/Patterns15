@@ -1,0 +1,7 @@
+<map id="Object::setInfo" name="Object::setInfo">
+<area shape="rect" id="node2" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="171,5,291,32"/>
+<area shape="rect" id="node3" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="182,56,281,83"/>
+<area shape="rect" id="node4" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="165,107,298,133"/>
+<area shape="rect" id="node5" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="160,157,303,184"/>
+<area shape="rect" id="node6" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="166,208,297,235"/>
+</map>

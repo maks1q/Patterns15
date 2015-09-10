@@ -1,0 +1,7 @@
+<map id="Resource::minusRes" name="Resource::minusRes">
+<area shape="rect" id="node2" href="$class_construction_plant.html#a2d029071b1a6a68f93b1ab9a560d1695" title="Создание Харвестера строительным зданием " alt="" coords="212,5,345,47"/>
+<area shape="rect" id="node4" href="$class_construction_plant.html#a33f733a1c836c46807dd23d39323d67d" title="Создание Танка строительным зданием " alt="" coords="212,71,345,112"/>
+<area shape="rect" id="node5" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="196,136,361,177"/>
+<area shape="rect" id="node6" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="409,173,563,199"/>
+<area shape="rect" id="node3" href="$class_team.html#ab6e749d9dd44130832efe33ce21ce2e6" title="Обновление действий всех юнитов и зданий команды " alt="" coords="435,46,537,73"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="State::setState" name="State::setState">
+<area shape="rect" id="node2" href="$class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="184,5,348,32"/>
+<area shape="rect" id="node3" href="$class_ammunition.html#a788ca8a63afa17405c7776cf6dbc9e00" title="Конструкто по умолчанию " alt="" coords="182,56,350,83"/>
+<area shape="rect" id="node4" href="$class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9" title="Движение к цели " alt="" coords="171,107,361,133"/>
+<area shape="rect" id="node7" href="$class_combat_unit.html#a05055316389a8fbc92eb5205fa39e2ff" title="Поиск вражеского юнита " alt="" coords="164,208,368,235"/>
+<area shape="rect" id="node8" href="$class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="423,208,562,235"/>
+<area shape="rect" id="node9" href="$class_combat_unit.html#ac47a761918885a4d605d3dc1f1573b20" title="Проверка указателя на юнита " alt="" coords="167,259,365,285"/>
+<area shape="rect" id="node10" href="$class_extracting_unit.html#a37e15c2f923bf9701b238c69d835ccc2" title="Функция для поиска ресурсов " alt="" coords="184,477,348,518"/>
+<area shape="rect" id="node11" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="416,360,569,387"/>
+<area shape="rect" id="node12" href="$class_extracting_unit.html#aa05fd5806132237442db206d6e86f699" title="Проверка указателя по всем спайсовым слоям " alt="" coords="176,411,356,453"/>
+<area shape="rect" id="node13" href="$class_unit.html#a257f6377eb3932e4019be226a8b9efa7" title="Установить данные о юните " alt="" coords="209,543,323,569"/>
+<area shape="rect" id="node16" href="$class_unit.html#a757f23c676a574d9991f590cc82ee08c" title="Обновить действия юнита " alt="" coords="219,309,313,336"/>
+<area shape="rect" id="node5" href="$class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35" title="Обновление действий для боеприпаса " alt="" coords="423,107,563,133"/>
+<area shape="rect" id="node6" href="$class_ammo_shell.html#a0714fbcbfe0fa16924740b2e6d2b6db0" title="Обновление действий для снаряда " alt="" coords="617,107,756,133"/>
+<area shape="rect" id="node14" href="$class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="423,517,562,544"/>
+<area shape="rect" id="node15" href="$class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="449,568,536,595"/>
+<area shape="rect" id="node17" href="$class_tank.html#a396ba5e6d3830c621dea9414dc9f1187" title="Обновление действий танка " alt="" coords="443,309,542,336"/>
+</map>

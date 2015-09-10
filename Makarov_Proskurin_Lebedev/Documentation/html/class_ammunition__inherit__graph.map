@@ -1,0 +1,5 @@
+<map id="Ammunition" name="Ammunition">
+<area shape="rect" id="node4" href="$class_ammo_shell.html" title="Боевой снаряд " alt="" coords="22,1364,139,1544"/>
+<area shape="rect" id="node2" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="5,629,156,824"/>
+<area shape="rect" id="node3" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="22,5,139,581"/>
+</map>

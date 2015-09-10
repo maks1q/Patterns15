@@ -1,0 +1,4 @@
+<map id="Ammunition::toMoveToTarget" name="Ammunition::toMoveToTarget">
+<area shape="rect" id="node2" href="$class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35" title="Обновление действий для боеприпаса " alt="" coords="244,5,384,32"/>
+<area shape="rect" id="node3" href="$class_ammo_shell.html#a0714fbcbfe0fa16924740b2e6d2b6db0" title="Обновление действий для снаряда " alt="" coords="432,5,571,32"/>
+</map>

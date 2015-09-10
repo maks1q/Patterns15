@@ -1,0 +1,12 @@
+<map id="Spice::Spice" name="Spice::Spice">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="169,132,276,159"/>
+<area shape="rect" id="node8" href="$class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be" title="Функция установки значений " alt="" coords="149,259,296,285"/>
+<area shape="rect" id="node3" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="359,5,479,32"/>
+<area shape="rect" id="node4" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="370,56,469,83"/>
+<area shape="rect" id="node5" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="353,107,486,133"/>
+<area shape="rect" id="node6" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="348,157,491,184"/>
+<area shape="rect" id="node7" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="354,208,485,235"/>
+<area shape="rect" id="node9" href="$class_resource.html#ab35e9a5b5a99706b5f267865d1823d91" title="Функция установки предела кол&#45;ва ресурса " alt="" coords="344,259,495,285"/>
+<area shape="rect" id="node10" href="$class_resource.html#a019fb432790da5fb0c4052f48142e0b8" title="Функция установки количества ресурса " alt="" coords="356,309,483,336"/>
+<area shape="rect" id="node11" href="$class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd" title="Получить максимальное значение ресурса " alt="" coords="543,309,693,336"/>
+</map>

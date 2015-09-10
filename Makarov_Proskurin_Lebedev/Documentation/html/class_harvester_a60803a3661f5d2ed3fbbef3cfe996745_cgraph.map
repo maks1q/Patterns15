@@ -1,0 +1,10 @@
+<map id="Harvester::Harvester" name="Harvester::Harvester">
+<area shape="rect" id="node2" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="210,56,321,83"/>
+<area shape="rect" id="node3" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="212,107,319,133"/>
+<area shape="rect" id="node9" href="$class_harvester.html#aa8ad07833d4434856d91450b5224bbf8" title="Функция инициализации модели Харвестера " alt="" coords="192,157,339,184"/>
+<area shape="rect" id="node4" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="398,5,518,32"/>
+<area shape="rect" id="node5" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="409,56,507,83"/>
+<area shape="rect" id="node6" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="391,107,525,133"/>
+<area shape="rect" id="node7" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="387,157,529,184"/>
+<area shape="rect" id="node8" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="393,208,523,235"/>
+</map>

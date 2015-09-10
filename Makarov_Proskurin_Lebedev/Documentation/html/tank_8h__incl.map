@@ -1,0 +1,23 @@
+<map id="tank.h" name="tank.h">
+<area shape="rect" id="node2" href="$combatunit_8h.html" title="combatunit.h" alt="" coords="387,80,485,107"/>
+<area shape="rect" id="node32" href="$ammoshell_8h.html" title="ammoshell.h" alt="" coords="509,80,605,107"/>
+<area shape="rect" id="node3" href="$unit_8h.html" title="unit.h" alt="" coords="277,155,331,181"/>
+<area shape="rect" id="node31" href="$ammunition_8h.html" title="ammunition.h" alt="" coords="507,155,607,181"/>
+<area shape="rect" id="node4" href="$objectwithmodel_8h.html" title="objectwithmodel.h" alt="" coords="342,453,469,480"/>
+<area shape="rect" id="node24" href="$map_8h.html" title="Map.h" alt="" coords="384,229,443,256"/>
+<area shape="rect" id="node25" href="$mapspice_8h.html" title="mapspice.h" alt="" coords="202,304,291,331"/>
+<area shape="rect" id="node26" href="$layerspice_8h.html" title="LayerSpice.h" alt="" coords="143,379,241,405"/>
+<area shape="rect" id="node27" href="$spice_8h.html" title="spice.h" alt="" coords="160,453,224,480"/>
+<area shape="rect" id="node5" href="$object_8h.html" title="object.h" alt="" coords="371,603,439,629"/>
+<area shape="rect" id="node6" href="$stdafx_8h.html" title="stdafx.h" alt="" coords="277,677,345,704"/>
+<area shape="rect" id="node22" href="$idteam_8h.html" title="idteam.h" alt="" coords="369,677,441,704"/>
+<area shape="rect" id="node23" href="$state_8h.html" title="state.h" alt="" coords="466,677,529,704"/>
+<area shape="rect" id="node13" href="$rtscamera_8h.html" title="rtscamera.h" alt="" coords="307,752,397,779"/>
+<area shape="rect" id="node14" href="$irr_weather_manager_8h.html" title="irrWeatherManager.h" alt="" coords="646,752,789,779"/>
+<area shape="rect" id="node15" href="$_i_weather_manager_atmosphere_8h.html" title="IWeatherManagerAtmosphere.h" alt="" coords="615,827,820,853"/>
+<area shape="rect" id="node16" href="$_i_atmosphere_sky_scene_node_8h.html" title="IAtmosphereSkySceneNode.h" alt="" coords="730,901,926,928"/>
+<area shape="rect" id="node21" href="$_i_atmosphere_star_scene_node_8h.html" title="IAtmosphereStarSceneNode.h" alt="" coords="508,901,705,928"/>
+<area shape="rect" id="node29" href="$maplandscape_8h.html" title="maplandscape.h" alt="" coords="372,304,489,331"/>
+<area shape="rect" id="node28" href="$resource_8h.html" title="resource.h" alt="" coords="155,528,237,555"/>
+<area shape="rect" id="node30" href="$layerlandscape_8h.html" title="LayerLandscape.h" alt="" coords="367,379,495,405"/>
+</map>

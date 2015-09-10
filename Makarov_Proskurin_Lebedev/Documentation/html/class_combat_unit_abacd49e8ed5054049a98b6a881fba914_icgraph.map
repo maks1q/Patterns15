@@ -1,0 +1,4 @@
+<map id="CombatUnit::toAttack" name="CombatUnit::toAttack">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a8010d7cfda0c3e3b47bb29d4a93f8b2d" title="Метод атаки объекта " alt="" coords="201,5,337,32"/>
+<area shape="rect" id="node3" href="$class_combat_unit.html#ae272611a988ddb2735dfd0ba3089e6f4" title="Обновить действия боевого юнита " alt="" coords="200,56,339,83"/>
+</map>

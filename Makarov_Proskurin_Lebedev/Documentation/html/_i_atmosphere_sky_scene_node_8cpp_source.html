@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл IAtmosphereSkySceneNode.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_i_atmosphere_sky_scene_node_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">IAtmosphereSkySceneNode.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_atmosphere_sky_scene_node_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// Copyright (C) Pazystamo</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// This file is part of the &quot;irrWeatherManager&quot; weather management library for the Irrlicht rendering engine.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// The code in this file was separated from its original file, and the code belongs to Pazystamo from the Irrlicht forums.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_i_atmosphere_sky_scene_node_8h.html">IAtmosphereSkySceneNode.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceirr.html">    7</a></span>&#160;<span class="keyword">namespace </span>irr</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af103fbc0728725396ab35c69100c8e55">   11</a></span>&#160;<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af103fbc0728725396ab35c69100c8e55">IAtmosphereSkySceneNode::IAtmosphereSkySceneNode</a>(scene::ISceneNode* parent, scene::ISceneManager* mgr, s32 <span class="keywordtype">id</span>,</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        video::ITexture* sky, u16 numberOfFaces, <span class="keyword">const</span> f32 radius)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    : scene::ISceneNode(parent, mgr, id), Buffer(0) , <a class="code" href="_i_weather_manager_atmosphere_8cpp.html#a8c199bdabdb357ebdbbe3f8db3e2b635">Radius</a>(radius), UvX(1.f)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    #ifdef _DEBUG</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    setDebugName(<span class="stringliteral">&quot;IAtmospherSkySceneNode&quot;</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> ( numberOfFaces &gt; 256 )</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        numberOfFaces = 256;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> ( numberOfFaces &lt; 3 )</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        numberOfFaces = 3;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a> = numberOfFaces;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    setAutomaticCulling(scene::EAC_OFF);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a> = <span class="keyword">new</span> scene::SMeshBuffer();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.Lighting = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.ZBuffer = video::ECFN_NEVER;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.ZWriteEnable = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.AntiAliasing = video::EAAM_OFF;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.setTexture(0, sky);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.MaterialType = video::EMT_TRANSPARENT_ALPHA_CHANNEL;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// regenerate the mesh</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a928048a9a1302508985b1a034cffa4a2">generateMesh</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a0f1ee64cc20763b7b9cae68c077e3c40">   42</a></span>&#160;<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a0f1ee64cc20763b7b9cae68c077e3c40">IAtmosphereSkySceneNode::~IAtmosphereSkySceneNode</a>()</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;drop();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a928048a9a1302508985b1a034cffa4a2">   48</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a928048a9a1302508985b1a034cffa4a2">IAtmosphereSkySceneNode::generateMesh</a>()</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices.clear();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.clear();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices.reallocate( <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a> + 1 );</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.reallocate( <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a> * 3 );</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// This is just a cone</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    f32 Angle = 0.f;                <span class="comment">//start positions</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keyword">const</span> f32 AngleStep = 2.f * core::PI / <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a>;        <span class="comment">//angle to add</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    video::S3DVertex vtx = video::S3DVertex(0.f, <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>, 0.f,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        0.f, -1.f, 0.f,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        video::SColor(255,255,255,255), 0.f, 0.1f); <span class="comment">// If you want to change the sky color, you can do it here.</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices.push_back(vtx);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">for</span> (u16 i = 1; i &lt; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a> + 1; i++)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        vtx.Pos.X = cosf(Angle) * <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>;   <span class="comment">//vertice x coord</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        vtx.Pos.Y = 0.f;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        vtx.Pos.Z = sinf(Angle) * <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>;   <span class="comment">//vertice z coord</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        vtx.Normal = vtx.Pos;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        vtx.Normal.normalize();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        vtx.TCoords = core::vector2df(0.f, 1.f);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices.push_back(vtx);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        Angle += AngleStep;    <span class="comment">// we neglish the precision of a floating summ. f32 angle = angle2 * i; This would be better</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">for</span> (u16 i = 1; i &lt; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a>; i++)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(0);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(i);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(i + 1);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(0);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(Faces);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Indices.push_back(1);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;setHardwareMappingHint(scene::EHM_STATIC, scene::EBT_VERTEX);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a2ceae646265451a1abe5c0b0c464a138">   94</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a2ceae646265451a1abe5c0b0c464a138">IAtmosphereSkySceneNode::OnRegisterSceneNode</a>()</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">if</span> (IsVisible)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        SceneManager-&gt;registerNodeForRendering( <span class="keyword">this</span>, scene::ESNRP_SKY_BOX );</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    ISceneNode::OnRegisterSceneNode();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a733c39574c7ea544932320c0c7ef8b53">  105</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a733c39574c7ea544932320c0c7ef8b53">IAtmosphereSkySceneNode::render</a>()</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    video::IVideoDriver* <a class="code" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a> = SceneManager-&gt;getVideoDriver();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    scene::ICameraSceneNode* camera = SceneManager-&gt;getActiveCamera();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">if</span> (!camera || !driver)</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">//update uv maping</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">for</span>(s32 i = 1; i &lt; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a> + 1; i++)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices[i].TCoords.set(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a09a4f1431bea9e37f5c0426f50664432">UvX</a>, 1.f);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Vertices[0].TCoords.set(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a09a4f1431bea9e37f5c0426f50664432">UvX</a>, 0.1f); <span class="comment">// (UvX, 0.f); does a black point in the sky.</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> ( !camera-&gt;isOrthogonal() )</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        core::matrix4 mat(AbsoluteTransformation);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        mat.setTranslation(camera-&gt;getAbsolutePosition());</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        driver-&gt;setTransform(video::ETS_WORLD, mat);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        driver-&gt;setMaterial(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        driver-&gt;drawMeshBuffer(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="comment">// for debug purposes only:</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span> ( DebugDataVisible )</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        video::SMaterial m;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        m.Lighting = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        driver-&gt;setMaterial(m);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">if</span> ( DebugDataVisible &amp; scene::EDS_NORMALS )</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="comment">// draw normals</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keyword">const</span> f32 debugNormalLength = SceneManager-&gt;getParameters()-&gt;getAttributeAsFloat(scene::DEBUG_NORMAL_LENGTH);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keyword">const</span> video::SColor debugNormalColor = SceneManager-&gt;getParameters()-&gt;getAttributeAsColor(scene::DEBUG_NORMAL_COLOR);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            driver-&gt;drawMeshBufferNormals(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>, debugNormalLength, debugNormalColor);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="comment">// show mesh</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">if</span> ( DebugDataVisible &amp; scene::EDS_MESH_WIRE_OVERLAY )</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            m.Wireframe = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            driver-&gt;setMaterial(m);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            driver-&gt;drawMeshBuffer(<a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;}</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a7deeec55377dfe96f12b36deaabc0d9e">  159</a></span>&#160;<span class="keyword">const</span> core::aabbox3d&lt;f32&gt;&amp; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a7deeec55377dfe96f12b36deaabc0d9e">IAtmosphereSkySceneNode::getBoundingBox</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;BoundingBox;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a3502725fdb0e707a7d81b32803148568">  165</a></span>&#160;video::SMaterial&amp; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a3502725fdb0e707a7d81b32803148568">IAtmosphereSkySceneNode::setMaterial</a>(video::ITexture* <span class="keyword">const</span> tex)</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8c350b096386819162022672fd69f58">Material</a>.setTexture(0, tex);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8c350b096386819162022672fd69f58">Material</a>;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;}</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a51d4297dab8cfcb31a3a58a24c7962ed">  176</a></span>&#160;video::SMaterial&amp; <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a51d4297dab8cfcb31a3a58a24c7962ed">IAtmosphereSkySceneNode::getMaterial</a>(u32 i)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;{</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;}</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a238e14d8870a08e01870ef0dc9d2103d">  182</a></span>&#160;u32 <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a238e14d8870a08e01870ef0dc9d2103d">IAtmosphereSkySceneNode::getMaterialCount</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;}</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
+<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#aea37bb686d2c167a0aa09120be386974">  188</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#aea37bb686d2c167a0aa09120be386974">IAtmosphereSkySceneNode::serializeAttributes</a>(io::IAttributes* out, io::SAttributeReadWriteOptions* options)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    ISceneNode::serializeAttributes(out, options);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    out-&gt;addInt  (<span class="stringliteral">&quot;Faces&quot;</span>,                 <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a>);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    out-&gt;addFloat(<span class="stringliteral">&quot;Radius&quot;</span>,               <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a44aa7ec6deec7ce2d18e1d81ada0f996">  198</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a44aa7ec6deec7ce2d18e1d81ada0f996">IAtmosphereSkySceneNode::deserializeAttributes</a>(io::IAttributes* in, io::SAttributeReadWriteOptions* options)</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;{</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a>                = in-&gt;getAttributeAsInt(<span class="stringliteral">&quot;Faces&quot;</span>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>               = in-&gt;getAttributeAsFloat(<span class="stringliteral">&quot;Radius&quot;</span>);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    ISceneNode::deserializeAttributes(in, options);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="comment">// regenerate the mesh</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a928048a9a1302508985b1a034cffa4a2">generateMesh</a>();</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8f26005cb64417cd4ab417e30542416">  210</a></span>&#160;scene::ISceneNode* <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8f26005cb64417cd4ab417e30542416">IAtmosphereSkySceneNode::clone</a>(scene::ISceneNode* newParent, scene::ISceneManager* newManager)</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;{</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">if</span> (!newParent)</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        newParent = Parent;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span> (!newManager)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        newManager = SceneManager;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html">IAtmosphereSkySceneNode</a>* nb = <span class="keyword">new</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af103fbc0728725396ab35c69100c8e55">IAtmosphereSkySceneNode</a>(newParent, newManager, ID, <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">Buffer</a>-&gt;Material.TextureLayer[0].Texture, <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">Faces</a>, <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">Radius</a>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    nb-&gt;cloneMembers(<span class="keyword">this</span>, newManager);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">if</span> ( newParent )</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        nb-&gt;drop();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordflow">return</span> nb;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;}</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00227"></a><span class="lineno"><a class="line" href="classirr_1_1_i_atmosphere_sky_scene_node.html#aa4aead99ebfe20d35598f5bc6065a26f">  227</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#aa4aead99ebfe20d35598f5bc6065a26f">IAtmosphereSkySceneNode::setUvX</a>(f32 uvx)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="classirr_1_1_i_atmosphere_sky_scene_node.html#a09a4f1431bea9e37f5c0426f50664432">UvX</a> = uvx;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;}</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;} <span class="comment">// namespace irr</span></div>
+<div class="ttc" id="_i_weather_manager_atmosphere_8cpp_html_a8c199bdabdb357ebdbbe3f8db3e2b635"><div class="ttname"><a href="_i_weather_manager_atmosphere_8cpp.html#a8c199bdabdb357ebdbbe3f8db3e2b635">Radius</a></div><div class="ttdeci">#define Radius</div><div class="ttdef"><b>Definition:</b> <a href="_i_weather_manager_atmosphere_8cpp_source.html#l00007">IWeatherManagerAtmosphere.cpp:7</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a928048a9a1302508985b1a034cffa4a2"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a928048a9a1302508985b1a034cffa4a2">irr::IAtmosphereSkySceneNode::generateMesh</a></div><div class="ttdeci">void generateMesh()</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00048">IAtmosphereSkySceneNode.cpp:48</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_ad8f26005cb64417cd4ab417e30542416"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8f26005cb64417cd4ab417e30542416">irr::IAtmosphereSkySceneNode::clone</a></div><div class="ttdeci">virtual scene::ISceneNode * clone(scene::ISceneNode *newParent=0, scene::ISceneManager *newManager=0)</div><div class="ttdoc">Creates a clone of this scene node and its children. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00210">IAtmosphereSkySceneNode.cpp:210</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html">irr::IAtmosphereSkySceneNode</a></div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00016">IAtmosphereSkySceneNode.h:16</a></div></div>
+<div class="ttc" id="main_8cpp_html_a5c7cb645a3a80fbf77239c8716e0e0df"><div class="ttname"><a href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a></div><div class="ttdeci">irr::video::IVideoDriver * driver</div><div class="ttdoc">Указатель на драйвер устройства </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00019">main.cpp:19</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_aea37bb686d2c167a0aa09120be386974"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#aea37bb686d2c167a0aa09120be386974">irr::IAtmosphereSkySceneNode::serializeAttributes</a></div><div class="ttdeci">virtual void serializeAttributes(io::IAttributes *out, io::SAttributeReadWriteOptions *options=0) const </div><div class="ttdoc">Writes attributes of the scene node. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00188">IAtmosphereSkySceneNode.cpp:188</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a733c39574c7ea544932320c0c7ef8b53"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a733c39574c7ea544932320c0c7ef8b53">irr::IAtmosphereSkySceneNode::render</a></div><div class="ttdeci">virtual void render()</div><div class="ttdoc">Renders the node. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00105">IAtmosphereSkySceneNode.cpp:105</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a50da8d0aa6a6d86a6115bf0fb4afeab7"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a50da8d0aa6a6d86a6115bf0fb4afeab7">irr::IAtmosphereSkySceneNode::Radius</a></div><div class="ttdeci">f32 Radius</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00069">IAtmosphereSkySceneNode.h:69</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_aa4aead99ebfe20d35598f5bc6065a26f"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#aa4aead99ebfe20d35598f5bc6065a26f">irr::IAtmosphereSkySceneNode::setUvX</a></div><div class="ttdeci">void setUvX(f32 uvx)</div><div class="ttdoc">Updates UV mapping X coordinate. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00227">IAtmosphereSkySceneNode.cpp:227</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a3502725fdb0e707a7d81b32803148568"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a3502725fdb0e707a7d81b32803148568">irr::IAtmosphereSkySceneNode::setMaterial</a></div><div class="ttdeci">virtual video::SMaterial &amp; setMaterial(video::ITexture *const tex)</div><div class="ttdoc">Changes the sky texture. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00165">IAtmosphereSkySceneNode.cpp:165</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a238e14d8870a08e01870ef0dc9d2103d"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a238e14d8870a08e01870ef0dc9d2103d">irr::IAtmosphereSkySceneNode::getMaterialCount</a></div><div class="ttdeci">virtual u32 getMaterialCount() const </div><div class="ttdoc">Returns amount of materials used by this scene node. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00182">IAtmosphereSkySceneNode.cpp:182</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_af103fbc0728725396ab35c69100c8e55"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#af103fbc0728725396ab35c69100c8e55">irr::IAtmosphereSkySceneNode::IAtmosphereSkySceneNode</a></div><div class="ttdeci">IAtmosphereSkySceneNode(scene::ISceneNode *parent, scene::ISceneManager *smgr, s32 id, video::ITexture *texture, const u16 numberOfFaces=16, f32 radius=100.f)</div><div class="ttdoc">Constructor. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00011">IAtmosphereSkySceneNode.cpp:11</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a51d4297dab8cfcb31a3a58a24c7962ed"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a51d4297dab8cfcb31a3a58a24c7962ed">irr::IAtmosphereSkySceneNode::getMaterial</a></div><div class="ttdeci">virtual video::SMaterial &amp; getMaterial(u32 i)</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00176">IAtmosphereSkySceneNode.cpp:176</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a44aa7ec6deec7ce2d18e1d81ada0f996"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a44aa7ec6deec7ce2d18e1d81ada0f996">irr::IAtmosphereSkySceneNode::deserializeAttributes</a></div><div class="ttdeci">virtual void deserializeAttributes(io::IAttributes *in, io::SAttributeReadWriteOptions *options=0)</div><div class="ttdoc">Reads attributes of the scene node. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00198">IAtmosphereSkySceneNode.cpp:198</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a0f1ee64cc20763b7b9cae68c077e3c40"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a0f1ee64cc20763b7b9cae68c077e3c40">irr::IAtmosphereSkySceneNode::~IAtmosphereSkySceneNode</a></div><div class="ttdeci">~IAtmosphereSkySceneNode()</div><div class="ttdoc">Destructor. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00042">IAtmosphereSkySceneNode.cpp:42</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a2ceae646265451a1abe5c0b0c464a138"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a2ceae646265451a1abe5c0b0c464a138">irr::IAtmosphereSkySceneNode::OnRegisterSceneNode</a></div><div class="ttdeci">virtual void OnRegisterSceneNode()</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00094">IAtmosphereSkySceneNode.cpp:94</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_ad8c350b096386819162022672fd69f58"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#ad8c350b096386819162022672fd69f58">irr::IAtmosphereSkySceneNode::Material</a></div><div class="ttdeci">video::SMaterial Material</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00067">IAtmosphereSkySceneNode.h:67</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a7deeec55377dfe96f12b36deaabc0d9e"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a7deeec55377dfe96f12b36deaabc0d9e">irr::IAtmosphereSkySceneNode::getBoundingBox</a></div><div class="ttdeci">virtual const core::aabbox3d&lt; f32 &gt; &amp; getBoundingBox() const </div><div class="ttdoc">Returns the axis aligned bounding box of this node. </div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8cpp_source.html#l00159">IAtmosphereSkySceneNode.cpp:159</a></div></div>
+<div class="ttc" id="_i_atmosphere_sky_scene_node_8h_html"><div class="ttname"><a href="_i_atmosphere_sky_scene_node_8h.html">IAtmosphereSkySceneNode.h</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_adaa32ba080965bc9f42443c9c0ad2ee3"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#adaa32ba080965bc9f42443c9c0ad2ee3">irr::IAtmosphereSkySceneNode::Buffer</a></div><div class="ttdeci">scene::SMeshBuffer * Buffer</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00066">IAtmosphereSkySceneNode.h:66</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_af80e43d734afa08019b67f7df6a46ee9"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#af80e43d734afa08019b67f7df6a46ee9">irr::IAtmosphereSkySceneNode::Faces</a></div><div class="ttdeci">u16 Faces</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00068">IAtmosphereSkySceneNode.h:68</a></div></div>
+<div class="ttc" id="classirr_1_1_i_atmosphere_sky_scene_node_html_a09a4f1431bea9e37f5c0426f50664432"><div class="ttname"><a href="classirr_1_1_i_atmosphere_sky_scene_node.html#a09a4f1431bea9e37f5c0426f50664432">irr::IAtmosphereSkySceneNode::UvX</a></div><div class="ttdeci">f32 UvX</div><div class="ttdef"><b>Definition:</b> <a href="_i_atmosphere_sky_scene_node_8h_source.html#l00070">IAtmosphereSkySceneNode.h:70</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_i_atmosphere_sky_scene_node_8cpp.html">IAtmosphereSkySceneNode.cpp</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

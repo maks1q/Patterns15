@@ -1,0 +1,23 @@
+<map id="ExtractingUnit::Update" name="ExtractingUnit::Update">
+<area shape="rect" id="node2" href="$class_unit.html#a757f23c676a574d9991f590cc82ee08c" title="Обновить действия юнита " alt="" coords="261,5,355,32"/>
+<area shape="rect" id="node4" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="478,56,589,83"/>
+<area shape="rect" id="node5" href="$class_state.html#ab006595cae083f56df945db6ecfc377e" title="Получить текущее состояние " alt="" coords="253,224,363,251"/>
+<area shape="rect" id="node6" href="$class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b" title="Проверка на загруженность " alt="" coords="675,413,791,440"/>
+<area shape="rect" id="node9" href="$class_extracting_unit.html#a37e15c2f923bf9701b238c69d835ccc2" title="Функция для поиска ресурсов " alt="" coords="226,107,390,149"/>
+<area shape="rect" id="node10" href="$class_unit.html#ab94eaa1fcf6e8fa8b753506a9b79129b" title="Проверка указателя " alt="" coords="457,144,609,171"/>
+<area shape="rect" id="node11" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="225,326,391,367"/>
+<area shape="rect" id="node12" href="$class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130" title="Метод добавления ресурсов " alt="" coords="467,293,599,320"/>
+<area shape="rect" id="node15" href="$class_resource.html#a0e18775973c1ba91219aed4efe68594e" title="Метод забирания ресурсов " alt="" coords="462,359,605,385"/>
+<area shape="rect" id="node16" href="$class_resource.html#a4a26c9a895d6c219569210130ccc78a2" title="Проверка на пустоту " alt="" coords="661,515,805,541"/>
+<area shape="rect" id="node17" href="$class_unit.html#af3f965d886687a953888af6abe3dd7e0" title="Проверка расстояния до цели " alt="" coords="233,544,383,571"/>
+<area shape="rect" id="node18" href="$class_unit.html#ae71c7c0b439a8bcb95b1ac1700c87ff8" title="Метод движения юнита к точке " alt="" coords="239,595,377,621"/>
+<area shape="rect" id="node20" href="$class_unit.html#adc5a574a6a7a651f9bd6337cfbf1c85a" title="Проверка на достижения места назначения " alt="" coords="255,645,361,672"/>
+<area shape="rect" id="node21" href="$class_extracting_unit.html#a8ab1ac10369858e984c249cc3fed5b84" title="Деструктор " alt="" coords="207,696,409,723"/>
+<area shape="rect" id="node3" href="$class_unit.html#a1facf947edffaf9800cc5ddd58bd0d9c" title="Получить значение брони " alt="" coords="480,5,587,32"/>
+<area shape="rect" id="node7" href="$class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd" title="Получить максимальное значение ресурса " alt="" coords="856,287,1007,313"/>
+<area shape="rect" id="node8" href="$class_resource.html#a9b707107773487bab0e778b5950bd2b6" title="Получить значение ресурса " alt="" coords="868,413,995,440"/>
+<area shape="rect" id="node13" href="$class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb" title="Возвращает значение оставшегося кол&#45;ва ресурса до макс. знач. " alt="" coords="657,261,808,288"/>
+<area shape="rect" id="node14" href="$class_resource.html#a019fb432790da5fb0c4052f48142e0b8" title="Функция установки количества ресурса " alt="" coords="669,312,796,339"/>
+<area shape="rect" id="node19" href="$class_unit.html#ae96da06ac633e36e90396e39ca2a955e" title="Метод поворота к точке " alt="" coords="489,595,578,621"/>
+<area shape="rect" id="node22" href="$class_spice.html#a34b861a239c8ddca8a6fa293577ea849" title="Деструктор " alt="" coords="481,696,585,723"/>
+</map>

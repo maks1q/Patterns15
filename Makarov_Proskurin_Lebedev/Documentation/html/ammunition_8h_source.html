@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл ammunition.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('ammunition_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">ammunition.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="ammunition_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef AMMUNITION_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="ammunition_8h.html#a87fe1f18acc3187d9eeeeeb9d3e823f2">    4</a></span>&#160;<span class="preprocessor">#define AMMUNITION_H</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="objectwithmodel_8h.html">objectwithmodel.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_ammunition.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_ammunition.html">Ammunition</a> : <span class="keyword">public</span> <a class="code" href="class_object_with_model.html">ObjectWithModel</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_ammunition.html#a14f69b35d019116aa780abd29bb371c3">   13</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_ammunition.html#a14f69b35d019116aa780abd29bb371c3">Damage</a>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_ammunition.html#a14f328ffc95498624315b980a2e59fea">   14</a></span>&#160;        f32 <a class="code" href="class_ammunition.html#a14f328ffc95498624315b980a2e59fea">RadiusOfDefeat</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_ammunition.html#aef12b4a02973ab5f48e0a7f0d629afdd">   15</a></span>&#160;        irr::core::vector3df <a class="code" href="class_ammunition.html#aef12b4a02973ab5f48e0a7f0d629afdd">TargetPosition</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="class_ammunition.html#a788ca8a63afa17405c7776cf6dbc9e00">Ammunition</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="class_ammunition.html#a788ca8a63afa17405c7776cf6dbc9e00">Ammunition</a>(irr::video::IVideoDriver    *   <a class="code" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                   irr::scene::ISceneManager   *   <a class="code" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                   irr::core::vector3df position,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                   <a class="code" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> <a class="code" href="class_object.html#a62aed0b99e30bfd8e7e8d1f3fc7e455d">IDTEAM</a>,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                   irr::core::vector3df targetPosition);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="class_ammunition.html#a83c9e0937d7e252b499388251f243b10">~Ammunition</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#ab949312bfcbde97343ebbfc03a3042f7">setDamage</a>(<span class="keywordtype">int</span> <a class="code" href="class_ammunition.html#a14f69b35d019116aa780abd29bb371c3">Damage</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#aa6e2444db92ee8e383e2926c60fa67b3">setRadiusOfDefeat</a>(f32 <a class="code" href="class_ammunition.html#a14f328ffc95498624315b980a2e59fea">RadiusOfDefeat</a>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#a0e758a1b957e06ef736769f7b0db3ee0">setTargetPosition</a>(irr::core::vector3df <a class="code" href="class_ammunition.html#aef12b4a02973ab5f48e0a7f0d629afdd">TargetPosition</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_ammunition.html#aa489644db24a9b9ab4b08742127ca07a">getDamage</a>();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        f32 <a class="code" href="class_ammunition.html#ac165e516c648468fa2aa93eb0c54c706">getRadiusOfDefeat</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        irr::core::vector3df <a class="code" href="class_ammunition.html#acb3386de9a012cab7088c431d6379562">getTargetPosition</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#a2d6d543dcc6e3053ba06524a3ae9222b">setInfoAmmo</a>(<span class="keywordtype">int</span> <a class="code" href="class_ammunition.html#a14f69b35d019116aa780abd29bb371c3">Damage</a>, f32 <a class="code" href="class_ammunition.html#a14f328ffc95498624315b980a2e59fea">RadiusOfDefeat</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9">toMoveToTarget</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35">Update</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // AMMUNITION_H</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<div class="ttc" id="class_ammunition_html_aa489644db24a9b9ab4b08742127ca07a"><div class="ttname"><a href="class_ammunition.html#aa489644db24a9b9ab4b08742127ca07a">Ammunition::getDamage</a></div><div class="ttdeci">int getDamage()</div><div class="ttdoc">Получить наносимое повреждение </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00061">ammunition.cpp:61</a></div></div>
+<div class="ttc" id="class_object_with_model_html"><div class="ttname"><a href="class_object_with_model.html">ObjectWithModel</a></div><div class="ttdoc">Класс объекта, имеющего 3D-модель и ее текстуру. </div><div class="ttdef"><b>Definition:</b> <a href="objectwithmodel_8h_source.html#l00017">objectwithmodel.h:17</a></div></div>
+<div class="ttc" id="class_ammunition_html_a03e88718fc8b500561c1b9fdc93a5df9"><div class="ttname"><a href="class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9">Ammunition::toMoveToTarget</a></div><div class="ttdeci">void toMoveToTarget()</div><div class="ttdoc">Движение к цели </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00094">ammunition.cpp:94</a></div></div>
+<div class="ttc" id="class_ammunition_html_a83c9e0937d7e252b499388251f243b10"><div class="ttname"><a href="class_ammunition.html#a83c9e0937d7e252b499388251f243b10">Ammunition::~Ammunition</a></div><div class="ttdeci">~Ammunition()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00029">ammunition.cpp:29</a></div></div>
+<div class="ttc" id="class_ammunition_html_a0e758a1b957e06ef736769f7b0db3ee0"><div class="ttname"><a href="class_ammunition.html#a0e758a1b957e06ef736769f7b0db3ee0">Ammunition::setTargetPosition</a></div><div class="ttdeci">void setTargetPosition(irr::core::vector3df TargetPosition)</div><div class="ttdoc">Установить координаты цели </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00053">ammunition.cpp:53</a></div></div>
+<div class="ttc" id="class_ammunition_html_a788ca8a63afa17405c7776cf6dbc9e00"><div class="ttname"><a href="class_ammunition.html#a788ca8a63afa17405c7776cf6dbc9e00">Ammunition::Ammunition</a></div><div class="ttdeci">Ammunition()</div><div class="ttdoc">Конструкто по умолчанию </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00005">ammunition.cpp:5</a></div></div>
+<div class="ttc" id="class_ammunition_html_acb3386de9a012cab7088c431d6379562"><div class="ttname"><a href="class_ammunition.html#acb3386de9a012cab7088c431d6379562">Ammunition::getTargetPosition</a></div><div class="ttdeci">irr::core::vector3df getTargetPosition()</div><div class="ttdoc">Получить координаты цели </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00077">ammunition.cpp:77</a></div></div>
+<div class="ttc" id="class_ammunition_html_a14f328ffc95498624315b980a2e59fea"><div class="ttname"><a href="class_ammunition.html#a14f328ffc95498624315b980a2e59fea">Ammunition::RadiusOfDefeat</a></div><div class="ttdeci">f32 RadiusOfDefeat</div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8h_source.html#l00014">ammunition.h:14</a></div></div>
+<div class="ttc" id="main_8cpp_html_a5c7cb645a3a80fbf77239c8716e0e0df"><div class="ttname"><a href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a></div><div class="ttdeci">irr::video::IVideoDriver * driver</div><div class="ttdoc">Указатель на драйвер устройства </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00019">main.cpp:19</a></div></div>
+<div class="ttc" id="class_ammunition_html_ac165e516c648468fa2aa93eb0c54c706"><div class="ttname"><a href="class_ammunition.html#ac165e516c648468fa2aa93eb0c54c706">Ammunition::getRadiusOfDefeat</a></div><div class="ttdeci">f32 getRadiusOfDefeat()</div><div class="ttdoc">Получить радиус поражения </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00069">ammunition.cpp:69</a></div></div>
+<div class="ttc" id="class_ammunition_html"><div class="ttname"><a href="class_ammunition.html">Ammunition</a></div><div class="ttdoc">Класс Боеприпасы </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8h_source.html#l00010">ammunition.h:10</a></div></div>
+<div class="ttc" id="class_ammunition_html_aa6e2444db92ee8e383e2926c60fa67b3"><div class="ttname"><a href="class_ammunition.html#aa6e2444db92ee8e383e2926c60fa67b3">Ammunition::setRadiusOfDefeat</a></div><div class="ttdeci">void setRadiusOfDefeat(f32 RadiusOfDefeat)</div><div class="ttdoc">Установить радиус поражения </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00045">ammunition.cpp:45</a></div></div>
+<div class="ttc" id="class_ammunition_html_aef12b4a02973ab5f48e0a7f0d629afdd"><div class="ttname"><a href="class_ammunition.html#aef12b4a02973ab5f48e0a7f0d629afdd">Ammunition::TargetPosition</a></div><div class="ttdeci">irr::core::vector3df TargetPosition</div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8h_source.html#l00015">ammunition.h:15</a></div></div>
+<div class="ttc" id="class_ammunition_html_a2d6d543dcc6e3053ba06524a3ae9222b"><div class="ttname"><a href="class_ammunition.html#a2d6d543dcc6e3053ba06524a3ae9222b">Ammunition::setInfoAmmo</a></div><div class="ttdeci">void setInfoAmmo(int Damage, f32 RadiusOfDefeat)</div><div class="ttdoc">Установить данные о боеприпасах </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00086">ammunition.cpp:86</a></div></div>
+<div class="ttc" id="objectwithmodel_8h_html"><div class="ttname"><a href="objectwithmodel_8h.html">objectwithmodel.h</a></div></div>
+<div class="ttc" id="class_ammunition_html_a32afacc1a69e6337d7b9c0d05daa5a35"><div class="ttname"><a href="class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35">Ammunition::Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">Обновление действий для боеприпаса </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00120">ammunition.cpp:120</a></div></div>
+<div class="ttc" id="idteam_8h_html_a5a09f84292d3f0d52f5305ea98148afd"><div class="ttname"><a href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a></div><div class="ttdeci">IDTeam</div><div class="ttdoc">Идентификационные номера команд </div><div class="ttdef"><b>Definition:</b> <a href="idteam_8h_source.html#l00005">idteam.h:5</a></div></div>
+<div class="ttc" id="class_ammunition_html_a14f69b35d019116aa780abd29bb371c3"><div class="ttname"><a href="class_ammunition.html#a14f69b35d019116aa780abd29bb371c3">Ammunition::Damage</a></div><div class="ttdeci">int Damage</div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8h_source.html#l00013">ammunition.h:13</a></div></div>
+<div class="ttc" id="main_8cpp_html_ab6ec4f526efa0e3dd8d15608b44c7afc"><div class="ttname"><a href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a></div><div class="ttdeci">irr::scene::ISceneManager * smgr</div><div class="ttdoc">Указатель на менеджер сцены </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00018">main.cpp:18</a></div></div>
+<div class="ttc" id="class_object_html_a62aed0b99e30bfd8e7e8d1f3fc7e455d"><div class="ttname"><a href="class_object.html#a62aed0b99e30bfd8e7e8d1f3fc7e455d">Object::IDTEAM</a></div><div class="ttdeci">IDTeam IDTEAM</div><div class="ttdoc">Идентификационный номер команды </div><div class="ttdef"><b>Definition:</b> <a href="object_8h_source.html#l00024">object.h:24</a></div></div>
+<div class="ttc" id="class_ammunition_html_ab949312bfcbde97343ebbfc03a3042f7"><div class="ttname"><a href="class_ammunition.html#ab949312bfcbde97343ebbfc03a3042f7">Ammunition::setDamage</a></div><div class="ttdeci">void setDamage(int Damage)</div><div class="ttdoc">Установить наносимое повреждение </div><div class="ttdef"><b>Definition:</b> <a href="ammunition_8cpp_source.html#l00037">ammunition.cpp:37</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="ammunition_8h.html">ammunition.h</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

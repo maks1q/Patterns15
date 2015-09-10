@@ -1,0 +1,21 @@
+<map id="structure.h" name="structure.h">
+<area shape="rect" id="node2" href="$team_8h.html" title="team.h" alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node5" href="$all__h_8h.html" title="all_h.h" alt="" coords="443,304,503,331"/>
+<area shape="rect" id="node10" href="$constructionplant_8h.html" title="constructionplant.h" alt="" coords="177,80,309,107"/>
+<area shape="rect" id="node12" href="$machineplant_8h.html" title="machineplant.h" alt="" coords="525,80,636,107"/>
+<area shape="rect" id="node14" href="$silo_8h.html" title="silo.h" alt="" coords="371,80,425,107"/>
+<area shape="rect" id="node16" href="$spiceplant_8h.html" title="spiceplant.h" alt="" coords="660,80,752,107"/>
+<area shape="rect" id="node18" href="$windturbine_8h.html" title="windturbine.h" alt="" coords="887,80,986,107"/>
+<area shape="rect" id="node20" href="$structure_8cpp.html" title="structure.cpp" alt="" coords="1010,80,1109,107"/>
+<area shape="rect" id="node3" href="$ai_8h.html" title="ai.h" alt="" coords="15,229,58,256"/>
+<area shape="rect" id="node9" href="$team_8cpp.html" title="team.cpp" alt="" coords="133,229,209,256"/>
+<area shape="rect" id="node4" href="$ai_8cpp.html" title="ai.cpp" alt="" coords="8,304,65,331"/>
+<area shape="rect" id="node6" href="$game_8h.html" title="game.h" alt="" coords="440,379,505,405"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="main.cpp" alt="" coords="530,379,605,405"/>
+<area shape="rect" id="node7" href="$game_8cpp.html" title="game.cpp" alt="" coords="433,453,512,480"/>
+<area shape="rect" id="node11" href="$constructionplant_8cpp.html" title="constructionplant.cpp" alt="" coords="93,155,239,181"/>
+<area shape="rect" id="node13" href="$machineplant_8cpp.html" title="machineplant.cpp" alt="" coords="456,155,580,181"/>
+<area shape="rect" id="node15" href="$silo_8cpp.html" title="silo.cpp" alt="" coords="365,155,431,181"/>
+<area shape="rect" id="node17" href="$spiceplant_8cpp.html" title="spiceplant.cpp" alt="" coords="706,155,813,181"/>
+<area shape="rect" id="node19" href="$windturbine_8cpp.html" title="windturbine.cpp" alt="" coords="938,155,1050,181"/>
+</map>

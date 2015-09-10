@@ -1,0 +1,5 @@
+<map id="Unit::addPoint" name="Unit::addPoint">
+<area shape="rect" id="node2" href="$class_extracting_unit.html#a37e15c2f923bf9701b238c69d835ccc2" title="Функция для поиска ресурсов " alt="" coords="157,23,321,65"/>
+<area shape="rect" id="node3" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="369,5,523,32"/>
+<area shape="rect" id="node4" href="$class_harvester.html#a379b410b8c21bc65e4bf4f57c7604d65" title="Обновить действия Харвестера " alt="" coords="383,56,509,83"/>
+</map>

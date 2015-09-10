@@ -1,0 +1,22 @@
+<map id="harvester.cpp" name="harvester.cpp">
+<area shape="rect" id="node2" href="$harvester_8h.html" title="harvester.h" alt="" coords="492,80,577,107"/>
+<area shape="rect" id="node3" href="$extractingunit_8h.html" title="extractingunit.h" alt="" coords="479,155,590,181"/>
+<area shape="rect" id="node4" href="$unit_8h.html" title="unit.h" alt="" coords="507,229,562,256"/>
+<area shape="rect" id="node5" href="$objectwithmodel_8h.html" title="objectwithmodel.h" alt="" coords="338,528,465,555"/>
+<area shape="rect" id="node25" href="$map_8h.html" title="Map.h" alt="" coords="339,304,397,331"/>
+<area shape="rect" id="node26" href="$mapspice_8h.html" title="mapspice.h" alt="" coords="490,379,579,405"/>
+<area shape="rect" id="node27" href="$layerspice_8h.html" title="LayerSpice.h" alt="" coords="540,453,639,480"/>
+<area shape="rect" id="node28" href="$spice_8h.html" title="spice.h" alt="" coords="557,528,621,555"/>
+<area shape="rect" id="node6" href="$object_8h.html" title="object.h" alt="" coords="367,677,435,704"/>
+<area shape="rect" id="node7" href="$stdafx_8h.html" title="stdafx.h" alt="" coords="273,752,341,779"/>
+<area shape="rect" id="node23" href="$idteam_8h.html" title="idteam.h" alt="" coords="365,752,437,779"/>
+<area shape="rect" id="node24" href="$state_8h.html" title="state.h" alt="" coords="462,752,525,779"/>
+<area shape="rect" id="node14" href="$rtscamera_8h.html" title="rtscamera.h" alt="" coords="532,827,623,853"/>
+<area shape="rect" id="node15" href="$irr_weather_manager_8h.html" title="irrWeatherManager.h" alt="" coords="647,827,790,853"/>
+<area shape="rect" id="node16" href="$_i_weather_manager_atmosphere_8h.html" title="IWeatherManagerAtmosphere.h" alt="" coords="616,901,821,928"/>
+<area shape="rect" id="node17" href="$_i_atmosphere_sky_scene_node_8h.html" title="IAtmosphereSkySceneNode.h" alt="" coords="731,976,927,1003"/>
+<area shape="rect" id="node22" href="$_i_atmosphere_star_scene_node_8h.html" title="IAtmosphereStarSceneNode.h" alt="" coords="509,976,707,1003"/>
+<area shape="rect" id="node30" href="$maplandscape_8h.html" title="maplandscape.h" alt="" coords="292,379,409,405"/>
+<area shape="rect" id="node29" href="$resource_8h.html" title="resource.h" alt="" coords="544,603,627,629"/>
+<area shape="rect" id="node31" href="$layerlandscape_8h.html" title="LayerLandscape.h" alt="" coords="287,453,415,480"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Ammunition::toMoveToTarget" name="Ammunition::toMoveToTarget">
+<area shape="rect" id="node2" href="$class_ammunition.html#ac165e516c648468fa2aa93eb0c54c706" title="Получить радиус поражения " alt="" coords="244,5,451,32"/>
+<area shape="rect" id="node3" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="292,56,403,83"/>
+</map>

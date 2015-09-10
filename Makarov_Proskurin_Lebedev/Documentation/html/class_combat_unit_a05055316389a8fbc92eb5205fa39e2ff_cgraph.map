@@ -1,0 +1,4 @@
+<map id="CombatUnit::toSearchOfEnemy" name="CombatUnit::toSearchOfEnemy">
+<area shape="rect" id="node2" href="$class_object.html#aa15d463a5c63ae05c689f23eb3324ea6" title="Получить идентификационный номер команды " alt="" coords="257,5,388,32"/>
+<area shape="rect" id="node3" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="267,56,378,83"/>
+</map>

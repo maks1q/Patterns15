@@ -1,0 +1,12 @@
+<map id="AmmoShell::AmmoShell" name="AmmoShell::AmmoShell">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="251,116,358,143"/>
+<area shape="rect" id="node8" href="$class_object_with_model.html#ad7f797ed82ebb11276e1913e1a683ec9" title="Установить данные о модели " alt="" coords="221,175,389,217"/>
+<area shape="rect" id="node9" href="$class_ammunition.html#a2d6d543dcc6e3053ba06524a3ae9222b" title="Установить данные о боеприпасах " alt="" coords="217,259,392,285"/>
+<area shape="rect" id="node3" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="483,5,603,32"/>
+<area shape="rect" id="node4" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="494,56,593,83"/>
+<area shape="rect" id="node5" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="477,107,610,133"/>
+<area shape="rect" id="node6" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="472,157,615,184"/>
+<area shape="rect" id="node7" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="478,208,609,235"/>
+<area shape="rect" id="node10" href="$class_ammunition.html#ab949312bfcbde97343ebbfc03a3042f7" title="Установить наносимое повреждение " alt="" coords="461,259,626,285"/>
+<area shape="rect" id="node11" href="$class_ammunition.html#aa6e2444db92ee8e383e2926c60fa67b3" title="Установить радиус поражения " alt="" coords="440,309,647,336"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Ammunition::getRadiusOfDefeat" name="Ammunition::getRadiusOfDefeat">
+<area shape="rect" id="node2" href="$class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9" title="Движение к цели " alt="" coords="260,5,451,32"/>
+<area shape="rect" id="node3" href="$class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35" title="Обновление действий для боеприпаса " alt="" coords="499,5,639,32"/>
+<area shape="rect" id="node4" href="$class_ammo_shell.html#a0714fbcbfe0fa16924740b2e6d2b6db0" title="Обновление действий для снаряда " alt="" coords="687,5,825,32"/>
+</map>

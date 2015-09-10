@@ -1,0 +1,5 @@
+<map id="Unit::toMove" name="Unit::toMove">
+<area shape="rect" id="node2" href="$class_unit.html#ae71c7c0b439a8bcb95b1ac1700c87ff8" title="Метод движения юнита к точке " alt="" coords="148,5,287,32"/>
+<area shape="rect" id="node4" href="$class_state.html#ab006595cae083f56df945db6ecfc377e" title="Получить текущее состояние " alt="" coords="162,56,273,83"/>
+<area shape="rect" id="node3" href="$class_unit.html#ae96da06ac633e36e90396e39ca2a955e" title="Метод поворота к точке " alt="" coords="335,5,424,32"/>
+</map>

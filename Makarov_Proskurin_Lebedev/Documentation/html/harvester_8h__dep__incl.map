@@ -1,0 +1,13 @@
+<map id="harvester.h" name="harvester.h">
+<area shape="rect" id="node2" href="$team_8h.html" title="team.h" alt="" coords="136,155,199,181"/>
+<area shape="rect" id="node5" href="$all__h_8h.html" title="all_h.h" alt="" coords="193,304,253,331"/>
+<area shape="rect" id="node10" href="$constructionplant_8h.html" title="constructionplant.h" alt="" coords="261,80,393,107"/>
+<area shape="rect" id="node12" href="$harvester_8cpp.html" title="harvester.cpp" alt="" coords="495,80,594,107"/>
+<area shape="rect" id="node3" href="$ai_8h.html" title="ai.h" alt="" coords="106,229,149,256"/>
+<area shape="rect" id="node9" href="$team_8cpp.html" title="team.cpp" alt="" coords="5,229,81,256"/>
+<area shape="rect" id="node4" href="$ai_8cpp.html" title="ai.cpp" alt="" coords="99,304,156,331"/>
+<area shape="rect" id="node6" href="$game_8h.html" title="game.h" alt="" coords="191,379,256,405"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title="main.cpp" alt="" coords="281,379,355,405"/>
+<area shape="rect" id="node7" href="$game_8cpp.html" title="game.cpp" alt="" coords="184,453,263,480"/>
+<area shape="rect" id="node11" href="$constructionplant_8cpp.html" title="constructionplant.cpp" alt="" coords="274,155,421,181"/>
+</map>

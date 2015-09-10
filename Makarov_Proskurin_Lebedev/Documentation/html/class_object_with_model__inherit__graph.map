@@ -1,0 +1,18 @@
+<map id="ObjectWithModel" name="ObjectWithModel">
+<area shape="rect" id="node3" href="$class_ammunition.html" title="Класс Боеприпасы " alt="" coords="5,1055,156,1499"/>
+<area shape="rect" id="node5" href="$class_layer_landscape.html" title="Слой ландшафтного поля. " alt="" coords="180,1187,325,1367"/>
+<area shape="rect" id="node6" href="$class_layer_spice.html" title="Слой спайсового поля. " alt="" coords="350,1165,465,1389"/>
+<area shape="rect" id="node7" href="$class_structure.html" title="Общий класс для зданий: Спайсовый завод, Силос, Машинный завод и т.д. " alt="" coords="489,1180,598,1375"/>
+<area shape="rect" id="node13" href="$class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="898,872,1039,1683"/>
+<area shape="rect" id="node2" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="349,5,466,581"/>
+<area shape="rect" id="node4" href="$class_ammo_shell.html" title="Боевой снаряд " alt="" coords="22,1848,139,2028"/>
+<area shape="rect" id="node8" href="$class_construction_plant.html" title="Строительный завод &#45; строит здания. " alt="" coords="165,1819,319,2057"/>
+<area shape="rect" id="node9" href="$class_machine_plant.html" title="Машинный завод &#45; производит юнитов. " alt="" coords="343,1863,472,2013"/>
+<area shape="rect" id="node10" href="$class_silo.html" title="Силос &#45; здание, хранит в себе ресурс: спайс. " alt="" coords="496,1877,585,1999"/>
+<area shape="rect" id="node11" href="$class_spice_plant.html" title="Спайсовый завод &#45; ведет переработку Спайса. " alt="" coords="609,1877,723,1999"/>
+<area shape="rect" id="node12" href="$class_wind_turbine.html" title="Ветряк &#45; здание, производящее электроэнергию. " alt="" coords="747,1892,870,1984"/>
+<area shape="rect" id="node14" href="$class_combat_unit.html" title="Класс &#45; боевая единица. " alt="" coords="894,1731,1043,2145"/>
+<area shape="rect" id="node16" href="$class_extracting_unit.html" title="Класс юнитов, добывающих ресурсы. " alt="" coords="1068,1731,1237,2145"/>
+<area shape="rect" id="node15" href="$class_tank.html" title="Танк " alt="" coords="911,2193,1026,2432"/>
+<area shape="rect" id="node17" href="$class_harvester.html" title="Юнит, добывающий ресурс Спайс. " alt="" coords="1095,2193,1210,2432"/>
+</map>

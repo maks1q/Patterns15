@@ -1,0 +1,5 @@
+<map id="Resource::limitForAdd" name="Resource::limitForAdd">
+<area shape="rect" id="node2" href="$class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130" title="Метод добавления ресурсов " alt="" coords="204,42,336,69"/>
+<area shape="rect" id="node3" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="384,5,549,47"/>
+<area shape="rect" id="node4" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="597,42,751,69"/>
+</map>

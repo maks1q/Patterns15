@@ -1,0 +1,4 @@
+<map id="Ammunition::setInfoAmmo" name="Ammunition::setInfoAmmo">
+<area shape="rect" id="node2" href="$class_ammunition.html#ab949312bfcbde97343ebbfc03a3042f7" title="Установить наносимое повреждение " alt="" coords="249,5,414,32"/>
+<area shape="rect" id="node3" href="$class_ammunition.html#aa6e2444db92ee8e383e2926c60fa67b3" title="Установить радиус поражения " alt="" coords="228,56,435,83"/>
+</map>

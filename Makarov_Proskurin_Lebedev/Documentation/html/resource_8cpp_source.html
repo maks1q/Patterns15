@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл resource.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('resource_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">resource.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="resource_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="resource_8h.html">resource.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_resource.html#a5a87b23dc0327bbf8d53c6f38f637f48">    5</a></span>&#160;<a class="code" href="class_resource.html#a5a87b23dc0327bbf8d53c6f38f637f48">Resource::Resource</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    this-&gt;<a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>=0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    this-&gt;<a class="code" href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">MaxRes</a>=0;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_resource.html#afe6540a238a98bfa5c375f27a766c31d">   15</a></span>&#160;<a class="code" href="class_resource.html#a5a87b23dc0327bbf8d53c6f38f637f48">Resource::Resource</a>(<span class="keywordtype">int</span> Res, <span class="keywordtype">int</span> MaxRes)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    this-&gt;Res=<a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    this-&gt;MaxRes=<a class="code" href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">MaxRes</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_resource.html#a0e5ec475e2601bdb33644468e86f6f10">   23</a></span>&#160;<a class="code" href="class_resource.html#a0e5ec475e2601bdb33644468e86f6f10">Resource::~Resource</a> ()</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">   31</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">Resource::getRes</a> ()                                                         <span class="comment">// Получить знач. ресурса</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">   39</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">Resource::getMaxRes</a> ()                                                      <span class="comment">// Получить знач. предела ресурса</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">MaxRes</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">   47</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">Resource::setRes</a> (<span class="keywordtype">int</span> Res)                                                 <span class="comment">// Изменение кол-ва текущего ресурса</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span>(Res &gt; <a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">getMaxRes</a> ())                                                      <span class="comment">// ? Новое знач. &gt; макс.</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        this-&gt;Res=this-&gt;<a class="code" href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">MaxRes</a>;                                                 <span class="comment">//      Устан. предельное знач.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">else</span>                                                                        <span class="comment">// ? Новое знач. &lt; макс.</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span>(Res &lt;= 0)                                                            <span class="comment">//      ? Новое знач. отрицательное.</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            this-&gt;Res=0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            this-&gt;Res=<a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="class_resource.html#ab35e9a5b5a99706b5f267865d1823d91">   65</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_resource.html#ab35e9a5b5a99706b5f267865d1823d91">Resource::setMaxRes</a> (<span class="keywordtype">int</span> MaxRes)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;{</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    this-&gt;MaxRes=<a class="code" href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">MaxRes</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be">   74</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be">Resource::setInfoRes</a>(<span class="keywordtype">int</span> Res, <span class="keywordtype">int</span> MaxRes)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="class_resource.html#ab35e9a5b5a99706b5f267865d1823d91">setMaxRes</a>   (MaxRes);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">setRes</a>      (Res);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="class_resource.html#a0e18775973c1ba91219aed4efe68594e">   84</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_resource.html#a0e18775973c1ba91219aed4efe68594e">Resource::minusRes</a>(<span class="keywordtype">int</span> Res)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ()&gt;=Res)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">setRes</a> (<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ()-Res);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        Res-=<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">setRes</a> (0);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130">  105</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130">Resource::plusRes</a> (<span class="keywordtype">int</span> Res)                                                 <span class="comment">// Добавление к общему кол-ву ресурсов</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(!Res)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb">limitForAdd</a>()&gt;= Res)                                                     <span class="comment">// Предел добавления &gt;= добавляемому ресурсу</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">setRes</a> (<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ()+Res);                                                 <span class="comment">//      Добавляем кол-во ресурсов = Res</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        Res = 0;                                                                <span class="comment">//      Передали весь ресурс</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">else</span>                                                                        <span class="comment">// Предел добавления &lt; добавляемого ресурса</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">setRes</a> (<a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">getMaxRes</a> ());                                                  <span class="comment">//      Заполняем до максимума</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        Res -= <a class="code" href="class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb">limitForAdd</a>();                                                   <span class="comment">//      Вычитаем то, что можно добавить</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Res</a>;                                                                 <span class="comment">// Возвращаем излишки</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb">  127</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb">Resource::limitForAdd</a> ()</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">getMaxRes</a> ()- <a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ());</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="class_resource.html#a4a26c9a895d6c219569210130ccc78a2">  135</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_resource.html#a4a26c9a895d6c219569210130ccc78a2">Resource::emptyRes</a>()</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> () &lt;=0 )</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b">  145</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b">Resource::isFull</a>()</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;{</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">getMaxRes</a> ()-<a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ())</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717">  159</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717">Resource::toShowInfo</a> ()                                                    <span class="comment">// Вывод информации о объекте в консоль</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="class_object.html#aa38637da1a8b0ebfc7e8fe8ec45bb211">Object::toShowInfo</a> ();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Value:        &quot;</span> &lt;&lt; <a class="code" href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">getRes</a> ()      &lt;&lt;  std::endl;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;MaxValue:     &quot;</span> &lt;&lt; <a class="code" href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">getMaxRes</a> ()   &lt;&lt;  std::endl;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;}</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
+<div class="ttc" id="class_resource_html_a0e18775973c1ba91219aed4efe68594e"><div class="ttname"><a href="class_resource.html#a0e18775973c1ba91219aed4efe68594e">Resource::minusRes</a></div><div class="ttdeci">int minusRes(int Res)</div><div class="ttdoc">Метод забирания ресурсов </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00084">resource.cpp:84</a></div></div>
+<div class="ttc" id="class_resource_html_ab35e9a5b5a99706b5f267865d1823d91"><div class="ttname"><a href="class_resource.html#ab35e9a5b5a99706b5f267865d1823d91">Resource::setMaxRes</a></div><div class="ttdeci">void setMaxRes(int MaxRes)</div><div class="ttdoc">Функция установки предела кол-ва ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00065">resource.cpp:65</a></div></div>
+<div class="ttc" id="class_resource_html_ac0764cc1c2cd2e4932d458ae45cba7be"><div class="ttname"><a href="class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be">Resource::setInfoRes</a></div><div class="ttdeci">void setInfoRes(int Res, int MaxRes)</div><div class="ttdoc">Функция установки значений </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00074">resource.cpp:74</a></div></div>
+<div class="ttc" id="class_resource_html_a9d41c00ad22349b809fbdb545c33a3fb"><div class="ttname"><a href="class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb">Resource::limitForAdd</a></div><div class="ttdeci">int limitForAdd()</div><div class="ttdoc">Возвращает значение оставшегося кол-ва ресурса до макс. знач. </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00127">resource.cpp:127</a></div></div>
+<div class="ttc" id="class_resource_html_a9d9e2c1f647056abd200410af782f797"><div class="ttname"><a href="class_resource.html#a9d9e2c1f647056abd200410af782f797">Resource::Res</a></div><div class="ttdeci">int Res</div><div class="ttdoc">Текущее количество ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8h_source.html#l00014">resource.h:14</a></div></div>
+<div class="ttc" id="class_resource_html_a5a87b23dc0327bbf8d53c6f38f637f48"><div class="ttname"><a href="class_resource.html#a5a87b23dc0327bbf8d53c6f38f637f48">Resource::Resource</a></div><div class="ttdeci">Resource()</div><div class="ttdoc">Конструктор по умолчанию </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00005">resource.cpp:5</a></div></div>
+<div class="ttc" id="class_resource_html_a4a26c9a895d6c219569210130ccc78a2"><div class="ttname"><a href="class_resource.html#a4a26c9a895d6c219569210130ccc78a2">Resource::emptyRes</a></div><div class="ttdeci">bool emptyRes()</div><div class="ttdoc">Проверка на пустоту </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00135">resource.cpp:135</a></div></div>
+<div class="ttc" id="class_resource_html_a019fb432790da5fb0c4052f48142e0b8"><div class="ttname"><a href="class_resource.html#a019fb432790da5fb0c4052f48142e0b8">Resource::setRes</a></div><div class="ttdeci">void setRes(int Res)</div><div class="ttdoc">Функция установки количества ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00047">resource.cpp:47</a></div></div>
+<div class="ttc" id="resource_8h_html"><div class="ttname"><a href="resource_8h.html">resource.h</a></div></div>
+<div class="ttc" id="class_resource_html_a6ce79ec52ae7e05f5a37dae4c4d8f26b"><div class="ttname"><a href="class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b">Resource::isFull</a></div><div class="ttdeci">bool isFull()</div><div class="ttdoc">Проверка на загруженность </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00145">resource.cpp:145</a></div></div>
+<div class="ttc" id="class_resource_html_a9b707107773487bab0e778b5950bd2b6"><div class="ttname"><a href="class_resource.html#a9b707107773487bab0e778b5950bd2b6">Resource::getRes</a></div><div class="ttdeci">int getRes()</div><div class="ttdoc">Получить значение ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00031">resource.cpp:31</a></div></div>
+<div class="ttc" id="class_resource_html_a0e5ec475e2601bdb33644468e86f6f10"><div class="ttname"><a href="class_resource.html#a0e5ec475e2601bdb33644468e86f6f10">Resource::~Resource</a></div><div class="ttdeci">virtual ~Resource()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00023">resource.cpp:23</a></div></div>
+<div class="ttc" id="class_resource_html_a7adc5fc3f83f3f39b4ca99939a667130"><div class="ttname"><a href="class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130">Resource::plusRes</a></div><div class="ttdeci">int plusRes(int Res)</div><div class="ttdoc">Метод добавления ресурсов </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00105">resource.cpp:105</a></div></div>
+<div class="ttc" id="class_object_html_aa38637da1a8b0ebfc7e8fe8ec45bb211"><div class="ttname"><a href="class_object.html#aa38637da1a8b0ebfc7e8fe8ec45bb211">Object::toShowInfo</a></div><div class="ttdeci">virtual void toShowInfo()</div><div class="ttdoc">Функция вывода информации о объекте </div><div class="ttdef"><b>Definition:</b> <a href="object_8cpp_source.html#l00113">object.cpp:113</a></div></div>
+<div class="ttc" id="class_resource_html_ad7cec375ccfbc6909f4cd80d5bf07717"><div class="ttname"><a href="class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717">Resource::toShowInfo</a></div><div class="ttdeci">virtual void toShowInfo()</div><div class="ttdoc">Функция вывода информации о ресурсе </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00159">resource.cpp:159</a></div></div>
+<div class="ttc" id="class_resource_html_ab41a83be8b9061afb3d1a69f03d2a9cd"><div class="ttname"><a href="class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd">Resource::getMaxRes</a></div><div class="ttdeci">int getMaxRes()</div><div class="ttdoc">Получить максимальное значение ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8cpp_source.html#l00039">resource.cpp:39</a></div></div>
+<div class="ttc" id="class_resource_html_a35c8e2a917ba4b163ecb05052a247a77"><div class="ttname"><a href="class_resource.html#a35c8e2a917ba4b163ecb05052a247a77">Resource::MaxRes</a></div><div class="ttdeci">int MaxRes</div><div class="ttdoc">Максимальное значение ресурса </div><div class="ttdef"><b>Definition:</b> <a href="resource_8h_source.html#l00016">resource.h:16</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="resource_8cpp.html">resource.cpp</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

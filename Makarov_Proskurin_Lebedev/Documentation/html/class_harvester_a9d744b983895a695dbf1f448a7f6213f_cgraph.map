@@ -1,0 +1,16 @@
+<map id="Harvester::Harvester" name="Harvester::Harvester">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="233,132,340,159"/>
+<area shape="rect" id="node8" href="$class_unit.html#a257f6377eb3932e4019be226a8b9efa7" title="Установить данные о юните " alt="" coords="229,335,344,361"/>
+<area shape="rect" id="node13" href="$class_harvester.html#af230d3b23220e7d294018cd172131e10" title="Функция инициализации модели Харвестера " alt="" coords="208,385,365,412"/>
+<area shape="rect" id="node14" href="$class_extracting_unit.html#a5b0debdecee3ac485ef07a6e6376d71c" title="Установить данные о добывающем юните " alt="" coords="192,440,381,467"/>
+<area shape="rect" id="node3" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="465,5,585,32"/>
+<area shape="rect" id="node4" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="476,56,575,83"/>
+<area shape="rect" id="node5" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="459,107,592,133"/>
+<area shape="rect" id="node6" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="454,157,597,184"/>
+<area shape="rect" id="node7" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="460,208,591,235"/>
+<area shape="rect" id="node9" href="$class_unit.html#a890e63558a39f7707e651000e6803812" title="Установить значение брони " alt="" coords="472,259,579,285"/>
+<area shape="rect" id="node10" href="$class_unit.html#a0754809a2a51e4845aa0a4dbd54bfd4d" title="Установить значение коэффициента брони " alt="" coords="457,309,593,336"/>
+<area shape="rect" id="node11" href="$class_unit.html#a6984d3586dae888345577ea86b74f016" title="Установить значение скорости юнита " alt="" coords="471,360,579,387"/>
+<area shape="rect" id="node12" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="470,411,581,437"/>
+<area shape="rect" id="node15" href="$class_extracting_unit.html#afb9346cbe3eacd93a0d62c1e33a2e23b" title="Установить значение скорости добычи ресурсов " alt="" coords="429,462,621,503"/>
+</map>

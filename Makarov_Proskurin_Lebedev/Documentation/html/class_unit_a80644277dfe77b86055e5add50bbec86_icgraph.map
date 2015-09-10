@@ -1,0 +1,7 @@
+<map id="Unit::toMoveToPoint" name="Unit::toMoveToPoint">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a8010d7cfda0c3e3b47bb29d4a93f8b2d" title="Метод атаки объекта " alt="" coords="201,5,337,32"/>
+<area shape="rect" id="node3" href="$class_combat_unit.html#ab21c30cc9a81c9fd41caa70e4263015d" title="Обновить действия боевого юнита " alt="" coords="199,56,338,83"/>
+<area shape="rect" id="node4" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="192,107,345,133"/>
+<area shape="rect" id="node5" href="$class_unit.html#ab3c0b5cae66d8e11894de7dc8d52926e" title="Метод движения юнита " alt="" coords="221,157,316,184"/>
+<area shape="rect" id="node6" href="$class_unit.html#a3e156e5f51519719be7301cd3cb453f3" title="Метод движения к ноде " alt="" coords="199,208,338,235"/>
+</map>

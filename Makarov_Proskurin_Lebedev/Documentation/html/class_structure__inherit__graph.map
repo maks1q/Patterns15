@@ -1,0 +1,9 @@
+<map id="Structure" name="Structure">
+<area shape="rect" id="node4" href="$class_construction_plant.html" title="Строительный завод &#45; строит здания. " alt="" coords="5,1115,159,1353"/>
+<area shape="rect" id="node5" href="$class_machine_plant.html" title="Машинный завод &#45; производит юнитов. " alt="" coords="183,1159,312,1309"/>
+<area shape="rect" id="node6" href="$class_silo.html" title="Силос &#45; здание, хранит в себе ресурс: спайс. " alt="" coords="336,1173,425,1295"/>
+<area shape="rect" id="node7" href="$class_spice_plant.html" title="Спайсовый завод &#45; ведет переработку Спайса. " alt="" coords="449,1173,563,1295"/>
+<area shape="rect" id="node8" href="$class_wind_turbine.html" title="Ветряк &#45; здание, производящее электроэнергию. " alt="" coords="587,1188,710,1280"/>
+<area shape="rect" id="node2" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="305,629,456,824"/>
+<area shape="rect" id="node3" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="322,5,439,581"/>
+</map>

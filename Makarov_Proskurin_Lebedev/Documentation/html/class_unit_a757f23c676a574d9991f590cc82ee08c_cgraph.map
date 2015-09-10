@@ -1,0 +1,4 @@
+<map id="Unit::Update" name="Unit::Update">
+<area shape="rect" id="node2" href="$class_unit.html#a1facf947edffaf9800cc5ddd58bd0d9c" title="Получить значение брони " alt="" coords="150,5,257,32"/>
+<area shape="rect" id="node3" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="148,56,259,83"/>
+</map>

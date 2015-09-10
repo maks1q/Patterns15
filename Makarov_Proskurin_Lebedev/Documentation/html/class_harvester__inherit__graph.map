@@ -1,0 +1,6 @@
+<map id="Harvester" name="Harvester">
+<area shape="rect" id="node2" href="$class_extracting_unit.html" title="Класс юнитов, добывающих ресурсы. " alt="" coords="5,1731,175,2145"/>
+<area shape="rect" id="node3" href="$class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="19,872,161,1683"/>
+<area shape="rect" id="node4" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="15,629,165,824"/>
+<area shape="rect" id="node5" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="31,5,149,581"/>
+</map>

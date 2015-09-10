@@ -1,0 +1,4 @@
+<map id="CombatUnit::setAttackDistance" name="CombatUnit::setAttackDistance">
+<area shape="rect" id="node2" href="$class_combat_unit.html#ae544ca5f1e07929cca7243735d54c7dd" title="Установить информацию о боевом юните " alt="" coords="259,5,452,32"/>
+<area shape="rect" id="node3" href="$class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="500,5,587,32"/>
+</map>

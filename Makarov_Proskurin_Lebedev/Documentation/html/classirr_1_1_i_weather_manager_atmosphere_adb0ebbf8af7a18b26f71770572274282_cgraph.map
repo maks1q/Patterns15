@@ -1,0 +1,6 @@
+<map id="irr::IWeatherManagerAtmosphere::render" name="irr::IWeatherManagerAtmosphere::render">
+<area shape="rect" id="node2" href="$classirr_1_1_i_weather_manager_atmosphere.html#afa2c1cab04bfe2db824624ed553010a2" title="Rounds the angle to fit 360 degrees. " alt="" coords="267,5,480,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1_i_atmosphere_star_scene_node.html#ae90caa59ebd2651dacd938057f7bad9a" title="Sets the sun postion. " alt="" coords="286,71,461,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1_i_atmosphere_star_scene_node.html#a99907af25d07f514362ed6108f3d341f" title="Sets the moon postion. " alt="" coords="286,136,461,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1_i_atmosphere_sky_scene_node.html#aa4aead99ebfe20d35598f5bc6065a26f" title="Updates UV mapping X coordinate. " alt="" coords="286,201,461,243"/>
+</map>

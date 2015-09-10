@@ -1,0 +1,7 @@
+<map id="Ammunition::Update" name="Ammunition::Update">
+<area shape="rect" id="node2" href="$class_state.html#ab006595cae083f56df945db6ecfc377e" title="Получить текущее состояние " alt="" coords="233,5,344,32"/>
+<area shape="rect" id="node3" href="$class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9" title="Движение к цели " alt="" coords="193,56,384,83"/>
+<area shape="rect" id="node6" href="$class_ammunition.html#a83c9e0937d7e252b499388251f243b10" title="Деструктор " alt="" coords="201,107,377,133"/>
+<area shape="rect" id="node4" href="$class_ammunition.html#ac165e516c648468fa2aa93eb0c54c706" title="Получить радиус поражения " alt="" coords="432,31,639,57"/>
+<area shape="rect" id="node5" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="480,81,591,108"/>
+</map>

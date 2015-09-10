@@ -1,0 +1,29 @@
+<map id="layerspice.h" name="layerspice.h">
+<area shape="rect" id="node2" href="$mapspice_8h.html" title="mapspice.h" alt="" coords="1080,80,1169,107"/>
+<area shape="rect" id="node4" href="$unit_8h.html" title="unit.h" alt="" coords="929,229,984,256"/>
+<area shape="rect" id="node8" href="$all__h_8h.html" title="all_h.h" alt="" coords="786,677,846,704"/>
+<area shape="rect" id="node28" href="$layerspice_8cpp.html" title="layerspice.cpp" alt="" coords="1356,80,1463,107"/>
+<area shape="rect" id="node3" href="$map_8h.html" title="map.h" alt="" coords="1095,155,1154,181"/>
+<area shape="rect" id="node27" href="$mapspice_8cpp.html" title="mapspice.cpp" alt="" coords="1178,155,1281,181"/>
+<area shape="rect" id="node26" href="$map_8cpp.html" title="map.cpp" alt="" coords="1095,229,1167,256"/>
+<area shape="rect" id="node5" href="$team_8h.html" title="team.h" alt="" coords="245,528,308,555"/>
+<area shape="rect" id="node13" href="$extractingunit_8h.html" title="extractingunit.h" alt="" coords="354,304,465,331"/>
+<area shape="rect" id="node19" href="$combatunit_8h.html" title="combatunit.h" alt="" coords="673,304,770,331"/>
+<area shape="rect" id="node23" href="$division_8h.html" title="division.h" alt="" coords="1028,304,1103,331"/>
+<area shape="rect" id="node25" href="$unit_8cpp.html" title="unit.cpp" alt="" coords="936,304,1004,331"/>
+<area shape="rect" id="node6" href="$ai_8h.html" title="ai.h" alt="" coords="236,603,279,629"/>
+<area shape="rect" id="node12" href="$team_8cpp.html" title="team.cpp" alt="" coords="304,603,380,629"/>
+<area shape="rect" id="node7" href="$ai_8cpp.html" title="ai.cpp" alt="" coords="229,677,286,704"/>
+<area shape="rect" id="node9" href="$game_8h.html" title="game.h" alt="" coords="784,752,849,779"/>
+<area shape="rect" id="node11" href="$main_8cpp.html" title="main.cpp" alt="" coords="874,752,948,779"/>
+<area shape="rect" id="node10" href="$game_8cpp.html" title="game.cpp" alt="" coords="777,827,856,853"/>
+<area shape="rect" id="node14" href="$harvester_8h.html" title="harvester.h" alt="" coords="367,379,452,405"/>
+<area shape="rect" id="node18" href="$extractingunit_8cpp.html" title="extractingunit.cpp" alt="" coords="31,379,156,405"/>
+<area shape="rect" id="node15" href="$constructionplant_8h.html" title="constructionplant.h" alt="" coords="557,453,689,480"/>
+<area shape="rect" id="node17" href="$harvester_8cpp.html" title="harvester.cpp" alt="" coords="332,453,431,480"/>
+<area shape="rect" id="node16" href="$constructionplant_8cpp.html" title="constructionplant.cpp" alt="" coords="607,528,754,555"/>
+<area shape="rect" id="node20" href="$tank_8h.html" title="tank.h" alt="" coords="692,379,751,405"/>
+<area shape="rect" id="node22" href="$combatunit_8cpp.html" title="combatunit.cpp" alt="" coords="776,379,886,405"/>
+<area shape="rect" id="node21" href="$tank_8cpp.html" title="tank.cpp" alt="" coords="815,453,887,480"/>
+<area shape="rect" id="node24" href="$division_8cpp.html" title="division.cpp" alt="" coords="1013,379,1102,405"/>
+</map>

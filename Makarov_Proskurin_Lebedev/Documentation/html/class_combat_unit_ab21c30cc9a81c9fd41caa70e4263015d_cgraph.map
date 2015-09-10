@@ -1,0 +1,4 @@
+<map id="CombatUnit::Update" name="CombatUnit::Update">
+<area shape="rect" id="node2" href="$class_unit.html#a80644277dfe77b86055e5add50bbec86" title="Метод движения юнита к точке " alt="" coords="192,5,331,32"/>
+<area shape="rect" id="node3" href="$class_unit.html#ae96da06ac633e36e90396e39ca2a955e" title="Метод поворота к точке " alt="" coords="379,5,468,32"/>
+</map>

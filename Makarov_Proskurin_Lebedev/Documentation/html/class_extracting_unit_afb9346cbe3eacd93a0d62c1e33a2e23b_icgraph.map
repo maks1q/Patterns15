@@ -1,0 +1,5 @@
+<map id="ExtractingUnit::setProductionSpeed" name="ExtractingUnit::setProductionSpeed">
+<area shape="rect" id="node2" href="$class_extracting_unit.html#a8550eabc9378098ef4314a704e0afba7" title="Конструктор по умолчанию " alt="" coords="245,5,440,32"/>
+<area shape="rect" id="node3" href="$class_extracting_unit.html#a5b0debdecee3ac485ef07a6e6376d71c" title="Установить данные о добывающем юните " alt="" coords="248,56,437,83"/>
+<area shape="rect" id="node4" href="$class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="488,56,627,83"/>
+</map>

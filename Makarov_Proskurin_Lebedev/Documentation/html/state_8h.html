@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Файл state.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('state_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл state.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="state_8h__dep__incl.png" border="0" usemap="#state_8hdep" alt=""/></div>
+<map name="state_8hdep" id="state_8hdep">
+<area shape="rect" id="node2" href="object_8h.html" title="object.h" alt="" coords="1744,80,1812,107"/><area shape="rect" id="node5" href="all__h_8h.html" title="all_h.h" alt="" coords="1331,976,1391,1003"/><area shape="rect" id="node50" href="state_8cpp.html" title="state.cpp" alt="" coords="2294,80,2370,107"/><area shape="rect" id="node3" href="ai_8h.html" title="ai.h" alt="" coords="2176,901,2218,928"/><area shape="rect" id="node9" href="team_8h.html" title="team.h" alt="" coords="1044,827,1107,853"/><area shape="rect" id="node11" href="objectwithmodel_8h.html" title="objectwithmodel.h" alt="" coords="603,229,730,256"/><area shape="rect" id="node18" href="division_8h.html" title="division.h" alt="" coords="1648,603,1722,629"/><area shape="rect" id="node22" href="mapspice_8h.html" title="mapspice.h" alt="" coords="1142,379,1231,405"/><area shape="rect" id="node23" href="map_8h.html" title="map.h" alt="" coords="725,453,784,480"/><area shape="rect" id="node28" href="maplandscape_8h.html" title="maplandscape.h" alt="" coords="582,379,700,405"/><area shape="rect" id="node41" href="resource_8h.html" title="resource.h" alt="" coords="1816,155,1898,181"/><area shape="rect" id="node49" href="object_8cpp.html" title="object.cpp" alt="" coords="1922,155,2005,181"/><area shape="rect" id="node4" href="ai_8cpp.html" title="ai.cpp" alt="" coords="2168,976,2226,1003"/><area shape="rect" id="node6" href="game_8h.html" title="game.h" alt="" coords="1328,1051,1394,1077"/><area shape="rect" id="node8" href="main_8cpp.html" title="main.cpp" alt="" coords="1418,1051,1493,1077"/><area shape="rect" id="node7" href="game_8cpp.html" title="game.cpp" alt="" coords="1322,1125,1400,1152"/><area shape="rect" id="node10" href="team_8cpp.html" title="team.cpp" alt="" coords="1106,901,1182,928"/><area shape="rect" id="node12" href="unit_8h.html" title="unit.h" alt="" coords="895,528,950,555"/><area shape="rect" id="node21" href="layerspice_8h.html" title="layerspice.h" alt="" coords="1070,304,1162,331"/><area shape="rect" id="node27" href="layerlandscape_8h.html" title="layerlandscape.h" alt="" coords="441,304,561,331"/><area shape="rect" id="node31" href="structure_8h.html" title="structure.h" alt="" coords="1350,677,1434,704"/><area shape="rect" id="node37" href="ammunition_8h.html" title="ammunition.h" alt="" coords="151,677,251,704"/><area shape="rect" id="node40" href="objectwithmodel_8cpp.html" title="objectwithmodel.cpp" alt="" coords="592,304,732,331"/><area shape="rect" id="node13" href="extractingunit_8h.html" title="extractingunit.h" alt="" coords="826,603,936,629"/><area shape="rect" id="node17" href="combatunit_8h.html" title="combatunit.h" alt="" coords="536,752,634,779"/><area shape="rect" id="node20" href="unit_8cpp.html" title="unit.cpp" alt="" coords="1070,603,1138,629"/><area shape="rect" id="node14" href="harvester_8h.html" title="harvester.h" alt="" coords="709,677,794,704"/><area shape="rect" id="node16" href="extractingunit_8cpp.html" title="extractingunit.cpp" alt="" coords="818,677,944,704"/><area shape="rect" id="node15" href="constructionplant_8h.html" title="constructionplant.h" alt="" coords="760,752,892,779"/><area shape="rect" id="node19" href="division_8cpp.html" title="division.cpp" alt="" coords="1611,677,1700,704"/><area shape="rect" id="node26" href="layerspice_8cpp.html" title="layerspice.cpp" alt="" coords="1010,379,1117,405"/><area shape="rect" id="node25" href="mapspice_8cpp.html" title="mapspice.cpp" alt="" coords="1128,453,1231,480"/><area shape="rect" id="node24" href="map_8cpp.html" title="map.cpp" alt="" coords="718,528,790,555"/><area shape="rect" id="node30" href="layerlandscape_8cpp.html" title="layerlandscape.cpp" alt="" coords="423,379,558,405"/><area shape="rect" id="node29" href="maplandscape_8cpp.html" title="maplandscape.cpp" alt="" coords="570,453,701,480"/><area shape="rect" id="node32" href="machineplant_8h.html" title="machineplant.h" alt="" coords="1424,827,1535,853"/><area shape="rect" id="node33" href="silo_8h.html" title="silo.h" alt="" coords="1648,752,1701,779"/><area shape="rect" id="node34" href="spiceplant_8h.html" title="spiceplant.h" alt="" coords="1206,901,1298,928"/><area shape="rect" id="node35" href="windturbine_8h.html" title="windturbine.h" alt="" coords="1250,827,1349,853"/><area shape="rect" id="node36" href="structure_8cpp.html" title="structure.cpp" alt="" coords="1221,752,1320,779"/><area shape="rect" id="node38" href="ammoshell_8h.html" title="ammoshell.h" alt="" coords="24,752,120,779"/><area shape="rect" id="node39" href="ammunition_8cpp.html" title="ammunition.cpp" alt="" coords="144,752,258,779"/><area shape="rect" id="node42" href="spice_8h.html" title="spice.h" alt="" coords="1516,229,1580,256"/><area shape="rect" id="node44" href="electricpower_8h.html" title="electricpower.h" alt="" coords="1906,752,2016,779"/><area shape="rect" id="node46" href="price_8h.html" title="price.h" alt="" coords="1989,229,2050,256"/><area shape="rect" id="node48" href="resource_8cpp.html" title="resource.cpp" alt="" coords="1867,229,1964,256"/><area shape="rect" id="node43" href="spice_8cpp.html" title="spice.cpp" alt="" coords="1611,304,1690,331"/><area shape="rect" id="node45" href="electricpower_8cpp.html" title="electricpower.cpp" alt="" coords="1928,827,2050,853"/><area shape="rect" id="node47" href="price_8cpp.html" title="price.cpp" alt="" coords="1925,304,2000,331"/></map>
+</div>
+</div>
+<p><a href="state_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Классы</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_state.html">State</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Состояние объекта  <a href="class_state.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="state_8h.html">state.h</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:56. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

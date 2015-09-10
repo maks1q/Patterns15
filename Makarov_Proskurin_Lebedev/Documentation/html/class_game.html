@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Класс Game</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_game.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="class_game-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Game</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Основной класс, управляющий всеми элементами игры.  
+ <a href="class_game.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="game_8h_source.html">game.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф связей класса Game:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game__coll__graph.png" border="0" usemap="#_game_coll__map" alt="Collaboration graph"/></div>
+<map name="_game_coll__map" id="_game_coll__map">
+<area shape="rect" id="node2" href="class_map.html" title="Класс карта. Хранит в себе все подкарты и слои карты. " alt="" coords="61,1131,164,1340"/><area shape="rect" id="node3" href="class_object.html" title="Общий класс для всех классов. " alt="" coords="54,248,171,809"/><area shape="rect" id="node5" href="class_map_landscape.html" title="Карта ландшафта &#45; хранит все слои ландшафта. " alt="" coords="33,873,192,1053"/><area shape="rect" id="node6" href="class_map_spice.html" title="Карта спайса &#45; хранит в себе все слои спайса, находящегося на карте. " alt="" coords="216,859,344,1068"/><area shape="rect" id="node4" href="class_state.html" title="Состояние объекта " alt="" coords="67,5,158,185"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Конструкторы</div></td></tr>
+<tr class="memitem:ad59df6562a58a614fda24622d3715b65"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#ad59df6562a58a614fda24622d3715b65">Game</a> ()</td></tr>
+<tr class="memdesc:ad59df6562a58a614fda24622d3715b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор по умолчанию  <a href="#ad59df6562a58a614fda24622d3715b65">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad59df6562a58a614fda24622d3715b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47886b28e11a29e5725d6c5939e7b61a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a47886b28e11a29e5725d6c5939e7b61a">Game</a> (IVideoDriver *<a class="el" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>, ISceneManager *<a class="el" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>)</td></tr>
+<tr class="memdesc:a47886b28e11a29e5725d6c5939e7b61a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор с параметрами  <a href="#a47886b28e11a29e5725d6c5939e7b61a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a47886b28e11a29e5725d6c5939e7b61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Деструкторы</div></td></tr>
+<tr class="memitem:ae3d112ca6e0e55150d2fdbc704474530"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#ae3d112ca6e0e55150d2fdbc704474530">~Game</a> ()</td></tr>
+<tr class="memdesc:ae3d112ca6e0e55150d2fdbc704474530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Деструктор  <a href="#ae3d112ca6e0e55150d2fdbc704474530">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae3d112ca6e0e55150d2fdbc704474530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Функции</div></td></tr>
+<tr class="memitem:a063d69f26be548f3f0a3afa1297e0c2a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a063d69f26be548f3f0a3afa1297e0c2a">Update</a> (IVideoDriver *<a class="el" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>, ISceneManager *<a class="el" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>, irr::gui::IGUIEnvironment *<a class="el" href="main_8cpp.html#ae2837d258b676d55693187a36ec054a7">guienv</a>, core::dimension2d&lt; u32 &gt; deskres)</td></tr>
+<tr class="memdesc:a063d69f26be548f3f0a3afa1297e0c2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновить игру  <a href="#a063d69f26be548f3f0a3afa1297e0c2a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a063d69f26be548f3f0a3afa1297e0c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028106cbd0c25535934c56195c5aac30"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a028106cbd0c25535934c56195c5aac30">UpdateUnits</a> ()</td></tr>
+<tr class="separator:a028106cbd0c25535934c56195c5aac30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a04e000ce79df5d861f9db0d386fdc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a16a04e000ce79df5d861f9db0d386fdc">addTeam</a> (<a class="el" href="class_team.html">Team</a> *TeamGame)</td></tr>
+<tr class="memdesc:a16a04e000ce79df5d861f9db0d386fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Добавить команду в игру  <a href="#a16a04e000ce79df5d861f9db0d386fdc">Подробнее...</a><br /></td></tr>
+<tr class="separator:a16a04e000ce79df5d861f9db0d386fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:ab167fceabd7491e56ac4b9d70b41d455"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_unit.html">Unit</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#ab167fceabd7491e56ac4b9d70b41d455">Units</a></td></tr>
+<tr class="memdesc:ab167fceabd7491e56ac4b9d70b41d455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контейнер указателей на всех юнитов в игре  <a href="#ab167fceabd7491e56ac4b9d70b41d455">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab167fceabd7491e56ac4b9d70b41d455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d02fed79fde6a3a1c58de46eb4ee315"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_team.html">Team</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a6d02fed79fde6a3a1c58de46eb4ee315">Teams</a></td></tr>
+<tr class="memdesc:a6d02fed79fde6a3a1c58de46eb4ee315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контейнер указателей на все команды в игре  <a href="#a6d02fed79fde6a3a1c58de46eb4ee315">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6d02fed79fde6a3a1c58de46eb4ee315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d423fe4eab64a0500eaf79f73681491"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_ammunition.html">Ammunition</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#a3d423fe4eab64a0500eaf79f73681491">Ammo</a></td></tr>
+<tr class="memdesc:a3d423fe4eab64a0500eaf79f73681491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Контейнер указателей на всех боевые снаряды в игре  <a href="#a3d423fe4eab64a0500eaf79f73681491">Подробнее...</a><br /></td></tr>
+<tr class="separator:a3d423fe4eab64a0500eaf79f73681491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2eab951de3750776b3ba5eaf0fe295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_map.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game.html#adc2eab951de3750776b3ba5eaf0fe295">Maps</a> = NULL</td></tr>
+<tr class="memdesc:adc2eab951de3750776b3ba5eaf0fe295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Указатель на глобальную карту  <a href="#adc2eab951de3750776b3ba5eaf0fe295">Подробнее...</a><br /></td></tr>
+<tr class="separator:adc2eab951de3750776b3ba5eaf0fe295"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Основной класс, управляющий всеми элементами игры. </p>
+
+<p>См. определение в файле <a class="el" href="game_8h_source.html">game.h</a> строка <a class="el" href="game_8h_source.html#l00011">11</a></p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="ad59df6562a58a614fda24622d3715b65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::Game </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор по умолчанию </p>
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00005">5</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a47886b28e11a29e5725d6c5939e7b61a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::Game </td>
+          <td>(</td>
+          <td class="paramtype">IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ISceneManager *&#160;</td>
+          <td class="paramname"><em>smgr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор с параметрами </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">driver</td><td>драйвер устройства </td></tr>
+    <tr><td class="paramname">smgr</td><td>менеджер сцены </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00014">14</a></p>
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_a47886b28e11a29e5725d6c5939e7b61a_cgraph.png" border="0" usemap="#class_game_a47886b28e11a29e5725d6c5939e7b61a_cgraph" alt=""/></div>
+<map name="class_game_a47886b28e11a29e5725d6c5939e7b61a_cgraph" id="class_game_a47886b28e11a29e5725d6c5939e7b61a_cgraph">
+<area shape="rect" id="node2" href="class_game.html#a16a04e000ce79df5d861f9db0d386fdc" title="Добавить команду в игру " alt="" coords="153,5,272,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3d112ca6e0e55150d2fdbc704474530"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::~Game </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Деструктор </p>
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00037">37</a></p>
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_ae3d112ca6e0e55150d2fdbc704474530_cgraph.png" border="0" usemap="#class_game_ae3d112ca6e0e55150d2fdbc704474530_cgraph" alt=""/></div>
+<map name="class_game_ae3d112ca6e0e55150d2fdbc704474530_cgraph" id="class_game_ae3d112ca6e0e55150d2fdbc704474530_cgraph">
+<area shape="rect" id="node2" href="class_map.html#aa403fbe09394ccf39747588f5168e3b2" title="Деструктор " alt="" coords="161,31,249,57"/><area shape="rect" id="node3" href="class_map_spice.html#a015d3cc978939bad448a2998e344f350" title="Деструктор " alt="" coords="327,5,482,32"/><area shape="rect" id="node4" href="class_map_landscape.html#a4ff28a7bbcf52a17ba396f8f1751dc91" title="Деструктор " alt="" coords="297,56,512,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a16a04e000ce79df5d861f9db0d386fdc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::addTeam </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_team.html">Team</a> *&#160;</td>
+          <td class="paramname"><em>TeamGame</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Добавить команду в игру </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">TeamGame</td><td>Команда для добавления в игру </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00239">239</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_a16a04e000ce79df5d861f9db0d386fdc_icgraph.png" border="0" usemap="#class_game_a16a04e000ce79df5d861f9db0d386fdc_icgraph" alt=""/></div>
+<map name="class_game_a16a04e000ce79df5d861f9db0d386fdc_icgraph" id="class_game_a16a04e000ce79df5d861f9db0d386fdc_icgraph">
+<area shape="rect" id="node2" href="class_game.html#a47886b28e11a29e5725d6c5939e7b61a" title="Конструктор с параметрами " alt="" coords="172,5,272,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a063d69f26be548f3f0a3afa1297e0c2a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::Update </td>
+          <td>(</td>
+          <td class="paramtype">IVideoDriver *&#160;</td>
+          <td class="paramname"><em>driver</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ISceneManager *&#160;</td>
+          <td class="paramname"><em>smgr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">irr::gui::IGUIEnvironment *&#160;</td>
+          <td class="paramname"><em>guienv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">core::dimension2d&lt; u32 &gt;&#160;</td>
+          <td class="paramname"><em>deskres</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Обновить игру </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">driver</td><td>драйвер устройства </td></tr>
+    <tr><td class="paramname">smgr</td><td>менеджер сцены </td></tr>
+    <tr><td class="paramname">guienv</td><td>менеджер интерфейса </td></tr>
+    <tr><td class="paramname">deskres</td><td>размеры окна </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00050">50</a></p>
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_a063d69f26be548f3f0a3afa1297e0c2a_cgraph.png" border="0" usemap="#class_game_a063d69f26be548f3f0a3afa1297e0c2a_cgraph" alt=""/></div>
+<map name="class_game_a063d69f26be548f3f0a3afa1297e0c2a_cgraph" id="class_game_a063d69f26be548f3f0a3afa1297e0c2a_cgraph">
+<area shape="rect" id="node2" href="class_game.html#a028106cbd0c25535934c56195c5aac30" title="Game::UpdateUnits" alt="" coords="160,5,296,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_a063d69f26be548f3f0a3afa1297e0c2a_icgraph.png" border="0" usemap="#class_game_a063d69f26be548f3f0a3afa1297e0c2a_icgraph" alt=""/></div>
+<map name="class_game_a063d69f26be548f3f0a3afa1297e0c2a_icgraph" id="class_game_a063d69f26be548f3f0a3afa1297e0c2a_icgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Главный цикл " alt="" coords="160,5,211,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a028106cbd0c25535934c56195c5aac30"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::UpdateUnits </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>См. определение в файле <a class="el" href="game_8cpp_source.html">game.cpp</a> строка <a class="el" href="game_8cpp_source.html#l00214">214</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_game_a028106cbd0c25535934c56195c5aac30_icgraph.png" border="0" usemap="#class_game_a028106cbd0c25535934c56195c5aac30_icgraph" alt=""/></div>
+<map name="class_game_a028106cbd0c25535934c56195c5aac30_icgraph" id="class_game_a028106cbd0c25535934c56195c5aac30_icgraph">
+<area shape="rect" id="node2" href="class_game.html#a063d69f26be548f3f0a3afa1297e0c2a" title="Обновить игру " alt="" coords="189,5,296,32"/><area shape="rect" id="node3" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Главный цикл " alt="" coords="344,5,395,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="a3d423fe4eab64a0500eaf79f73681491"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_ammunition.html">Ammunition</a> *&gt; Game::Ammo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Контейнер указателей на всех боевые снаряды в игре </p>
+
+<p>См. определение в файле <a class="el" href="game_8h_source.html">game.h</a> строка <a class="el" href="game_8h_source.html#l00019">19</a></p>
+
+</div>
+</div>
+<a class="anchor" id="adc2eab951de3750776b3ba5eaf0fe295"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_map.html">Map</a>* Game::Maps = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Указатель на глобальную карту </p>
+
+<p>См. определение в файле <a class="el" href="game_8h_source.html">game.h</a> строка <a class="el" href="game_8h_source.html#l00021">21</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a6d02fed79fde6a3a1c58de46eb4ee315"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_team.html">Team</a> *&gt; Game::Teams</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Контейнер указателей на все команды в игре </p>
+
+<p>См. определение в файле <a class="el" href="game_8h_source.html">game.h</a> строка <a class="el" href="game_8h_source.html#l00017">17</a></p>
+
+</div>
+</div>
+<a class="anchor" id="ab167fceabd7491e56ac4b9d70b41d455"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="class_unit.html">Unit</a> *&gt; Game::Units</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Контейнер указателей на всех юнитов в игре </p>
+
+<p>См. определение в файле <a class="el" href="game_8h_source.html">game.h</a> строка <a class="el" href="game_8h_source.html#l00015">15</a></p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="game_8h_source.html">game.h</a></li>
+<li><a class="el" href="game_8cpp_source.html">game.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_game.html">Game</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:57. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

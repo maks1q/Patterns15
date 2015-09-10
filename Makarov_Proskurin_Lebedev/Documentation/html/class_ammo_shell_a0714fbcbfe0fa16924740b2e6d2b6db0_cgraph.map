@@ -1,0 +1,8 @@
+<map id="AmmoShell::Update" name="AmmoShell::Update">
+<area shape="rect" id="node2" href="$class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35" title="Обновление действий для боеприпаса " alt="" coords="192,56,332,83"/>
+<area shape="rect" id="node3" href="$class_state.html#ab006595cae083f56df945db6ecfc377e" title="Получить текущее состояние " alt="" coords="420,5,531,32"/>
+<area shape="rect" id="node4" href="$class_ammunition.html#a03e88718fc8b500561c1b9fdc93a5df9" title="Движение к цели " alt="" coords="380,56,571,83"/>
+<area shape="rect" id="node7" href="$class_ammunition.html#a83c9e0937d7e252b499388251f243b10" title="Деструктор " alt="" coords="387,107,563,133"/>
+<area shape="rect" id="node5" href="$class_ammunition.html#ac165e516c648468fa2aa93eb0c54c706" title="Получить радиус поражения " alt="" coords="619,31,825,57"/>
+<area shape="rect" id="node6" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="667,81,777,108"/>
+</map>

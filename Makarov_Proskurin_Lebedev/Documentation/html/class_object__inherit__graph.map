@@ -1,0 +1,28 @@
+<map id="Object" name="Object">
+<area shape="rect" id="node2" href="$class_a_i.html" title="Искусственный интеллект &#45; набор правил и действий, направленных на добычу ресурсов, защиту собственной базы и атаки на врага. " alt="" coords="5,798,80,949"/>
+<area shape="rect" id="node3" href="$class_division.html" title="Подразделение &#45; содержит определенную группу, состоящую из юнитов. " alt="" coords="104,798,203,949"/>
+<area shape="rect" id="node4" href="$class_map.html" title="Класс карта. Хранит в себе все подкарты и слои карты. " alt="" coords="227,761,352,985"/>
+<area shape="rect" id="node5" href="$class_map_landscape.html" title="Карта ландшафта &#45; хранит все слои ландшафта. " alt="" coords="377,783,535,963"/>
+<area shape="rect" id="node6" href="$class_map_spice.html" title="Карта спайса &#45; хранит в себе все слои спайса, находящегося на карте. " alt="" coords="560,769,688,978"/>
+<area shape="rect" id="node7" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="713,776,863,971"/>
+<area shape="rect" id="node23" href="$class_resource.html" title="Общий класс для ресурсов: Спайс, Электроэнергия и т.д. " alt="" coords="1043,629,1151,1117"/>
+<area shape="rect" id="node27" href="$class_team.html" title="Команда &#45; военная структура, состоящая из юнитов, зданий, ресурсов. " alt="" coords="1175,681,1302,1066"/>
+<area shape="rect" id="node8" href="$class_ammunition.html" title="Класс Боеприпасы " alt="" coords="190,1349,341,1793"/>
+<area shape="rect" id="node10" href="$class_layer_landscape.html" title="Слой ландшафтного поля. " alt="" coords="425,1481,570,1661"/>
+<area shape="rect" id="node11" href="$class_layer_spice.html" title="Слой спайсового поля. " alt="" coords="595,1459,709,1683"/>
+<area shape="rect" id="node12" href="$class_structure.html" title="Общий класс для зданий: Спайсовый завод, Силос, Машинный завод и т.д. " alt="" coords="733,1473,843,1668"/>
+<area shape="rect" id="node18" href="$class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="867,1165,1008,1976"/>
+<area shape="rect" id="node9" href="$class_ammo_shell.html" title="Боевой снаряд " alt="" coords="176,2141,293,2321"/>
+<area shape="rect" id="node13" href="$class_construction_plant.html" title="Строительный завод &#45; строит здания. " alt="" coords="318,2112,471,2351"/>
+<area shape="rect" id="node14" href="$class_machine_plant.html" title="Машинный завод &#45; производит юнитов. " alt="" coords="495,2156,625,2307"/>
+<area shape="rect" id="node15" href="$class_silo.html" title="Силос &#45; здание, хранит в себе ресурс: спайс. " alt="" coords="649,2171,738,2292"/>
+<area shape="rect" id="node16" href="$class_spice_plant.html" title="Спайсовый завод &#45; ведет переработку Спайса. " alt="" coords="762,2171,875,2292"/>
+<area shape="rect" id="node17" href="$class_wind_turbine.html" title="Ветряк &#45; здание, производящее электроэнергию. " alt="" coords="900,2185,1023,2277"/>
+<area shape="rect" id="node19" href="$class_combat_unit.html" title="Класс &#45; боевая единица. " alt="" coords="1047,2024,1196,2439"/>
+<area shape="rect" id="node21" href="$class_extracting_unit.html" title="Класс юнитов, добывающих ресурсы. " alt="" coords="1221,2024,1390,2439"/>
+<area shape="rect" id="node20" href="$class_tank.html" title="Танк " alt="" coords="1064,2487,1179,2725"/>
+<area shape="rect" id="node22" href="$class_harvester.html" title="Юнит, добывающий ресурс Спайс. " alt="" coords="1248,2487,1363,2725"/>
+<area shape="rect" id="node24" href="$class_electric_power.html" title="Электроэнергия &#45; ресурс, дающий энергию зданиям. " alt="" coords="1032,1495,1163,1646"/>
+<area shape="rect" id="node25" href="$class_price.html" title="Цена &#45; стоимость какого&#45;либо объекта. " alt="" coords="1187,1510,1267,1631"/>
+<area shape="rect" id="node26" href="$class_spice.html" title="Спайс &#45; ресурс. Используется для покупки юнитов и зданий. " alt="" coords="1291,1495,1373,1646"/>
+</map>

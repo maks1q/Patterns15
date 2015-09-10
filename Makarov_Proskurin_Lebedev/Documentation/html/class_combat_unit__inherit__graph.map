@@ -1,0 +1,6 @@
+<map id="CombatUnit" name="CombatUnit">
+<area shape="rect" id="node5" href="$class_tank.html" title="Танк " alt="" coords="23,2193,138,2432"/>
+<area shape="rect" id="node2" href="$class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="10,872,151,1683"/>
+<area shape="rect" id="node3" href="$class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="5,629,156,824"/>
+<area shape="rect" id="node4" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="22,5,139,581"/>
+</map>

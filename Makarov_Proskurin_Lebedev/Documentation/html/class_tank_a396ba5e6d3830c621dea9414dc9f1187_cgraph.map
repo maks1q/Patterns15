@@ -1,0 +1,5 @@
+<map id="Tank::Update" name="Tank::Update">
+<area shape="rect" id="node2" href="$class_unit.html#a757f23c676a574d9991f590cc82ee08c" title="Обновить действия юнита " alt="" coords="152,31,247,57"/>
+<area shape="rect" id="node3" href="$class_unit.html#a1facf947edffaf9800cc5ddd58bd0d9c" title="Получить значение брони " alt="" coords="297,5,403,32"/>
+<area shape="rect" id="node4" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="295,56,405,83"/>
+</map>

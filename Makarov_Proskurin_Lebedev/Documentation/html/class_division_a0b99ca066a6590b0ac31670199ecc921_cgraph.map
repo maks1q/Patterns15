@@ -1,0 +1,8 @@
+<map id="Division::Division" name="Division::Division">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="172,107,279,133"/>
+<area shape="rect" id="node3" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="338,5,458,32"/>
+<area shape="rect" id="node4" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="349,56,447,83"/>
+<area shape="rect" id="node5" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="331,107,465,133"/>
+<area shape="rect" id="node6" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="327,157,469,184"/>
+<area shape="rect" id="node7" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="333,208,463,235"/>
+</map>

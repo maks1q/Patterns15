@@ -1,0 +1,5 @@
+<map id="Unit::isCheckTheIndex" name="Unit::isCheckTheIndex">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="218,5,357,32"/>
+<area shape="rect" id="node3" href="$class_extracting_unit.html#a37e15c2f923bf9701b238c69d835ccc2" title="Функция для поиска ресурсов " alt="" coords="205,57,369,98"/>
+<area shape="rect" id="node4" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="417,93,571,120"/>
+</map>

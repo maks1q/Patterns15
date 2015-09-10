@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Класс Object</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_object.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="class_object-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Object</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Общий класс для всех классов.  
+ <a href="class_object.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="object_8h_source.html">object.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object__inherit__graph.png" border="0" usemap="#_object_inherit__map" alt="Inheritance graph"/></div>
+<map name="_object_inherit__map" id="_object_inherit__map">
+<area shape="rect" id="node2" href="class_a_i.html" title="Искусственный интеллект &#45; набор правил и действий, направленных на добычу ресурсов, защиту собственной базы и атаки на врага. " alt="" coords="5,798,80,949"/><area shape="rect" id="node3" href="class_division.html" title="Подразделение &#45; содержит определенную группу, состоящую из юнитов. " alt="" coords="104,798,203,949"/><area shape="rect" id="node4" href="class_map.html" title="Класс карта. Хранит в себе все подкарты и слои карты. " alt="" coords="227,761,352,985"/><area shape="rect" id="node5" href="class_map_landscape.html" title="Карта ландшафта &#45; хранит все слои ландшафта. " alt="" coords="377,783,535,963"/><area shape="rect" id="node6" href="class_map_spice.html" title="Карта спайса &#45; хранит в себе все слои спайса, находящегося на карте. " alt="" coords="560,769,688,978"/><area shape="rect" id="node7" href="class_object_with_model.html" title="Класс объекта, имеющего 3D&#45;модель и ее текстуру. " alt="" coords="713,776,863,971"/><area shape="rect" id="node23" href="class_resource.html" title="Общий класс для ресурсов: Спайс, Электроэнергия и т.д. " alt="" coords="1043,629,1151,1117"/><area shape="rect" id="node27" href="class_team.html" title="Команда &#45; военная структура, состоящая из юнитов, зданий, ресурсов. " alt="" coords="1175,681,1302,1066"/><area shape="rect" id="node8" href="class_ammunition.html" title="Класс Боеприпасы " alt="" coords="190,1349,341,1793"/><area shape="rect" id="node10" href="class_layer_landscape.html" title="Слой ландшафтного поля. " alt="" coords="425,1481,570,1661"/><area shape="rect" id="node11" href="class_layer_spice.html" title="Слой спайсового поля. " alt="" coords="595,1459,709,1683"/><area shape="rect" id="node12" href="class_structure.html" title="Общий класс для зданий: Спайсовый завод, Силос, Машинный завод и т.д. " alt="" coords="733,1473,843,1668"/><area shape="rect" id="node18" href="class_unit.html" title="Общий класс для юнитов: Харвестер, Легкий танк, Средний танк и т.д. " alt="" coords="867,1165,1008,1976"/><area shape="rect" id="node9" href="class_ammo_shell.html" title="Боевой снаряд " alt="" coords="176,2141,293,2321"/><area shape="rect" id="node13" href="class_construction_plant.html" title="Строительный завод &#45; строит здания. " alt="" coords="318,2112,471,2351"/><area shape="rect" id="node14" href="class_machine_plant.html" title="Машинный завод &#45; производит юнитов. " alt="" coords="495,2156,625,2307"/><area shape="rect" id="node15" href="class_silo.html" title="Силос &#45; здание, хранит в себе ресурс: спайс. " alt="" coords="649,2171,738,2292"/><area shape="rect" id="node16" href="class_spice_plant.html" title="Спайсовый завод &#45; ведет переработку Спайса. " alt="" coords="762,2171,875,2292"/><area shape="rect" id="node17" href="class_wind_turbine.html" title="Ветряк &#45; здание, производящее электроэнергию. " alt="" coords="900,2185,1023,2277"/><area shape="rect" id="node19" href="class_combat_unit.html" title="Класс &#45; боевая единица. " alt="" coords="1047,2024,1196,2439"/><area shape="rect" id="node21" href="class_extracting_unit.html" title="Класс юнитов, добывающих ресурсы. " alt="" coords="1221,2024,1390,2439"/><area shape="rect" id="node20" href="class_tank.html" title="Танк " alt="" coords="1064,2487,1179,2725"/><area shape="rect" id="node22" href="class_harvester.html" title="Юнит, добывающий ресурс Спайс. " alt="" coords="1248,2487,1363,2725"/><area shape="rect" id="node24" href="class_electric_power.html" title="Электроэнергия &#45; ресурс, дающий энергию зданиям. " alt="" coords="1032,1495,1163,1646"/><area shape="rect" id="node25" href="class_price.html" title="Цена &#45; стоимость какого&#45;либо объекта. " alt="" coords="1187,1510,1267,1631"/><area shape="rect" id="node26" href="class_spice.html" title="Спайс &#45; ресурс. Используется для покупки юнитов и зданий. " alt="" coords="1291,1495,1373,1646"/></map>
+</div>
+<div class="dynheader">
+Граф связей класса Object:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object__coll__graph.png" border="0" usemap="#_object_coll__map" alt="Collaboration graph"/></div>
+<map name="_object_coll__map" id="_object_coll__map">
+<area shape="rect" id="node2" href="class_state.html" title="Состояние объекта " alt="" coords="19,5,109,185"/></map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Конструкторы</div></td></tr>
+<tr class="memitem:a40860402e64d8008fb42329df7097cdb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a40860402e64d8008fb42329df7097cdb">Object</a> ()</td></tr>
+<tr class="memdesc:a40860402e64d8008fb42329df7097cdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор по умолчанию  <a href="#a40860402e64d8008fb42329df7097cdb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a40860402e64d8008fb42329df7097cdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Деструкторы</div></td></tr>
+<tr class="memitem:ae8f5483f459e46687bd01e6f9977afd3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#ae8f5483f459e46687bd01e6f9977afd3">~Object</a> ()</td></tr>
+<tr class="memdesc:ae8f5483f459e46687bd01e6f9977afd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Деструктор  <a href="#ae8f5483f459e46687bd01e6f9977afd3">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae8f5483f459e46687bd01e6f9977afd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Sets</div></td></tr>
+<tr class="memitem:aa1b1e87df4116fe51272cfffa9d335bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#aa1b1e87df4116fe51272cfffa9d335bf">setName</a> (std::string <a class="el" href="class_object.html#aec3f2aa8f7bd770793d6a8d8d97539ba">Name</a>)</td></tr>
+<tr class="memdesc:aa1b1e87df4116fe51272cfffa9d335bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить название объекта  <a href="#aa1b1e87df4116fe51272cfffa9d335bf">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa1b1e87df4116fe51272cfffa9d335bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa591494392cd87b57c5d26cdded650e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#aa591494392cd87b57c5d26cdded650e7">setID</a> (int <a class="el" href="class_object.html#a4a82b2bbd9ca66c55898ebf012134171">ID</a>)</td></tr>
+<tr class="memdesc:aa591494392cd87b57c5d26cdded650e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить идентификационный номер объекта  <a href="#aa591494392cd87b57c5d26cdded650e7">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa591494392cd87b57c5d26cdded650e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb114146504b7e889cd2e6e7abfb303f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#afb114146504b7e889cd2e6e7abfb303f">setIDGroup</a> (int <a class="el" href="class_object.html#a00318f245ba8e873bbc76d20fd76a103">IDGroup</a>)</td></tr>
+<tr class="memdesc:afb114146504b7e889cd2e6e7abfb303f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить идентификационный номер группы объекта  <a href="#afb114146504b7e889cd2e6e7abfb303f">Подробнее...</a><br /></td></tr>
+<tr class="separator:afb114146504b7e889cd2e6e7abfb303f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8244e786763890f66374a0e56d5284b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#ab8244e786763890f66374a0e56d5284b">setIDInGroup</a> (int <a class="el" href="class_object.html#a5878ac76ad044b32b85c19034bd82c02">IDInGroup</a>)</td></tr>
+<tr class="memdesc:ab8244e786763890f66374a0e56d5284b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить идентификационный номер объекта в группе  <a href="#ab8244e786763890f66374a0e56d5284b">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab8244e786763890f66374a0e56d5284b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81e025cdb5e3df20ccf388ee75162e28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a81e025cdb5e3df20ccf388ee75162e28">setIDTeam</a> (<a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> <a class="el" href="class_object.html#a62aed0b99e30bfd8e7e8d1f3fc7e455d">IDTEAM</a>)</td></tr>
+<tr class="memdesc:a81e025cdb5e3df20ccf388ee75162e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить идентификационный номер команды  <a href="#a81e025cdb5e3df20ccf388ee75162e28">Подробнее...</a><br /></td></tr>
+<tr class="separator:a81e025cdb5e3df20ccf388ee75162e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ed1f821d1d4fcf1f8313f348178656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656">setInfo</a> (std::string <a class="el" href="class_object.html#aec3f2aa8f7bd770793d6a8d8d97539ba">Name</a>, int <a class="el" href="class_object.html#a00318f245ba8e873bbc76d20fd76a103">IDGroup</a>, int <a class="el" href="class_object.html#a5878ac76ad044b32b85c19034bd82c02">IDInGroup</a>, <a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> <a class="el" href="class_object.html#a62aed0b99e30bfd8e7e8d1f3fc7e455d">IDTEAM</a>)</td></tr>
+<tr class="memdesc:a03ed1f821d1d4fcf1f8313f348178656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Установить первичные данные об объекте  <a href="#a03ed1f821d1d4fcf1f8313f348178656">Подробнее...</a><br /></td></tr>
+<tr class="separator:a03ed1f821d1d4fcf1f8313f348178656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Gets</div></td></tr>
+<tr class="memitem:ae2e7f745c015b67a580c735609cba5b8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#ae2e7f745c015b67a580c735609cba5b8">getName</a> ()</td></tr>
+<tr class="memdesc:ae2e7f745c015b67a580c735609cba5b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить название объекта  <a href="#ae2e7f745c015b67a580c735609cba5b8">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae2e7f745c015b67a580c735609cba5b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99a8389a22915067650a7f5fb9167c03"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a99a8389a22915067650a7f5fb9167c03">getID</a> ()</td></tr>
+<tr class="memdesc:a99a8389a22915067650a7f5fb9167c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить идентификационный номер объекта  <a href="#a99a8389a22915067650a7f5fb9167c03">Подробнее...</a><br /></td></tr>
+<tr class="separator:a99a8389a22915067650a7f5fb9167c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14d8a2cdbb24ad8fb0ea5a4bfac208b6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a14d8a2cdbb24ad8fb0ea5a4bfac208b6">getIDGroup</a> ()</td></tr>
+<tr class="memdesc:a14d8a2cdbb24ad8fb0ea5a4bfac208b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить идентификационный номер группы объекта  <a href="#a14d8a2cdbb24ad8fb0ea5a4bfac208b6">Подробнее...</a><br /></td></tr>
+<tr class="separator:a14d8a2cdbb24ad8fb0ea5a4bfac208b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e53b7da2f42487315ddec2fab1b5e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a20e53b7da2f42487315ddec2fab1b5e9">getIDInGroup</a> ()</td></tr>
+<tr class="memdesc:a20e53b7da2f42487315ddec2fab1b5e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить идентификационный номер объекта в группе  <a href="#a20e53b7da2f42487315ddec2fab1b5e9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a20e53b7da2f42487315ddec2fab1b5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15d463a5c63ae05c689f23eb3324ea6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#aa15d463a5c63ae05c689f23eb3324ea6">getIDTeam</a> ()</td></tr>
+<tr class="memdesc:aa15d463a5c63ae05c689f23eb3324ea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Получить идентификационный номер команды  <a href="#aa15d463a5c63ae05c689f23eb3324ea6">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa15d463a5c63ae05c689f23eb3324ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Функции</div></td></tr>
+<tr class="memitem:aa38637da1a8b0ebfc7e8fe8ec45bb211"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#aa38637da1a8b0ebfc7e8fe8ec45bb211">toShowInfo</a> ()</td></tr>
+<tr class="memdesc:aa38637da1a8b0ebfc7e8fe8ec45bb211"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция вывода информации о объекте  <a href="#aa38637da1a8b0ebfc7e8fe8ec45bb211">Подробнее...</a><br /></td></tr>
+<tr class="separator:aa38637da1a8b0ebfc7e8fe8ec45bb211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c74337ccd7504eec24590b8c963141"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#ab5c74337ccd7504eec24590b8c963141">Update</a> ()</td></tr>
+<tr class="memdesc:ab5c74337ccd7504eec24590b8c963141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обновление объекта  <a href="#ab5c74337ccd7504eec24590b8c963141">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab5c74337ccd7504eec24590b8c963141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:aec3f2aa8f7bd770793d6a8d8d97539ba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#aec3f2aa8f7bd770793d6a8d8d97539ba">Name</a></td></tr>
+<tr class="memdesc:aec3f2aa8f7bd770793d6a8d8d97539ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Название объекта  <a href="#aec3f2aa8f7bd770793d6a8d8d97539ba">Подробнее...</a><br /></td></tr>
+<tr class="separator:aec3f2aa8f7bd770793d6a8d8d97539ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a82b2bbd9ca66c55898ebf012134171"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a4a82b2bbd9ca66c55898ebf012134171">ID</a></td></tr>
+<tr class="memdesc:a4a82b2bbd9ca66c55898ebf012134171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Идентификационный номер объекта  <a href="#a4a82b2bbd9ca66c55898ebf012134171">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4a82b2bbd9ca66c55898ebf012134171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00318f245ba8e873bbc76d20fd76a103"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a00318f245ba8e873bbc76d20fd76a103">IDGroup</a></td></tr>
+<tr class="memdesc:a00318f245ba8e873bbc76d20fd76a103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Идентификационный номер группы объекта  <a href="#a00318f245ba8e873bbc76d20fd76a103">Подробнее...</a><br /></td></tr>
+<tr class="separator:a00318f245ba8e873bbc76d20fd76a103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5878ac76ad044b32b85c19034bd82c02"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a5878ac76ad044b32b85c19034bd82c02">IDInGroup</a></td></tr>
+<tr class="memdesc:a5878ac76ad044b32b85c19034bd82c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Идентификационный номер объекта в группе  <a href="#a5878ac76ad044b32b85c19034bd82c02">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5878ac76ad044b32b85c19034bd82c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62aed0b99e30bfd8e7e8d1f3fc7e455d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#a62aed0b99e30bfd8e7e8d1f3fc7e455d">IDTEAM</a></td></tr>
+<tr class="memdesc:a62aed0b99e30bfd8e7e8d1f3fc7e455d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Идентификационный номер команды  <a href="#a62aed0b99e30bfd8e7e8d1f3fc7e455d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a62aed0b99e30bfd8e7e8d1f3fc7e455d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae053c7e2c52207f0bebcefbf077c2994"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_state.html">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object.html#ae053c7e2c52207f0bebcefbf077c2994">MyState</a></td></tr>
+<tr class="memdesc:ae053c7e2c52207f0bebcefbf077c2994"><td class="mdescLeft">&#160;</td><td class="mdescRight">Переменная, хранящая состояние объекта  <a href="#ae053c7e2c52207f0bebcefbf077c2994">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae053c7e2c52207f0bebcefbf077c2994"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Общий класс для всех классов. </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00012">12</a></p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="a40860402e64d8008fb42329df7097cdb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object::Object </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор по умолчанию </p>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00005">5</a></p>
+
+</div>
+</div>
+<a class="anchor" id="ae8f5483f459e46687bd01e6f9977afd3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object::~Object </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Деструктор </p>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00012">12</a></p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a99a8389a22915067650a7f5fb9167c03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::getID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить идентификационный номер объекта </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Идентификационный номер объекта </dd></dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00082">82</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a14d8a2cdbb24ad8fb0ea5a4bfac208b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::getIDGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить идентификационный номер группы объекта </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Идентификационный номер группы объекта </dd></dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00090">90</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a20e53b7da2f42487315ddec2fab1b5e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::getIDInGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить идентификационный номер объекта в группе </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Идентификационный номер объекта в группе </dd></dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00098">98</a></p>
+
+</div>
+</div>
+<a class="anchor" id="aa15d463a5c63ae05c689f23eb3324ea6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> Object::getIDTeam </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить идентификационный номер команды </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Идентификационный номер команды </dd></dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00106">106</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_aa15d463a5c63ae05c689f23eb3324ea6_icgraph.png" border="0" usemap="#class_object_aa15d463a5c63ae05c689f23eb3324ea6_icgraph" alt=""/></div>
+<map name="class_object_aa15d463a5c63ae05c689f23eb3324ea6_icgraph" id="class_object_aa15d463a5c63ae05c689f23eb3324ea6_icgraph">
+<area shape="rect" id="node2" href="class_combat_unit.html#a05055316389a8fbc92eb5205fa39e2ff" title="Поиск вражеского юнита " alt="" coords="184,5,388,32"/><area shape="rect" id="node4" href="class_tank.html#a5228e191f54f21e0f7247340af49c8b0" title="Атаковать объект " alt="" coords="233,56,339,83"/><area shape="rect" id="node3" href="class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="436,5,575,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae2e7f745c015b67a580c735609cba5b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Object::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Получить название объекта </p>
+<dl class="section return"><dt>Возвращает</dt><dd>Название объекта </dd></dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00074">74</a></p>
+
+</div>
+</div>
+<a class="anchor" id="aa591494392cd87b57c5d26cdded650e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить идентификационный номер объекта </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>идентификационный номер объекта </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00027">27</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_aa591494392cd87b57c5d26cdded650e7_icgraph.png" border="0" usemap="#class_object_aa591494392cd87b57c5d26cdded650e7_icgraph" alt=""/></div>
+<map name="class_object_aa591494392cd87b57c5d26cdded650e7_icgraph" id="class_object_aa591494392cd87b57c5d26cdded650e7_icgraph">
+<area shape="rect" id="node2" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="152,300,259,327"/><area shape="rect" id="node3" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="389,5,444,32"/><area shape="rect" id="node4" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="335,56,499,83"/><area shape="rect" id="node5" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="333,107,501,133"/><area shape="rect" id="node6" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="350,158,483,199"/><area shape="rect" id="node7" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="357,224,476,251"/><area shape="rect" id="node8" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="321,275,512,301"/><area shape="rect" id="node9" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="347,325,486,352"/><area shape="rect" id="node10" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="307,376,527,403"/><area shape="rect" id="node11" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="337,427,497,453"/><area shape="rect" id="node12" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="323,477,511,504"/><area shape="rect" id="node13" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="369,528,465,555"/><area shape="rect" id="node14" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="373,579,460,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="afb114146504b7e889cd2e6e7abfb303f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setIDGroup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>IDGroup</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить идентификационный номер группы объекта </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">IDGroup</td><td>идентификационный номер группы объекта </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00035">35</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_afb114146504b7e889cd2e6e7abfb303f_icgraph.png" border="0" usemap="#class_object_afb114146504b7e889cd2e6e7abfb303f_icgraph" alt=""/></div>
+<map name="class_object_afb114146504b7e889cd2e6e7abfb303f_icgraph" id="class_object_afb114146504b7e889cd2e6e7abfb303f_icgraph">
+<area shape="rect" id="node2" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="187,300,293,327"/><area shape="rect" id="node3" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="424,5,479,32"/><area shape="rect" id="node4" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="369,56,533,83"/><area shape="rect" id="node5" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="367,107,535,133"/><area shape="rect" id="node6" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="385,158,518,199"/><area shape="rect" id="node7" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="392,224,511,251"/><area shape="rect" id="node8" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="356,275,547,301"/><area shape="rect" id="node9" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="382,325,521,352"/><area shape="rect" id="node10" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="341,376,561,403"/><area shape="rect" id="node11" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="371,427,531,453"/><area shape="rect" id="node12" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="357,477,545,504"/><area shape="rect" id="node13" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="403,528,499,555"/><area shape="rect" id="node14" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="408,579,495,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab8244e786763890f66374a0e56d5284b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setIDInGroup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>IDInGroup</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить идентификационный номер объекта в группе </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">IDInGroup</td><td>идентификационный номер объекта в группе </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00043">43</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_ab8244e786763890f66374a0e56d5284b_icgraph.png" border="0" usemap="#class_object_ab8244e786763890f66374a0e56d5284b_icgraph" alt=""/></div>
+<map name="class_object_ab8244e786763890f66374a0e56d5284b_icgraph" id="class_object_ab8244e786763890f66374a0e56d5284b_icgraph">
+<area shape="rect" id="node2" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="196,300,303,327"/><area shape="rect" id="node3" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="433,5,488,32"/><area shape="rect" id="node4" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="379,56,543,83"/><area shape="rect" id="node5" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="377,107,545,133"/><area shape="rect" id="node6" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="394,158,527,199"/><area shape="rect" id="node7" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="401,224,520,251"/><area shape="rect" id="node8" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="365,275,556,301"/><area shape="rect" id="node9" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="391,325,530,352"/><area shape="rect" id="node10" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="351,376,571,403"/><area shape="rect" id="node11" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="381,427,541,453"/><area shape="rect" id="node12" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="367,477,555,504"/><area shape="rect" id="node13" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="413,528,509,555"/><area shape="rect" id="node14" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="417,579,504,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a81e025cdb5e3df20ccf388ee75162e28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setIDTeam </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a>&#160;</td>
+          <td class="paramname"><em>IDTEAM</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить идентификационный номер команды </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">IDTEAM</td><td>идентификационный номер команды </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00051">51</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_a81e025cdb5e3df20ccf388ee75162e28_icgraph.png" border="0" usemap="#class_object_a81e025cdb5e3df20ccf388ee75162e28_icgraph" alt=""/></div>
+<map name="class_object_a81e025cdb5e3df20ccf388ee75162e28_icgraph" id="class_object_a81e025cdb5e3df20ccf388ee75162e28_icgraph">
+<area shape="rect" id="node2" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="184,300,291,327"/><area shape="rect" id="node15" href="class_team.html#ad8e9770db17fd490b0927625581f37c4" title="Конструктор с параметрами " alt="" coords="190,351,285,377"/><area shape="rect" id="node3" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="421,5,476,32"/><area shape="rect" id="node4" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="367,56,531,83"/><area shape="rect" id="node5" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="365,107,533,133"/><area shape="rect" id="node6" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="382,158,515,199"/><area shape="rect" id="node7" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="389,224,508,251"/><area shape="rect" id="node8" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="353,275,544,301"/><area shape="rect" id="node9" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="379,325,518,352"/><area shape="rect" id="node10" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="339,376,559,403"/><area shape="rect" id="node11" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="369,427,529,453"/><area shape="rect" id="node12" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="355,477,543,504"/><area shape="rect" id="node13" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="401,528,497,555"/><area shape="rect" id="node14" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="405,579,492,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a03ed1f821d1d4fcf1f8313f348178656"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setInfo </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>IDGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>IDInGroup</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a>&#160;</td>
+          <td class="paramname"><em>IDTEAM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить первичные данные об объекте </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Name</td><td>название объекта </td></tr>
+    <tr><td class="paramname">IDGroup</td><td>идентификационный номер группы объекта </td></tr>
+    <tr><td class="paramname">IDInGroup</td><td>идентификационный номер объекта в группе </td></tr>
+    <tr><td class="paramname">IDTEAM</td><td>идентификационный номер команды </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00062">62</a></p>
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_a03ed1f821d1d4fcf1f8313f348178656_cgraph.png" border="0" usemap="#class_object_a03ed1f821d1d4fcf1f8313f348178656_cgraph" alt=""/></div>
+<map name="class_object_a03ed1f821d1d4fcf1f8313f348178656_cgraph" id="class_object_a03ed1f821d1d4fcf1f8313f348178656_cgraph">
+<area shape="rect" id="node2" href="class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="171,5,291,32"/><area shape="rect" id="node3" href="class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="182,56,281,83"/><area shape="rect" id="node4" href="class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="165,107,298,133"/><area shape="rect" id="node5" href="class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="160,157,303,184"/><area shape="rect" id="node6" href="class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="166,208,297,235"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_a03ed1f821d1d4fcf1f8313f348178656_icgraph.png" border="0" usemap="#class_object_a03ed1f821d1d4fcf1f8313f348178656_icgraph" alt=""/></div>
+<map name="class_object_a03ed1f821d1d4fcf1f8313f348178656_icgraph" id="class_object_a03ed1f821d1d4fcf1f8313f348178656_icgraph">
+<area shape="rect" id="node2" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="243,5,297,32"/><area shape="rect" id="node3" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="188,56,352,83"/><area shape="rect" id="node4" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="186,107,354,133"/><area shape="rect" id="node5" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="203,158,337,199"/><area shape="rect" id="node6" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="211,224,329,251"/><area shape="rect" id="node7" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="175,275,365,301"/><area shape="rect" id="node8" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="201,325,339,352"/><area shape="rect" id="node9" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="160,376,380,403"/><area shape="rect" id="node10" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="190,427,350,453"/><area shape="rect" id="node11" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="176,477,364,504"/><area shape="rect" id="node12" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="222,528,318,555"/><area shape="rect" id="node13" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="227,579,313,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1b1e87df4116fe51272cfffa9d335bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::setName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>Name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Установить название объекта </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Name</td><td>название объекта </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00019">19</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_aa1b1e87df4116fe51272cfffa9d335bf_icgraph.png" border="0" usemap="#class_object_aa1b1e87df4116fe51272cfffa9d335bf_icgraph" alt=""/></div>
+<map name="class_object_aa1b1e87df4116fe51272cfffa9d335bf_icgraph" id="class_object_aa1b1e87df4116fe51272cfffa9d335bf_icgraph">
+<area shape="rect" id="node2" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="173,300,280,327"/><area shape="rect" id="node3" href="class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="411,5,465,32"/><area shape="rect" id="node4" href="class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="356,56,520,83"/><area shape="rect" id="node5" href="class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="354,107,522,133"/><area shape="rect" id="node6" href="class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="371,158,505,199"/><area shape="rect" id="node7" href="class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="379,224,497,251"/><area shape="rect" id="node8" href="class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="343,275,533,301"/><area shape="rect" id="node9" href="class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="369,325,507,352"/><area shape="rect" id="node10" href="class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="328,376,548,403"/><area shape="rect" id="node11" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="358,427,518,453"/><area shape="rect" id="node12" href="class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="344,477,532,504"/><area shape="rect" id="node13" href="class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="390,528,486,555"/><area shape="rect" id="node14" href="class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="395,579,481,605"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa38637da1a8b0ebfc7e8fe8ec45bb211"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::toShowInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Функция вывода информации о объекте </p>
+
+<p>Переопределяется в <a class="el" href="class_unit.html#adc4bfed49036cc506cead16e0918550e">Unit</a> и <a class="el" href="class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717">Resource</a>.</p>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00113">113</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_aa38637da1a8b0ebfc7e8fe8ec45bb211_icgraph.png" border="0" usemap="#class_object_aa38637da1a8b0ebfc7e8fe8ec45bb211_icgraph" alt=""/></div>
+<map name="class_object_aa38637da1a8b0ebfc7e8fe8ec45bb211_icgraph" id="class_object_aa38637da1a8b0ebfc7e8fe8ec45bb211_icgraph">
+<area shape="rect" id="node2" href="class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717" title="Функция вывода информации о ресурсе " alt="" coords="184,5,332,32"/><area shape="rect" id="node3" href="class_unit.html#adc4bfed49036cc506cead16e0918550e" title="Функция вывода информации о объекте " alt="" coords="200,56,316,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab5c74337ccd7504eec24590b8c963141"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Object::Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Обновление объекта </p>
+
+<p>Переопределяется в <a class="el" href="class_unit.html#a757f23c676a574d9991f590cc82ee08c">Unit</a>, <a class="el" href="class_ammunition.html#a32afacc1a69e6337d7b9c0d05daa5a35">Ammunition</a>, <a class="el" href="class_extracting_unit.html#a9a8b1b1ffe4e987e2d4d887b407c4b13">ExtractingUnit</a>, <a class="el" href="class_object_with_model.html#ae6e343cb3df3982431a663eedbd632d7">ObjectWithModel</a>, <a class="el" href="class_harvester.html#a39fbcce32051b78826ff25c9d2c7df89">Harvester</a>, <a class="el" href="class_layer_spice.html#a6636551eb5c0f4157a61a744413fd352">LayerSpice</a>, <a class="el" href="class_map.html#a61efe2e1ec3f41d90bcbf826893404f1">Map</a>, <a class="el" href="class_map_spice.html#aa4108ef2b861e090ac2e890a925ec6df">MapSpice</a> и <a class="el" href="class_ammo_shell.html#a0714fbcbfe0fa16924740b2e6d2b6db0">AmmoShell</a>.</p>
+
+<p>См. определение в файле <a class="el" href="object_8cpp_source.html">object.cpp</a> строка <a class="el" href="object_8cpp_source.html#l00123">123</a></p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_object_ab5c74337ccd7504eec24590b8c963141_icgraph.png" border="0" usemap="#class_object_ab5c74337ccd7504eec24590b8c963141_icgraph" alt=""/></div>
+<map name="class_object_ab5c74337ccd7504eec24590b8c963141_icgraph" id="class_object_ab5c74337ccd7504eec24590b8c963141_icgraph">
+<area shape="rect" id="node2" href="class_map.html#a61efe2e1ec3f41d90bcbf826893404f1" title="Обновить элементы карты " alt="" coords="163,5,259,32"/><area shape="rect" id="node3" href="class_team.html#ab6e749d9dd44130832efe33ce21ce2e6" title="Обновление действий всех юнитов и зданий команды " alt="" coords="307,5,409,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="a4a82b2bbd9ca66c55898ebf012134171"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::ID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Идентификационный номер объекта </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00018">18</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a00318f245ba8e873bbc76d20fd76a103"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::IDGroup</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Идентификационный номер группы объекта </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00020">20</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a5878ac76ad044b32b85c19034bd82c02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Object::IDInGroup</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Идентификационный номер объекта в группе </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00022">22</a></p>
+
+</div>
+</div>
+<a class="anchor" id="a62aed0b99e30bfd8e7e8d1f3fc7e455d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> Object::IDTEAM</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Идентификационный номер команды </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00024">24</a></p>
+
+</div>
+</div>
+<a class="anchor" id="ae053c7e2c52207f0bebcefbf077c2994"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_state.html">State</a> Object::MyState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Переменная, хранящая состояние объекта </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00026">26</a></p>
+
+</div>
+</div>
+<a class="anchor" id="aec3f2aa8f7bd770793d6a8d8d97539ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Object::Name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Название объекта </p>
+
+<p>См. определение в файле <a class="el" href="object_8h_source.html">object.h</a> строка <a class="el" href="object_8h_source.html#l00016">16</a></p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="object_8h_source.html">object.h</a></li>
+<li><a class="el" href="object_8cpp_source.html">object.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_object.html">Object</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:57. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<map id="Unit::setInfoUnit" name="Unit::setInfoUnit">
+<area shape="rect" id="node2" href="$class_unit.html#a890e63558a39f7707e651000e6803812" title="Установить значение брони " alt="" coords="183,5,289,32"/>
+<area shape="rect" id="node3" href="$class_unit.html#a0754809a2a51e4845aa0a4dbd54bfd4d" title="Установить значение коэффициента брони " alt="" coords="168,56,304,83"/>
+<area shape="rect" id="node4" href="$class_unit.html#a6984d3586dae888345577ea86b74f016" title="Установить значение скорости юнита " alt="" coords="182,107,290,133"/>
+<area shape="rect" id="node5" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="181,157,291,184"/>
+</map>

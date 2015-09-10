@@ -1,0 +1,6 @@
+<map id="Resource::plusRes" name="Resource::plusRes">
+<area shape="rect" id="node2" href="$class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb" title="Возвращает значение оставшегося кол&#45;ва ресурса до макс. знач. " alt="" coords="185,76,336,102"/>
+<area shape="rect" id="node3" href="$class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd" title="Получить максимальное значение ресурса " alt="" coords="384,25,535,52"/>
+<area shape="rect" id="node4" href="$class_resource.html#a9b707107773487bab0e778b5950bd2b6" title="Получить значение ресурса " alt="" coords="396,101,523,128"/>
+<area shape="rect" id="node5" href="$class_resource.html#a019fb432790da5fb0c4052f48142e0b8" title="Функция установки количества ресурса " alt="" coords="197,25,324,52"/>
+</map>

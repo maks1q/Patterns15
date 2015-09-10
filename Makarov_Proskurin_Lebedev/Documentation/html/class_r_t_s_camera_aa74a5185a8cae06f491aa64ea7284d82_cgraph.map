@@ -1,0 +1,10 @@
+<map id="RTSCamera::OnAnimate" name="RTSCamera::OnAnimate">
+<area shape="rect" id="node2" href="$class_r_t_s_camera.html#a30f8fe9e0f1367694c63fc917604314a" title="RTSCamera::animate" alt="" coords="219,132,365,159"/>
+<area shape="rect" id="node3" href="$class_r_t_s_camera.html#a2b61df7f55f4f6fdd9ec2f89e318f1ce" title="RTSCamera::isMouseButtonDown" alt="" coords="413,5,632,32"/>
+<area shape="rect" id="node4" href="$class_r_t_s_camera.html#af028368e056f15546cf039e64aa7144e" title="RTSCamera::isKeyDown" alt="" coords="440,56,605,83"/>
+<area shape="rect" id="node5" href="$class_r_t_s_camera.html#af498b41e71603331ef60a6df1cc925f6" title="RTSCamera::getTarget" alt="" coords="445,107,600,133"/>
+<area shape="rect" id="node6" href="$class_r_t_s_camera.html#a286d40c4139c198269d897cef5eb9398" title="RTSCamera::setPosition" alt="" coords="440,157,605,184"/>
+<area shape="rect" id="node8" href="$class_r_t_s_camera.html#a62af4e64647bee8454110763bfb11fa6" title="RTSCamera::setTarget" alt="" coords="445,208,600,235"/>
+<area shape="rect" id="node9" href="$class_r_t_s_camera.html#aea5157a26a4a58afa34378fdfa0c24ea" title="RTSCamera::getUpVector" alt="" coords="437,259,609,285"/>
+<area shape="rect" id="node7" href="$class_r_t_s_camera.html#ac27d155f85fef2ab0397fc5cd2edcda6" title="RTSCamera::updateAnimation\lState" alt="" coords="680,175,877,217"/>
+</map>

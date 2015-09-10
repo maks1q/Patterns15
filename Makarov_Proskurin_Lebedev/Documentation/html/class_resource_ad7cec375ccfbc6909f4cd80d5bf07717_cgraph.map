@@ -1,0 +1,5 @@
+<map id="Resource::toShowInfo" name="Resource::toShowInfo">
+<area shape="rect" id="node2" href="$class_object.html#aa38637da1a8b0ebfc7e8fe8ec45bb211" title="Функция вывода информации о объекте " alt="" coords="211,5,342,32"/>
+<area shape="rect" id="node3" href="$class_resource.html#a9b707107773487bab0e778b5950bd2b6" title="Получить значение ресурса " alt="" coords="213,56,340,83"/>
+<area shape="rect" id="node4" href="$class_resource.html#ab41a83be8b9061afb3d1a69f03d2a9cd" title="Получить максимальное значение ресурса " alt="" coords="201,107,352,133"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="Resource::getMaxRes" name="Resource::getMaxRes">
+<area shape="rect" id="node2" href="$class_resource.html#a019fb432790da5fb0c4052f48142e0b8" title="Функция установки количества ресурса " alt="" coords="216,243,343,269"/>
+<area shape="rect" id="node12" href="$class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130" title="Метод добавления ресурсов " alt="" coords="410,297,542,324"/>
+<area shape="rect" id="node13" href="$class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb" title="Возвращает значение оставшегося кол&#45;ва ресурса до макс. знач. " alt="" coords="204,347,355,373"/>
+<area shape="rect" id="node14" href="$class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b" title="Проверка на загруженность " alt="" coords="418,403,534,429"/>
+<area shape="rect" id="node15" href="$class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717" title="Функция вывода информации о ресурсе " alt="" coords="205,448,353,475"/>
+<area shape="rect" id="node3" href="$class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be" title="Функция установки значений " alt="" coords="403,56,549,83"/>
+<area shape="rect" id="node6" href="$class_resource.html#a0e18775973c1ba91219aed4efe68594e" title="Метод забирания ресурсов " alt="" coords="405,239,547,265"/>
+<area shape="rect" id="node4" href="$class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="597,5,788,32"/>
+<area shape="rect" id="node5" href="$class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="645,56,741,83"/>
+<area shape="rect" id="node7" href="$class_construction_plant.html#a2d029071b1a6a68f93b1ab9a560d1695" title="Создание Харвестера строительным зданием " alt="" coords="626,107,759,149"/>
+<area shape="rect" id="node9" href="$class_construction_plant.html#a33f733a1c836c46807dd23d39323d67d" title="Создание Танка строительным зданием " alt="" coords="626,173,759,214"/>
+<area shape="rect" id="node10" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="610,290,775,331"/>
+<area shape="rect" id="node11" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="836,327,989,353"/>
+<area shape="rect" id="node8" href="$class_team.html#ab6e749d9dd44130832efe33ce21ce2e6" title="Обновление действий всех юнитов и зданий команды " alt="" coords="861,148,964,175"/>
+</map>

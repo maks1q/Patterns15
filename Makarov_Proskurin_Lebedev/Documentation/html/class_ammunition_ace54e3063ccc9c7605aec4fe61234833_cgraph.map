@@ -1,0 +1,11 @@
+<map id="Ammunition::Ammunition" name="Ammunition::Ammunition">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="255,132,362,159"/>
+<area shape="rect" id="node8" href="$class_ammunition.html#a2d6d543dcc6e3053ba06524a3ae9222b" title="Установить данные о боеприпасах " alt="" coords="221,259,396,285"/>
+<area shape="rect" id="node3" href="$class_object.html#aa1b1e87df4116fe51272cfffa9d335bf" title="Установить название объекта " alt="" coords="487,5,607,32"/>
+<area shape="rect" id="node4" href="$class_object.html#aa591494392cd87b57c5d26cdded650e7" title="Установить идентификационный номер объекта " alt="" coords="498,56,597,83"/>
+<area shape="rect" id="node5" href="$class_object.html#afb114146504b7e889cd2e6e7abfb303f" title="Установить идентификационный номер группы объекта " alt="" coords="481,107,614,133"/>
+<area shape="rect" id="node6" href="$class_object.html#ab8244e786763890f66374a0e56d5284b" title="Установить идентификационный номер объекта в группе " alt="" coords="476,157,619,184"/>
+<area shape="rect" id="node7" href="$class_object.html#a81e025cdb5e3df20ccf388ee75162e28" title="Установить идентификационный номер команды " alt="" coords="482,208,613,235"/>
+<area shape="rect" id="node9" href="$class_ammunition.html#ab949312bfcbde97343ebbfc03a3042f7" title="Установить наносимое повреждение " alt="" coords="465,259,630,285"/>
+<area shape="rect" id="node10" href="$class_ammunition.html#aa6e2444db92ee8e383e2926c60fa67b3" title="Установить радиус поражения " alt="" coords="444,309,651,336"/>
+</map>

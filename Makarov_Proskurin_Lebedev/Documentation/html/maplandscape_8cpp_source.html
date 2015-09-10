@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл maplandscape.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('maplandscape_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">maplandscape.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="maplandscape_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="maplandscape_8h.html">maplandscape.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_map_landscape.html#a5590cf707d3b19242a67db836b9ff99f">    5</a></span>&#160;<a class="code" href="class_map_landscape.html#a5590cf707d3b19242a67db836b9ff99f">MapLandscape::MapLandscape</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_map_landscape.html#abb4aec5909a56b45b79f2352eacd85d8">   13</a></span>&#160;<a class="code" href="class_map_landscape.html#a5590cf707d3b19242a67db836b9ff99f">MapLandscape::MapLandscape</a>(IVideoDriver *<a class="code" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>, ISceneManager *<a class="code" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">//  for(int i=0;i&lt;64;i++)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//      for(int j=0;j&lt;64;j++)</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">//      {</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">//          LayerLandscape * LLand = new LayerLandscape(driver, smgr, vector3df(50*i,0,50*j), OTHERS);</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">//          addLayerLandscape (LLand);</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">//      }</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_layer_landscape.html">LayerLandscape</a> * LLand = <span class="keyword">new</span> <a class="code" href="class_layer_landscape.html">LayerLandscape</a>(driver, smgr, vector3df(0,-51,0), <a class="code" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afda4af5fe82e7a2c651d3a04f3d5aa2bef7">OTHERS</a>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_map_landscape.html#a26da07c06046fa262e26b557e73045cb">addLayerLandscape</a> (LLand);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">//  irr::video::SColor cubeColour(255,255,255,255);</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">//  irr::scene::SMesh *dmes = new irr::scene::SMesh;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">//  irr::scene::SMeshBuffer *buffer = new irr::scene::SMeshBuffer;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//  //вершины</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">//  int v_cnt = w * h * 4; //число вершин в полигонах</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">//  int p_cnt = 0; //счетчик полигонов, фактически номер первой вершины полигона из buffer-&gt;Vertices</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//  buffer-&gt;Vertices.set_used(v_cnt);</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">//  for(int z=0; z&lt;h; z++)</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">//  for(int x=0; x&lt;w; x++)</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">//  {</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">//  buffer-&gt;Vertices[p_cnt]  = irr::video::S3DVertex(    -x,0,  z,   0,1,0, cubeColour, 0, 0);</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">//  buffer-&gt;Vertices[p_cnt+1]  = irr::video::S3DVertex(-x-1,0,  z,   0,1,0, cubeColour, 0, 1);</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">//  buffer-&gt;Vertices[p_cnt+2]  = irr::video::S3DVertex(-x-1,0,z+1,   0,1,0, cubeColour, 1, 1);</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//  buffer-&gt;Vertices[p_cnt+3]  = irr::video::S3DVertex(  -x,0,z+1,   0,1,0, cubeColour, 1, 0);</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//  p_cnt += 4;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">//  }</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//  //порядок обхода</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">//  int i_cnt = w * h * 6; //число индексов</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//  p_cnt = 0; //счетчик полигонов, фактически номер первой вершины полигона из buffer-&gt;Vertices</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//  buffer-&gt;Indices.set_used(i_cnt);</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//  for(int i=0; i&lt;i_cnt; i+=6) //за один шаг цикла описываем 2 треугольника из которых состоит полигон</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">//  {</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//  buffer-&gt;Indices[i] = p_cnt;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//  buffer-&gt;Indices[i+1] = p_cnt+1;</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//  buffer-&gt;Indices[i+2] = p_cnt+2;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//  buffer-&gt;Indices[i+3] = p_cnt;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">//  buffer-&gt;Indices[i+4] = p_cnt+2;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//  buffer-&gt;Indices[i+5] = p_cnt+3;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//  p_cnt += 4;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//  }</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//  buffer-&gt;recalculateBoundingBox();</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">//  dmes-&gt;addMeshBuffer(buffer);</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//  buffer-&gt;drop();</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">//  dmes-&gt;setHardwareMappingHint(irr::scene::EHM_STATIC); //типа VBO</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">//  irr::scene::IMeshSceneNode *meshNode = smgr-&gt;addMeshSceneNode(dmes);</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//  dmes-&gt;drop();</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//  meshNode-&gt;setMaterialFlag(irr::video::EMF_LIGHTING, false);</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//  meshNode-&gt;setMaterialTexture(0, tex);</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="class_map_landscape.html#a4ff28a7bbcf52a17ba396f8f1751dc91">   66</a></span>&#160;<a class="code" href="class_map_landscape.html#a4ff28a7bbcf52a17ba396f8f1751dc91">MapLandscape::~MapLandscape</a>()</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="class_map_landscape.html#a6961fb6c434876cbe467920005cfd21b">MapLayerLandscape</a>.clear ();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="class_map_landscape.html#a26da07c06046fa262e26b557e73045cb">   74</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_map_landscape.html#a26da07c06046fa262e26b557e73045cb">MapLandscape::addLayerLandscape</a>(<a class="code" href="class_layer_landscape.html">LayerLandscape</a> *LLand)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="class_map_landscape.html#a6961fb6c434876cbe467920005cfd21b">MapLayerLandscape</a>.push_back (LLand);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
+<div class="ttc" id="idteam_8h_html_a5a09f84292d3f0d52f5305ea98148afda4af5fe82e7a2c651d3a04f3d5aa2bef7"><div class="ttname"><a href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afda4af5fe82e7a2c651d3a04f3d5aa2bef7">OTHERS</a></div><div class="ttdef"><b>Definition:</b> <a href="idteam_8h_source.html#l00010">idteam.h:10</a></div></div>
+<div class="ttc" id="maplandscape_8h_html"><div class="ttname"><a href="maplandscape_8h.html">maplandscape.h</a></div></div>
+<div class="ttc" id="main_8cpp_html_a5c7cb645a3a80fbf77239c8716e0e0df"><div class="ttname"><a href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a></div><div class="ttdeci">irr::video::IVideoDriver * driver</div><div class="ttdoc">Указатель на драйвер устройства </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00019">main.cpp:19</a></div></div>
+<div class="ttc" id="class_layer_landscape_html"><div class="ttname"><a href="class_layer_landscape.html">LayerLandscape</a></div><div class="ttdoc">Слой ландшафтного поля. </div><div class="ttdef"><b>Definition:</b> <a href="layerlandscape_8h_source.html#l00010">layerlandscape.h:10</a></div></div>
+<div class="ttc" id="class_map_landscape_html_a6961fb6c434876cbe467920005cfd21b"><div class="ttname"><a href="class_map_landscape.html#a6961fb6c434876cbe467920005cfd21b">MapLandscape::MapLayerLandscape</a></div><div class="ttdeci">std::vector&lt; LayerLandscape * &gt; MapLayerLandscape</div><div class="ttdoc">Контейнер указателей на слои ландшафта </div><div class="ttdef"><b>Definition:</b> <a href="maplandscape_8h_source.html#l00015">maplandscape.h:15</a></div></div>
+<div class="ttc" id="class_map_landscape_html_a26da07c06046fa262e26b557e73045cb"><div class="ttname"><a href="class_map_landscape.html#a26da07c06046fa262e26b557e73045cb">MapLandscape::addLayerLandscape</a></div><div class="ttdeci">void addLayerLandscape(LayerLandscape *LLand)</div><div class="ttdoc">Добавить слой ландшафтного поля </div><div class="ttdef"><b>Definition:</b> <a href="maplandscape_8cpp_source.html#l00074">maplandscape.cpp:74</a></div></div>
+<div class="ttc" id="class_map_landscape_html_a4ff28a7bbcf52a17ba396f8f1751dc91"><div class="ttname"><a href="class_map_landscape.html#a4ff28a7bbcf52a17ba396f8f1751dc91">MapLandscape::~MapLandscape</a></div><div class="ttdeci">virtual ~MapLandscape()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="maplandscape_8cpp_source.html#l00066">maplandscape.cpp:66</a></div></div>
+<div class="ttc" id="main_8cpp_html_ab6ec4f526efa0e3dd8d15608b44c7afc"><div class="ttname"><a href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a></div><div class="ttdeci">irr::scene::ISceneManager * smgr</div><div class="ttdoc">Указатель на менеджер сцены </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00018">main.cpp:18</a></div></div>
+<div class="ttc" id="class_map_landscape_html_a5590cf707d3b19242a67db836b9ff99f"><div class="ttname"><a href="class_map_landscape.html#a5590cf707d3b19242a67db836b9ff99f">MapLandscape::MapLandscape</a></div><div class="ttdeci">MapLandscape()</div><div class="ttdoc">Конструктор по умолчанию </div><div class="ttdef"><b>Definition:</b> <a href="maplandscape_8cpp_source.html#l00005">maplandscape.cpp:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="maplandscape_8cpp.html">maplandscape.cpp</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

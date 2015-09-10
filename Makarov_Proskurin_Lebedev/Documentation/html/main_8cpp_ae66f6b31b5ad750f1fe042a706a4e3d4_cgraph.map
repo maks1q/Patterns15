@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$class_r_t_s_camera.html#a62af4e64647bee8454110763bfb11fa6" title="RTSCamera::setTarget" alt="" coords="131,5,285,32"/>
+<area shape="rect" id="node4" href="$class_r_t_s_camera.html#a286d40c4139c198269d897cef5eb9398" title="RTSCamera::setPosition" alt="" coords="125,56,291,83"/>
+<area shape="rect" id="node5" href="$class_r_t_s_camera.html#adcc2fb837deefe9932bd18fe230ab2a0" title="RTSCamera::setTranslateSpeed" alt="" coords="104,107,312,133"/>
+<area shape="rect" id="node6" href="$class_r_t_s_camera.html#ae734469e336c73ff310b8e068b8a0976" title="RTSCamera::setRotationSpeed" alt="" coords="107,157,309,184"/>
+<area shape="rect" id="node7" href="$class_game.html#a063d69f26be548f3f0a3afa1297e0c2a" title="Обновить игру " alt="" coords="155,208,261,235"/>
+<area shape="rect" id="node3" href="$class_r_t_s_camera.html#ac27d155f85fef2ab0397fc5cd2edcda6" title="RTSCamera::updateAnimation\lState" alt="" coords="360,23,557,65"/>
+<area shape="rect" id="node8" href="$class_game.html#a028106cbd0c25535934c56195c5aac30" title="Game::UpdateUnits" alt="" coords="391,208,527,235"/>
+</map>

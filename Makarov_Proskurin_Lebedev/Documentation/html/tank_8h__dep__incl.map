@@ -1,0 +1,13 @@
+<map id="tank.h" name="tank.h">
+<area shape="rect" id="node2" href="$constructionplant_8h.html" title="constructionplant.h" alt="" coords="235,80,367,107"/>
+<area shape="rect" id="node6" href="$all__h_8h.html" title="all_h.h" alt="" coords="151,304,211,331"/>
+<area shape="rect" id="node12" href="$tank_8cpp.html" title="tank.cpp" alt="" coords="503,80,575,107"/>
+<area shape="rect" id="node3" href="$team_8h.html" title="team.h" alt="" coords="99,155,161,181"/>
+<area shape="rect" id="node11" href="$constructionplant_8cpp.html" title="constructionplant.cpp" alt="" coords="282,155,429,181"/>
+<area shape="rect" id="node4" href="$ai_8h.html" title="ai.h" alt="" coords="13,229,55,256"/>
+<area shape="rect" id="node10" href="$team_8cpp.html" title="team.cpp" alt="" coords="131,229,207,256"/>
+<area shape="rect" id="node5" href="$ai_8cpp.html" title="ai.cpp" alt="" coords="5,304,63,331"/>
+<area shape="rect" id="node7" href="$game_8h.html" title="game.h" alt="" coords="148,379,213,405"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="main.cpp" alt="" coords="238,379,313,405"/>
+<area shape="rect" id="node8" href="$game_8cpp.html" title="game.cpp" alt="" coords="141,453,220,480"/>
+</map>

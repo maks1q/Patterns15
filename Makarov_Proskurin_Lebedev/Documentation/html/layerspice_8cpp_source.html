@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл layerspice.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('layerspice_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">layerspice.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="layerspice_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="layerspice_8h.html">LayerSpice.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_layer_spice.html#aa96a053b700d02e2e8949ae600d00036">    5</a></span>&#160;<a class="code" href="class_layer_spice.html#aa96a053b700d02e2e8949ae600d00036">LayerSpice::LayerSpice</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593">   16</a></span>&#160;<a class="code" href="class_layer_spice.html#aa96a053b700d02e2e8949ae600d00036">LayerSpice::LayerSpice</a>(irr::video::IVideoDriver    *   <a class="code" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                       irr::scene::ISceneManager   *   <a class="code" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                       irr::core::vector3df position,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                       <a class="code" href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a> IDTEAM)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656">setInfo</a> (<span class="stringliteral">&quot;Спайсовое поле&quot;</span>,100,1,IDTEAM);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_layer_spice.html#a2964087335caa9e62651bc47e955b61e">SpiceBox</a> = <span class="keyword">new</span> <a class="code" href="class_spice.html">Spice</a>(500,1000,IDTEAM);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_layer_spice.html#a915db2d438dadd6a88454fb684121f76">LayerSpice::setInfoModel</a> (driver,smgr,<span class="stringliteral">&quot;Textures/spice.jpg&quot;</span>, position);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="class_layer_spice.html#a83bb471c4fbe0d62608a7e963da395c6">isFree</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_layer_spice.html#af9d6ef665fe2b012a0a2078ff4f42d05">   30</a></span>&#160;<a class="code" href="class_layer_spice.html#af9d6ef665fe2b012a0a2078ff4f42d05">LayerSpice::~LayerSpice</a>()</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="class_layer_spice.html#a2964087335caa9e62651bc47e955b61e">SpiceBox</a>-&gt;<a class="code" href="class_spice.html#a34b861a239c8ddca8a6fa293577ea849">~Spice</a> ();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_layer_spice.html#a915db2d438dadd6a88454fb684121f76">   41</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_layer_spice.html#a915db2d438dadd6a88454fb684121f76">LayerSpice::setInfoModel</a> (IVideoDriver *<a class="code" href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a>, ISceneManager *<a class="code" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>, std::string texture, irr::core::vector3df position)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="class_object_with_model.html#aff86e798490c1f7bd236a70e3c558d3c">tex</a> = driver-&gt;getTexture(texture.c_str ());</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a> = smgr-&gt;addCubeSceneNode ();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a>-&gt;setMaterialTexture(0, <a class="code" href="class_object_with_model.html#aff86e798490c1f7bd236a70e3c558d3c">tex</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//  sceneNode-&gt;setMaterialFlag(video::EMF_LIGHTING, false);</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a>-&gt;setMaterialFlag(video::EMF_LIGHTING, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a>-&gt;setScale (vector3df(5,0,5));</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a>-&gt;setPosition (position);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">sceneNode</a>-&gt;setDebugDataVisible (1);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="class_layer_spice.html#a6636551eb5c0f4157a61a744413fd352">   56</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_layer_spice.html#a6636551eb5c0f4157a61a744413fd352">LayerSpice::Update</a>()</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="ttc" id="class_spice_html"><div class="ttname"><a href="class_spice.html">Spice</a></div><div class="ttdoc">Спайс - ресурс. Используется для покупки юнитов и зданий. </div><div class="ttdef"><b>Definition:</b> <a href="spice_8h_source.html#l00010">spice.h:10</a></div></div>
+<div class="ttc" id="class_layer_spice_html_a6636551eb5c0f4157a61a744413fd352"><div class="ttname"><a href="class_layer_spice.html#a6636551eb5c0f4157a61a744413fd352">LayerSpice::Update</a></div><div class="ttdeci">virtual void Update()</div><div class="ttdoc">Обновить спайсовое поле </div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8cpp_source.html#l00056">layerspice.cpp:56</a></div></div>
+<div class="ttc" id="class_layer_spice_html_a2964087335caa9e62651bc47e955b61e"><div class="ttname"><a href="class_layer_spice.html#a2964087335caa9e62651bc47e955b61e">LayerSpice::SpiceBox</a></div><div class="ttdeci">Spice * SpiceBox</div><div class="ttdoc">Указатель на склад спайса, содержащегося в спайсовом слое </div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8h_source.html#l00015">layerspice.h:15</a></div></div>
+<div class="ttc" id="class_object_html_a03ed1f821d1d4fcf1f8313f348178656"><div class="ttname"><a href="class_object.html#a03ed1f821d1d4fcf1f8313f348178656">Object::setInfo</a></div><div class="ttdeci">void setInfo(std::string Name, int IDGroup, int IDInGroup, IDTeam IDTEAM)</div><div class="ttdoc">Установить первичные данные об объекте </div><div class="ttdef"><b>Definition:</b> <a href="object_8cpp_source.html#l00062">object.cpp:62</a></div></div>
+<div class="ttc" id="main_8cpp_html_a5c7cb645a3a80fbf77239c8716e0e0df"><div class="ttname"><a href="main_8cpp.html#a5c7cb645a3a80fbf77239c8716e0e0df">driver</a></div><div class="ttdeci">irr::video::IVideoDriver * driver</div><div class="ttdoc">Указатель на драйвер устройства </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00019">main.cpp:19</a></div></div>
+<div class="ttc" id="class_layer_spice_html_aa96a053b700d02e2e8949ae600d00036"><div class="ttname"><a href="class_layer_spice.html#aa96a053b700d02e2e8949ae600d00036">LayerSpice::LayerSpice</a></div><div class="ttdeci">LayerSpice()</div><div class="ttdoc">Конструктор по умолчанию </div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8cpp_source.html#l00005">layerspice.cpp:5</a></div></div>
+<div class="ttc" id="class_layer_spice_html_a915db2d438dadd6a88454fb684121f76"><div class="ttname"><a href="class_layer_spice.html#a915db2d438dadd6a88454fb684121f76">LayerSpice::setInfoModel</a></div><div class="ttdeci">virtual void setInfoModel(IVideoDriver *driver, ISceneManager *smgr, std::string texture, vector3df position)</div><div class="ttdoc">Функция инициализации модели Спайсового поля </div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8cpp_source.html#l00041">layerspice.cpp:41</a></div></div>
+<div class="ttc" id="idteam_8h_html_a5a09f84292d3f0d52f5305ea98148afd"><div class="ttname"><a href="idteam_8h.html#a5a09f84292d3f0d52f5305ea98148afd">IDTeam</a></div><div class="ttdeci">IDTeam</div><div class="ttdoc">Идентификационные номера команд </div><div class="ttdef"><b>Definition:</b> <a href="idteam_8h_source.html#l00005">idteam.h:5</a></div></div>
+<div class="ttc" id="layerspice_8h_html"><div class="ttname"><a href="layerspice_8h.html">layerspice.h</a></div></div>
+<div class="ttc" id="class_object_with_model_html_a5cea5fdd41b9b76883cc9f1837c24b68"><div class="ttname"><a href="class_object_with_model.html#a5cea5fdd41b9b76883cc9f1837c24b68">ObjectWithModel::sceneNode</a></div><div class="ttdeci">irr::scene::IMeshSceneNode * sceneNode</div><div class="ttdoc">Указатель на модель объекта </div><div class="ttdef"><b>Definition:</b> <a href="objectwithmodel_8h_source.html#l00023">objectwithmodel.h:23</a></div></div>
+<div class="ttc" id="class_layer_spice_html_a83bb471c4fbe0d62608a7e963da395c6"><div class="ttname"><a href="class_layer_spice.html#a83bb471c4fbe0d62608a7e963da395c6">LayerSpice::isFree</a></div><div class="ttdeci">bool isFree</div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8h_source.html#l00016">layerspice.h:16</a></div></div>
+<div class="ttc" id="class_spice_html_a34b861a239c8ddca8a6fa293577ea849"><div class="ttname"><a href="class_spice.html#a34b861a239c8ddca8a6fa293577ea849">Spice::~Spice</a></div><div class="ttdeci">virtual ~Spice()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="spice_8cpp_source.html#l00023">spice.cpp:23</a></div></div>
+<div class="ttc" id="class_layer_spice_html_af9d6ef665fe2b012a0a2078ff4f42d05"><div class="ttname"><a href="class_layer_spice.html#af9d6ef665fe2b012a0a2078ff4f42d05">LayerSpice::~LayerSpice</a></div><div class="ttdeci">virtual ~LayerSpice()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="layerspice_8cpp_source.html#l00030">layerspice.cpp:30</a></div></div>
+<div class="ttc" id="main_8cpp_html_ab6ec4f526efa0e3dd8d15608b44c7afc"><div class="ttname"><a href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a></div><div class="ttdeci">irr::scene::ISceneManager * smgr</div><div class="ttdoc">Указатель на менеджер сцены </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00018">main.cpp:18</a></div></div>
+<div class="ttc" id="class_object_with_model_html_aff86e798490c1f7bd236a70e3c558d3c"><div class="ttname"><a href="class_object_with_model.html#aff86e798490c1f7bd236a70e3c558d3c">ObjectWithModel::tex</a></div><div class="ttdeci">irr::video::ITexture * tex</div><div class="ttdoc">Указатель на текстуру объекта </div><div class="ttdef"><b>Definition:</b> <a href="objectwithmodel_8h_source.html#l00021">objectwithmodel.h:21</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="layerspice_8cpp.html">layerspice.cpp</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

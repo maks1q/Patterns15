@@ -1,0 +1,14 @@
+<map id="CombatUnit::Update" name="CombatUnit::Update">
+<area shape="rect" id="node2" href="$class_state.html#ab006595cae083f56df945db6ecfc377e" title="Получить текущее состояние " alt="" coords="239,5,350,32"/>
+<area shape="rect" id="node3" href="$class_combat_unit.html#a05055316389a8fbc92eb5205fa39e2ff" title="Поиск вражеского юнита " alt="" coords="193,157,397,184"/>
+<area shape="rect" id="node4" href="$class_unit.html#ab94eaa1fcf6e8fa8b753506a9b79129b" title="Проверка указателя " alt="" coords="445,69,597,96"/>
+<area shape="rect" id="node5" href="$class_object.html#aa15d463a5c63ae05c689f23eb3324ea6" title="Получить идентификационный номер команды " alt="" coords="456,145,587,172"/>
+<area shape="rect" id="node6" href="$class_state.html#a285bc274a0cc5e97c3fa18be35276220" title="Установить новое состояние " alt="" coords="466,203,577,229"/>
+<area shape="rect" id="node7" href="$class_combat_unit.html#abacd49e8ed5054049a98b6a881fba914" title="Функция выстрела орудием " alt="" coords="221,259,368,285"/>
+<area shape="rect" id="node8" href="$class_unit.html#af3f965d886687a953888af6abe3dd7e0" title="Проверка расстояния до цели " alt="" coords="220,309,369,336"/>
+<area shape="rect" id="node9" href="$class_combat_unit.html#ab40c936e1afef72cbb21f88c44455935" title="Получить значение расстояния нападения " alt="" coords="192,360,397,387"/>
+<area shape="rect" id="node10" href="$class_unit.html#ae71c7c0b439a8bcb95b1ac1700c87ff8" title="Метод движения юнита к точке " alt="" coords="225,411,364,437"/>
+<area shape="rect" id="node12" href="$class_combat_unit.html#ac34c82657263339e7a760c84b751796f" title="Получить время перезарядки " alt="" coords="195,461,394,488"/>
+<area shape="rect" id="node13" href="$class_combat_unit.html#a19e7aa762156e98aeaa4ebddd7be7f13" title="Установить время перезарядки " alt="" coords="195,512,394,539"/>
+<area shape="rect" id="node11" href="$class_unit.html#ae96da06ac633e36e90396e39ca2a955e" title="Метод поворота к точке " alt="" coords="477,411,566,437"/>
+</map>

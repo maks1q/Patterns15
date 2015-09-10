@@ -1,0 +1,6 @@
+<map id="Resource" name="Resource">
+<area shape="rect" id="node3" href="$class_electric_power.html" title="Электроэнергия &#45; ресурс, дающий энергию зданиям. " alt="" coords="5,1165,136,1316"/>
+<area shape="rect" id="node4" href="$class_price.html" title="Цена &#45; стоимость какого&#45;либо объекта. " alt="" coords="160,1180,240,1301"/>
+<area shape="rect" id="node5" href="$class_spice.html" title="Спайс &#45; ресурс. Используется для покупки юнитов и зданий. " alt="" coords="264,1165,347,1316"/>
+<area shape="rect" id="node2" href="$class_object.html" title="Общий класс для всех классов. " alt="" coords="141,5,259,581"/>
+</map>

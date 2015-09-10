@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл state.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('state_8cpp_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">state.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="state_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="state_8h.html">state.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_state.html#ab91bb1dd5aa6260ab2a456581daf9ec2">    5</a></span>&#160;<a class="code" href="class_state.html#ab91bb1dd5aa6260ab2a456581daf9ec2">State::State</a>()</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_state.html#afab438d92b90dc18d194dbd9c9c8bab3">   12</a></span>&#160;<a class="code" href="class_state.html#afab438d92b90dc18d194dbd9c9c8bab3">State::~State</a>()</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_state.html#a285bc274a0cc5e97c3fa18be35276220">   21</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_state.html#a285bc274a0cc5e97c3fa18be35276220">State::setState</a>(<a class="code" href="class_state.html#a22c14483d46b5dc0515c1ca99e7cd817">State::IState</a> NewState)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this-&gt;<a class="code" href="class_state.html#a8e118ab4e8b56b8a96909904eb09ebb5">MyState</a> = NewState;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_state.html#ab006595cae083f56df945db6ecfc377e">   29</a></span>&#160;<a class="code" href="class_state.html#a22c14483d46b5dc0515c1ca99e7cd817">State::IState</a> <a class="code" href="class_state.html#ab006595cae083f56df945db6ecfc377e">State::getState</a>()</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> this-&gt;<a class="code" href="class_state.html#a8e118ab4e8b56b8a96909904eb09ebb5">MyState</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="ttc" id="class_state_html_a8e118ab4e8b56b8a96909904eb09ebb5"><div class="ttname"><a href="class_state.html#a8e118ab4e8b56b8a96909904eb09ebb5">State::MyState</a></div><div class="ttdeci">enum State::IState MyState</div></div>
+<div class="ttc" id="class_state_html_ab006595cae083f56df945db6ecfc377e"><div class="ttname"><a href="class_state.html#ab006595cae083f56df945db6ecfc377e">State::getState</a></div><div class="ttdeci">IState getState()</div><div class="ttdoc">Получить текущее состояние </div><div class="ttdef"><b>Definition:</b> <a href="state_8cpp_source.html#l00029">state.cpp:29</a></div></div>
+<div class="ttc" id="class_state_html_a285bc274a0cc5e97c3fa18be35276220"><div class="ttname"><a href="class_state.html#a285bc274a0cc5e97c3fa18be35276220">State::setState</a></div><div class="ttdeci">void setState(IState NewState)</div><div class="ttdoc">Установить новое состояние </div><div class="ttdef"><b>Definition:</b> <a href="state_8cpp_source.html#l00021">state.cpp:21</a></div></div>
+<div class="ttc" id="class_state_html_afab438d92b90dc18d194dbd9c9c8bab3"><div class="ttname"><a href="class_state.html#afab438d92b90dc18d194dbd9c9c8bab3">State::~State</a></div><div class="ttdeci">virtual ~State()</div><div class="ttdoc">Деструктор </div><div class="ttdef"><b>Definition:</b> <a href="state_8cpp_source.html#l00012">state.cpp:12</a></div></div>
+<div class="ttc" id="state_8h_html"><div class="ttname"><a href="state_8h.html">state.h</a></div></div>
+<div class="ttc" id="class_state_html_ab91bb1dd5aa6260ab2a456581daf9ec2"><div class="ttname"><a href="class_state.html#ab91bb1dd5aa6260ab2a456581daf9ec2">State::State</a></div><div class="ttdeci">State()</div><div class="ttdoc">Конструктор по умолчанию </div><div class="ttdef"><b>Definition:</b> <a href="state_8cpp_source.html#l00005">state.cpp:5</a></div></div>
+<div class="ttc" id="class_state_html_a22c14483d46b5dc0515c1ca99e7cd817"><div class="ttname"><a href="class_state.html#a22c14483d46b5dc0515c1ca99e7cd817">State::IState</a></div><div class="ttdeci">IState</div><div class="ttdoc">Перечисление состояния объекта </div><div class="ttdef"><b>Definition:</b> <a href="state_8h_source.html#l00010">state.h:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="state_8cpp.html">state.cpp</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

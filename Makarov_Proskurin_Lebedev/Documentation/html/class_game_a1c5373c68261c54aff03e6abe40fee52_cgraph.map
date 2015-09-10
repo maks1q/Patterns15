@@ -1,0 +1,5 @@
+<map id="Game::Update" name="Game::Update">
+<area shape="rect" id="node2" href="$class_map.html#a61efe2e1ec3f41d90bcbf826893404f1" title="Обновить элементы карты " alt="" coords="160,31,256,57"/>
+<area shape="rect" id="node3" href="$class_map_spice.html#aa4108ef2b861e090ac2e890a925ec6df" title="Обновление карты спайсовых полей " alt="" coords="304,5,433,32"/>
+<area shape="rect" id="node4" href="$class_object.html#ab5c74337ccd7504eec24590b8c963141" title="Обновление объекта " alt="" coords="314,56,423,83"/>
+</map>

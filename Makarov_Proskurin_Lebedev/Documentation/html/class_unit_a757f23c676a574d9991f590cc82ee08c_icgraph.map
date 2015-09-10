@@ -1,0 +1,5 @@
+<map id="Unit::Update" name="Unit::Update">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="155,5,294,32"/>
+<area shape="rect" id="node3" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="148,56,301,83"/>
+<area shape="rect" id="node4" href="$class_tank.html#a396ba5e6d3830c621dea9414dc9f1187" title="Обновление действий танка " alt="" coords="175,107,274,133"/>
+</map>

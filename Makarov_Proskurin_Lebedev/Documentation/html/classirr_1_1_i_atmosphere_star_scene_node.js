@@ -1,0 +1,25 @@
+var classirr_1_1_i_atmosphere_star_scene_node =
+[
+    [ "IAtmosphereStarSceneNode", "classirr_1_1_i_atmosphere_star_scene_node.html#a2e4c42ab2b5c679248477390b248ca4b", null ],
+    [ "~IAtmosphereStarSceneNode", "classirr_1_1_i_atmosphere_star_scene_node.html#a53f07b2aad97a9723700a8b19bc6e29c", null ],
+    [ "clone", "classirr_1_1_i_atmosphere_star_scene_node.html#a16cd60e9df6b02ec883ff6ea15a395d9", null ],
+    [ "generateMesh", "classirr_1_1_i_atmosphere_star_scene_node.html#a8b026ae73d78a16425b4163e8fb10ed7", null ],
+    [ "getBoundingBox", "classirr_1_1_i_atmosphere_star_scene_node.html#aa26343e4ba5585a6e84ee229126bf227", null ],
+    [ "getMaterial", "classirr_1_1_i_atmosphere_star_scene_node.html#a9203842590b2074833e325e91acdaa72", null ],
+    [ "getMaterialCount", "classirr_1_1_i_atmosphere_star_scene_node.html#ab5a474a9c278488941a6df75e7efc0ac", null ],
+    [ "getMoonMaterial", "classirr_1_1_i_atmosphere_star_scene_node.html#a85e86ba78f6a0f7a3ff2e87618e8d10f", null ],
+    [ "getSize", "classirr_1_1_i_atmosphere_star_scene_node.html#a1f746e383ac635489733880cf092d6f0", null ],
+    [ "getType", "classirr_1_1_i_atmosphere_star_scene_node.html#a161dc157ce69b0570dee84946b647a4e", null ],
+    [ "OnRegisterSceneNode", "classirr_1_1_i_atmosphere_star_scene_node.html#a69db9867e5383668c6329141c5fc5f7b", null ],
+    [ "render", "classirr_1_1_i_atmosphere_star_scene_node.html#a29aa8c38ef47b0fe0fb0005e25926e5a", null ],
+    [ "setMoonPosition", "classirr_1_1_i_atmosphere_star_scene_node.html#a99907af25d07f514362ed6108f3d341f", null ],
+    [ "setMoonTexture", "classirr_1_1_i_atmosphere_star_scene_node.html#ab87b90afb3058506ed2771100ad007d0", null ],
+    [ "setSize", "classirr_1_1_i_atmosphere_star_scene_node.html#afba5dfb7f9eda81e6efff6629f81da40", null ],
+    [ "setSunPosition", "classirr_1_1_i_atmosphere_star_scene_node.html#ae90caa59ebd2651dacd938057f7bad9a", null ],
+    [ "setSunTexture", "classirr_1_1_i_atmosphere_star_scene_node.html#ac855864bc91e2258798db036a290bc3c", null ],
+    [ "BufferMoon", "classirr_1_1_i_atmosphere_star_scene_node.html#af1262af27e3aa7b5d7289cffae370c08", null ],
+    [ "BufferSun", "classirr_1_1_i_atmosphere_star_scene_node.html#afe92509877b0be77381da46d90a51b5a", null ],
+    [ "MoonPosition", "classirr_1_1_i_atmosphere_star_scene_node.html#a5617b12ef5499427fcfbfcb2a7605745", null ],
+    [ "Size", "classirr_1_1_i_atmosphere_star_scene_node.html#a686d7869760850f61619582c3bf792e2", null ],
+    [ "SunPosition", "classirr_1_1_i_atmosphere_star_scene_node.html#a5067f21e5a95887d929cadc388fd512a", null ]
+];

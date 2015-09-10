@@ -1,0 +1,5 @@
+<map id="Object::getIDTeam" name="Object::getIDTeam">
+<area shape="rect" id="node2" href="$class_combat_unit.html#a05055316389a8fbc92eb5205fa39e2ff" title="Поиск вражеского юнита " alt="" coords="184,5,388,32"/>
+<area shape="rect" id="node4" href="$class_tank.html#a5228e191f54f21e0f7247340af49c8b0" title="Атаковать объект " alt="" coords="233,56,339,83"/>
+<area shape="rect" id="node3" href="$class_combat_unit.html#a7dd0c926537a5ea4313d053fb8c511ef" title="Обновить действия боевого юнита " alt="" coords="436,5,575,32"/>
+</map>

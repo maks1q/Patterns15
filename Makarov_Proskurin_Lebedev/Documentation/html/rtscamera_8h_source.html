@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>Dune III: Исходный файл rtscamera.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Логотип.jpg"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Dune III
+   &#160;<span id="projectnumber">0.4.4</span>
+   </div>
+   <div id="projectbrief">RTS Game</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="pages.html"><span>Описания</span></a></li>
+      <li><a href="namespaces.html"><span>Пространства&#160;имен</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('rtscamera_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Пространства имен</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Перечисления</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Макросы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Страницы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">rtscamera.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="rtscamera_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef __RTSCAMERA__</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="rtscamera_8h.html#a71407fdcb57f2426a0e06f6b32a6c638">    4</a></span>&#160;<span class="preprocessor">#define __RTSCAMERA__</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;irrlicht.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">using namespace </span>irr;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">using namespace </span>core;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span>scene;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">using namespace </span>video;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">using namespace </span>io;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">using namespace </span>gui;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_r_t_s_camera.html">RTSCamera</a> : <span class="keyword">public</span> ICameraSceneNode</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;   <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;      <a class="code" href="class_r_t_s_camera.html">RTSCamera</a>(IrrlichtDevice* devicepointer,ISceneNode* parent,ISceneManager* <a class="code" href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a>,s32 <span class="keywordtype">id</span>,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;         f32 rotateSpeed = -1000.0f,f32 zoomSpeed = 1000.0f,f32 translationSpeed = 1000.0f);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="class_r_t_s_camera.html">RTSCamera</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">//Events</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> render();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> OnEvent(<span class="keyword">const</span> SEvent&amp; event);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnRegisterSceneNode();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> OnAnimate(u32 timeMs);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="comment">//Setup</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setInputReceiverEnabled(<span class="keywordtype">bool</span> enabled);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> isInputReceiverEnabled() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> aabbox3d&lt;f32&gt;&amp; getBoundingBox() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> matrix4&amp; getProjectionMatrix() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> SViewFrustum* getViewFrustum() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> core::vector3df&amp; getTarget() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> matrix4&amp; getViewMatrix() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> core::vector3df&amp; getUpVector() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keyword">virtual</span> f32 getNearValue() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">virtual</span> f32 getFarValue() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">virtual</span> f32 getAspectRatio() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">virtual</span> f32 getFOV() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a472d920e3b63960e0ff59a2f54666afc">   53</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">bool</span> <a class="code" href="class_r_t_s_camera.html#a472d920e3b63960e0ff59a2f54666afc">getTargetAndRotationBinding</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> 0;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">//Sets</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setNearValue(f32 zn);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setFarValue(f32 zf);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setAspectRatio(f32 aspect);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setFOV(f32 fovy);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setUpVector(<span class="keyword">const</span> vector3df&amp; pos);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setProjectionMatrix(<span class="keyword">const</span> matrix4&amp; projection);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setPosition(<span class="keyword">const</span> vector3df&amp; newpos);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTarget(<span class="keyword">const</span> vector3df&amp; newpos);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a3c784a3df99fbfbb653707d52961a559">   68</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_r_t_s_camera.html#a3c784a3df99fbfbb653707d52961a559">setRotation</a>(<span class="keyword">const</span> irr::core::vector3df &amp;) {}</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#af2a8ec4e77a7d7ce4fbbd6fc7426545c">   69</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_r_t_s_camera.html#af2a8ec4e77a7d7ce4fbbd6fc7426545c">setProjectionMatrix</a>(<span class="keyword">const</span> irr::core::matrix4 &amp;,<span class="keywordtype">bool</span>) {}</div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a9b35c167a04bd2b9ed2dfbfccbb7d034">   70</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_r_t_s_camera.html#a9b35c167a04bd2b9ed2dfbfccbb7d034">setViewMatrixAffector</a>(<span class="keyword">const</span> irr::core::matrix4 &amp;) {}</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#aefc3f8461640c7f0c1a00b1bd283efab">   71</a></span>&#160;        <span class="keyword">virtual</span> <span class="keyword">const</span> core::matrix4&amp; <a class="code" href="class_r_t_s_camera.html#aefc3f8461640c7f0c1a00b1bd283efab">getViewMatrixAffector</a>()<span class="keyword"> const </span>{<span class="keywordflow">return</span> irr::core::IdentityMatrix;};</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a32d63ca9c6cd101ac1ad3418f0ec331c">   72</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_r_t_s_camera.html#a32d63ca9c6cd101ac1ad3418f0ec331c">bindTargetAndRotation</a>(<span class="keywordtype">bool</span>) {}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setZoomSpeed(f32 value);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setTranslateSpeed(f32 value);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> setRotationSpeed(f32 value);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="comment">//virtual void serializeAttributes(io::IAttributes* out, io::SAttributeReadWriteOptions* options=0);</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="comment">//virtual void deserializeAttributes(io::IAttributes* in, io::SAttributeReadWriteOptions* options=0);</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordtype">void</span> pointCameraAtNode(ISceneNode* selectednode);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">void</span> setMinZoom(f32 amount);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">void</span> setMaxZoom(f32 amount);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="comment">//Type Return</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a3f9bdbe808f8acdb5ab6ecf36969d142">   90</a></span>&#160;        <span class="keyword">virtual</span> ESCENE_NODE_TYPE <a class="code" href="class_r_t_s_camera.html#a3f9bdbe808f8acdb5ab6ecf36969d142">getType</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> ESNT_CAMERA; }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="comment">//Public Attributes</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#aba48fbf88010e5c16be40cfeb7378046">   93</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_r_t_s_camera.html#aba48fbf88010e5c16be40cfeb7378046">atMinDistance</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a5ccd89408d97dbd505db84b24ed0433d">   94</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_r_t_s_camera.html#a5ccd89408d97dbd505db84b24ed0433d">atMaxDistance</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a44bed0a03bd1e95959d502395053c94a">   95</a></span>&#160;        ISceneNode* <a class="code" href="class_r_t_s_camera.html#a44bed0a03bd1e95959d502395053c94a">selectednode</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;   <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      <span class="comment">//Properties</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#aaff02bd902018352982d5789b672fda9">   98</a></span>&#160;      vector3df <a class="code" href="class_r_t_s_camera.html#aaff02bd902018352982d5789b672fda9">Target</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#ab3f3ae1d984228131ffe9abffe2f57f0">   99</a></span>&#160;      vector3df <a class="code" href="class_r_t_s_camera.html#ab3f3ae1d984228131ffe9abffe2f57f0">UpVector</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a54f94b3fb1d8b7433f333429e0bbc028">  100</a></span>&#160;      matrix4 <a class="code" href="class_r_t_s_camera.html#a54f94b3fb1d8b7433f333429e0bbc028">Projection</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#aa1b39c4398448ff7eb07afe8c09ca7b5">  101</a></span>&#160;      matrix4 <a class="code" href="class_r_t_s_camera.html#aa1b39c4398448ff7eb07afe8c09ca7b5">View</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a75d5c5421ff526c1a7899ca174f74bde">  102</a></span>&#160;      SViewFrustum <a class="code" href="class_r_t_s_camera.html#a75d5c5421ff526c1a7899ca174f74bde">ViewArea</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a3e02a40b3c937bb57279d8bce290c584">  103</a></span>&#160;      aabbox3d&lt;f32&gt; <a class="code" href="class_r_t_s_camera.html#a3e02a40b3c937bb57279d8bce290c584">BBox</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a72b39d38ab399cdfb6892e7c5f8e11fc">  104</a></span>&#160;      <span class="keywordtype">bool</span> <a class="code" href="class_r_t_s_camera.html#a72b39d38ab399cdfb6892e7c5f8e11fc">InputReceiverEnabled</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#add8c5eaf024cdc5bc34120816cb1615d">  105</a></span>&#160;      dimension2d&lt;f32&gt; <a class="code" href="class_r_t_s_camera.html#add8c5eaf024cdc5bc34120816cb1615d">screenDim</a>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#ae46adc9a32cc4e7d2a38f3a05a3965a7">  106</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#ae46adc9a32cc4e7d2a38f3a05a3965a7">Fovy</a>;      <span class="comment">// Field of view, in radians.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a55ad2a004ffc173137ba8c360535a51d">  107</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a55ad2a004ffc173137ba8c360535a51d">Aspect</a>;   <span class="comment">// Aspect ratio.</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a631538afb0c78feb43257bc4281d97e7">  108</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a631538afb0c78feb43257bc4281d97e7">ZNear</a>;   <span class="comment">// value of the near view-plane.</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#acbd03baffb16067fbd189c65ba408d8d">  109</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#acbd03baffb16067fbd189c65ba408d8d">ZFar</a>;   <span class="comment">// Z-value of the far view-plane.</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordtype">void</span> recalculateProjectionMatrix();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <span class="keywordtype">void</span> recalculateViewArea();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;   <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a79bc180f363a04262b7574e3be244658">  115</a></span>&#160;      IrrlichtDevice* <a class="code" href="class_r_t_s_camera.html#a79bc180f363a04262b7574e3be244658">device</a>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a623f1332a66212687160ca2b32a90ad1">  116</a></span>&#160;      vector3df <a class="code" href="class_r_t_s_camera.html#a623f1332a66212687160ca2b32a90ad1">Pos</a>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a55751928dfc2046303db6577d962cb5d">  117</a></span>&#160;      <span class="keywordtype">bool</span> <a class="code" href="class_r_t_s_camera.html#a55751928dfc2046303db6577d962cb5d">zooming</a>, rotating, moving, translating;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a8d35c30babc98d842ee8551450e3e266">  118</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a8d35c30babc98d842ee8551450e3e266">zoomSpeed</a>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a6c074854469d4cf1a5823a8c51d3d21f">  119</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a6c074854469d4cf1a5823a8c51d3d21f">translateSpeed</a>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a6edbed32c717e44a5d1e3280990accc7">  120</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a6edbed32c717e44a5d1e3280990accc7">rotateSpeed</a>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#adcba749f7e5ee31815dc276d17c40617">  121</a></span>&#160;      f32 rotateStartX, <a class="code" href="class_r_t_s_camera.html#adcba749f7e5ee31815dc276d17c40617">rotateStartY</a>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#aeb092cb0a4e2fc79f2c5090a8dc1eed3">  122</a></span>&#160;      f32 zoomStartX, <a class="code" href="class_r_t_s_camera.html#aeb092cb0a4e2fc79f2c5090a8dc1eed3">zoomStartY</a>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#ade98262f18335c7bf427606690713dbc">  123</a></span>&#160;      f32 translateStartX, <a class="code" href="class_r_t_s_camera.html#ade98262f18335c7bf427606690713dbc">translateStartY</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#abd0d81f233fa6ae969af54c83aa8361c">  124</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#abd0d81f233fa6ae969af54c83aa8361c">currentZoom</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a1abfd9af0d2ab39bc8809ee01bc4fb0e">  125</a></span>&#160;      f32 rotX, <a class="code" href="class_r_t_s_camera.html#a1abfd9af0d2ab39bc8809ee01bc4fb0e">rotY</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a5c4fb155f682252f3e9dbf04a1c85c34">  126</a></span>&#160;      vector3df <a class="code" href="class_r_t_s_camera.html#a5c4fb155f682252f3e9dbf04a1c85c34">oldTarget</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a45a96f9a7005da84f0d68b833cd829e6">  127</a></span>&#160;      vector2df <a class="code" href="class_r_t_s_camera.html#a45a96f9a7005da84f0d68b833cd829e6">MousePos</a>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a6c74977d8d9c47360a34c2071a68f943">  128</a></span>&#160;      <span class="keywordtype">bool</span> Keys[KEY_KEY_CODES_COUNT];</div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a4cb5942e923c001765a2dcbbcf7a0ecd">  129</a></span>&#160;      <span class="keywordtype">bool</span> MouseKeys[3];</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#ad42b66d0a673636ec37db4b51e39a056">  130</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#ad42b66d0a673636ec37db4b51e39a056">targetMinDistance</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a3ec7d135908370ef98bfc50f28397ffc">  131</a></span>&#160;      f32 <a class="code" href="class_r_t_s_camera.html#a3ec7d135908370ef98bfc50f28397ffc">targetMaxDistance</a>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bc">  133</a></span>&#160;      <span class="keyword">enum</span> <a class="code" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bc">MOUSE_BUTTON</a></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      {</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca3e1d9d441ceb5aeb1679f951f1efc67c">  135</a></span>&#160;         <a class="code" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca3e1d9d441ceb5aeb1679f951f1efc67c">MOUSE_BUTTON_RIGHT</a>,</div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca28bcc67ad972d255cfa4a3ae0353d2db">  136</a></span>&#160;         <a class="code" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca28bcc67ad972d255cfa4a3ae0353d2db">MOUSE_BUTTON_MIDDLE</a>,</div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bcaaf82ba8e6493e1fb043ab396d0f13c79">  137</a></span>&#160;         MOUSE_BUTTON_LEFT</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      };</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordtype">void</span> allKeysUp();</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <span class="keywordtype">void</span> allMouseButtonsUp();</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      <span class="keywordtype">bool</span> isKeyDown(s32 key);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordtype">bool</span> isMouseButtonDown(s32 key);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keywordtype">void</span> animate();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordtype">void</span> updateAnimationState();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;};</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="class_r_t_s_camera_html_a8d35c30babc98d842ee8551450e3e266"><div class="ttname"><a href="class_r_t_s_camera.html#a8d35c30babc98d842ee8551450e3e266">RTSCamera::zoomSpeed</a></div><div class="ttdeci">f32 zoomSpeed</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00118">rtscamera.h:118</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_aaff02bd902018352982d5789b672fda9"><div class="ttname"><a href="class_r_t_s_camera.html#aaff02bd902018352982d5789b672fda9">RTSCamera::Target</a></div><div class="ttdeci">vector3df Target</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00098">rtscamera.h:98</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_aba48fbf88010e5c16be40cfeb7378046"><div class="ttname"><a href="class_r_t_s_camera.html#aba48fbf88010e5c16be40cfeb7378046">RTSCamera::atMinDistance</a></div><div class="ttdeci">bool atMinDistance</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00093">rtscamera.h:93</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a7a0c01a29225820df510eed98ccb99bca28bcc67ad972d255cfa4a3ae0353d2db"><div class="ttname"><a href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca28bcc67ad972d255cfa4a3ae0353d2db">RTSCamera::MOUSE_BUTTON_MIDDLE</a></div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00136">rtscamera.h:136</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a54f94b3fb1d8b7433f333429e0bbc028"><div class="ttname"><a href="class_r_t_s_camera.html#a54f94b3fb1d8b7433f333429e0bbc028">RTSCamera::Projection</a></div><div class="ttdeci">matrix4 Projection</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00100">rtscamera.h:100</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a3e02a40b3c937bb57279d8bce290c584"><div class="ttname"><a href="class_r_t_s_camera.html#a3e02a40b3c937bb57279d8bce290c584">RTSCamera::BBox</a></div><div class="ttdeci">aabbox3d&lt; f32 &gt; BBox</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00103">rtscamera.h:103</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a32d63ca9c6cd101ac1ad3418f0ec331c"><div class="ttname"><a href="class_r_t_s_camera.html#a32d63ca9c6cd101ac1ad3418f0ec331c">RTSCamera::bindTargetAndRotation</a></div><div class="ttdeci">virtual void bindTargetAndRotation(bool)</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00072">rtscamera.h:72</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_ade98262f18335c7bf427606690713dbc"><div class="ttname"><a href="class_r_t_s_camera.html#ade98262f18335c7bf427606690713dbc">RTSCamera::translateStartY</a></div><div class="ttdeci">f32 translateStartY</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00123">rtscamera.h:123</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_add8c5eaf024cdc5bc34120816cb1615d"><div class="ttname"><a href="class_r_t_s_camera.html#add8c5eaf024cdc5bc34120816cb1615d">RTSCamera::screenDim</a></div><div class="ttdeci">dimension2d&lt; f32 &gt; screenDim</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00105">rtscamera.h:105</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a6c074854469d4cf1a5823a8c51d3d21f"><div class="ttname"><a href="class_r_t_s_camera.html#a6c074854469d4cf1a5823a8c51d3d21f">RTSCamera::translateSpeed</a></div><div class="ttdeci">f32 translateSpeed</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00119">rtscamera.h:119</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_ae46adc9a32cc4e7d2a38f3a05a3965a7"><div class="ttname"><a href="class_r_t_s_camera.html#ae46adc9a32cc4e7d2a38f3a05a3965a7">RTSCamera::Fovy</a></div><div class="ttdeci">f32 Fovy</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00106">rtscamera.h:106</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_ad42b66d0a673636ec37db4b51e39a056"><div class="ttname"><a href="class_r_t_s_camera.html#ad42b66d0a673636ec37db4b51e39a056">RTSCamera::targetMinDistance</a></div><div class="ttdeci">f32 targetMinDistance</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00130">rtscamera.h:130</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_aeb092cb0a4e2fc79f2c5090a8dc1eed3"><div class="ttname"><a href="class_r_t_s_camera.html#aeb092cb0a4e2fc79f2c5090a8dc1eed3">RTSCamera::zoomStartY</a></div><div class="ttdeci">f32 zoomStartY</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00122">rtscamera.h:122</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a623f1332a66212687160ca2b32a90ad1"><div class="ttname"><a href="class_r_t_s_camera.html#a623f1332a66212687160ca2b32a90ad1">RTSCamera::Pos</a></div><div class="ttdeci">vector3df Pos</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00116">rtscamera.h:116</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_aefc3f8461640c7f0c1a00b1bd283efab"><div class="ttname"><a href="class_r_t_s_camera.html#aefc3f8461640c7f0c1a00b1bd283efab">RTSCamera::getViewMatrixAffector</a></div><div class="ttdeci">virtual const core::matrix4 &amp; getViewMatrixAffector() const </div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00071">rtscamera.h:71</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a1abfd9af0d2ab39bc8809ee01bc4fb0e"><div class="ttname"><a href="class_r_t_s_camera.html#a1abfd9af0d2ab39bc8809ee01bc4fb0e">RTSCamera::rotY</a></div><div class="ttdeci">f32 rotY</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00125">rtscamera.h:125</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a3ec7d135908370ef98bfc50f28397ffc"><div class="ttname"><a href="class_r_t_s_camera.html#a3ec7d135908370ef98bfc50f28397ffc">RTSCamera::targetMaxDistance</a></div><div class="ttdeci">f32 targetMaxDistance</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00131">rtscamera.h:131</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_aa1b39c4398448ff7eb07afe8c09ca7b5"><div class="ttname"><a href="class_r_t_s_camera.html#aa1b39c4398448ff7eb07afe8c09ca7b5">RTSCamera::View</a></div><div class="ttdeci">matrix4 View</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00101">rtscamera.h:101</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_adcba749f7e5ee31815dc276d17c40617"><div class="ttname"><a href="class_r_t_s_camera.html#adcba749f7e5ee31815dc276d17c40617">RTSCamera::rotateStartY</a></div><div class="ttdeci">f32 rotateStartY</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00121">rtscamera.h:121</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_ab3f3ae1d984228131ffe9abffe2f57f0"><div class="ttname"><a href="class_r_t_s_camera.html#ab3f3ae1d984228131ffe9abffe2f57f0">RTSCamera::UpVector</a></div><div class="ttdeci">vector3df UpVector</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00099">rtscamera.h:99</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a75d5c5421ff526c1a7899ca174f74bde"><div class="ttname"><a href="class_r_t_s_camera.html#a75d5c5421ff526c1a7899ca174f74bde">RTSCamera::ViewArea</a></div><div class="ttdeci">SViewFrustum ViewArea</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00102">rtscamera.h:102</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a6edbed32c717e44a5d1e3280990accc7"><div class="ttname"><a href="class_r_t_s_camera.html#a6edbed32c717e44a5d1e3280990accc7">RTSCamera::rotateSpeed</a></div><div class="ttdeci">f32 rotateSpeed</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00120">rtscamera.h:120</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a3c784a3df99fbfbb653707d52961a559"><div class="ttname"><a href="class_r_t_s_camera.html#a3c784a3df99fbfbb653707d52961a559">RTSCamera::setRotation</a></div><div class="ttdeci">virtual void setRotation(const irr::core::vector3df &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00068">rtscamera.h:68</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_abd0d81f233fa6ae969af54c83aa8361c"><div class="ttname"><a href="class_r_t_s_camera.html#abd0d81f233fa6ae969af54c83aa8361c">RTSCamera::currentZoom</a></div><div class="ttdeci">f32 currentZoom</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00124">rtscamera.h:124</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html"><div class="ttname"><a href="class_r_t_s_camera.html">RTSCamera</a></div><div class="ttdoc">Камера для RTS игр </div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00017">rtscamera.h:17</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a72b39d38ab399cdfb6892e7c5f8e11fc"><div class="ttname"><a href="class_r_t_s_camera.html#a72b39d38ab399cdfb6892e7c5f8e11fc">RTSCamera::InputReceiverEnabled</a></div><div class="ttdeci">bool InputReceiverEnabled</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00104">rtscamera.h:104</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_af2a8ec4e77a7d7ce4fbbd6fc7426545c"><div class="ttname"><a href="class_r_t_s_camera.html#af2a8ec4e77a7d7ce4fbbd6fc7426545c">RTSCamera::setProjectionMatrix</a></div><div class="ttdeci">virtual void setProjectionMatrix(const irr::core::matrix4 &amp;, bool)</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00069">rtscamera.h:69</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a7a0c01a29225820df510eed98ccb99bca3e1d9d441ceb5aeb1679f951f1efc67c"><div class="ttname"><a href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bca3e1d9d441ceb5aeb1679f951f1efc67c">RTSCamera::MOUSE_BUTTON_RIGHT</a></div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00135">rtscamera.h:135</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a55751928dfc2046303db6577d962cb5d"><div class="ttname"><a href="class_r_t_s_camera.html#a55751928dfc2046303db6577d962cb5d">RTSCamera::zooming</a></div><div class="ttdeci">bool zooming</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00117">rtscamera.h:117</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a5ccd89408d97dbd505db84b24ed0433d"><div class="ttname"><a href="class_r_t_s_camera.html#a5ccd89408d97dbd505db84b24ed0433d">RTSCamera::atMaxDistance</a></div><div class="ttdeci">bool atMaxDistance</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00094">rtscamera.h:94</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a9b35c167a04bd2b9ed2dfbfccbb7d034"><div class="ttname"><a href="class_r_t_s_camera.html#a9b35c167a04bd2b9ed2dfbfccbb7d034">RTSCamera::setViewMatrixAffector</a></div><div class="ttdeci">virtual void setViewMatrixAffector(const irr::core::matrix4 &amp;)</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00070">rtscamera.h:70</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a631538afb0c78feb43257bc4281d97e7"><div class="ttname"><a href="class_r_t_s_camera.html#a631538afb0c78feb43257bc4281d97e7">RTSCamera::ZNear</a></div><div class="ttdeci">f32 ZNear</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00108">rtscamera.h:108</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a3f9bdbe808f8acdb5ab6ecf36969d142"><div class="ttname"><a href="class_r_t_s_camera.html#a3f9bdbe808f8acdb5ab6ecf36969d142">RTSCamera::getType</a></div><div class="ttdeci">virtual ESCENE_NODE_TYPE getType() const </div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00090">rtscamera.h:90</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_acbd03baffb16067fbd189c65ba408d8d"><div class="ttname"><a href="class_r_t_s_camera.html#acbd03baffb16067fbd189c65ba408d8d">RTSCamera::ZFar</a></div><div class="ttdeci">f32 ZFar</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00109">rtscamera.h:109</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a79bc180f363a04262b7574e3be244658"><div class="ttname"><a href="class_r_t_s_camera.html#a79bc180f363a04262b7574e3be244658">RTSCamera::device</a></div><div class="ttdeci">IrrlichtDevice * device</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00115">rtscamera.h:115</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a7a0c01a29225820df510eed98ccb99bc"><div class="ttname"><a href="class_r_t_s_camera.html#a7a0c01a29225820df510eed98ccb99bc">RTSCamera::MOUSE_BUTTON</a></div><div class="ttdeci">MOUSE_BUTTON</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00133">rtscamera.h:133</a></div></div>
+<div class="ttc" id="main_8cpp_html_ab6ec4f526efa0e3dd8d15608b44c7afc"><div class="ttname"><a href="main_8cpp.html#ab6ec4f526efa0e3dd8d15608b44c7afc">smgr</a></div><div class="ttdeci">irr::scene::ISceneManager * smgr</div><div class="ttdoc">Указатель на менеджер сцены </div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00018">main.cpp:18</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a5c4fb155f682252f3e9dbf04a1c85c34"><div class="ttname"><a href="class_r_t_s_camera.html#a5c4fb155f682252f3e9dbf04a1c85c34">RTSCamera::oldTarget</a></div><div class="ttdeci">vector3df oldTarget</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00126">rtscamera.h:126</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a55ad2a004ffc173137ba8c360535a51d"><div class="ttname"><a href="class_r_t_s_camera.html#a55ad2a004ffc173137ba8c360535a51d">RTSCamera::Aspect</a></div><div class="ttdeci">f32 Aspect</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00107">rtscamera.h:107</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a44bed0a03bd1e95959d502395053c94a"><div class="ttname"><a href="class_r_t_s_camera.html#a44bed0a03bd1e95959d502395053c94a">RTSCamera::selectednode</a></div><div class="ttdeci">ISceneNode * selectednode</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00095">rtscamera.h:95</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a45a96f9a7005da84f0d68b833cd829e6"><div class="ttname"><a href="class_r_t_s_camera.html#a45a96f9a7005da84f0d68b833cd829e6">RTSCamera::MousePos</a></div><div class="ttdeci">vector2df MousePos</div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00127">rtscamera.h:127</a></div></div>
+<div class="ttc" id="class_r_t_s_camera_html_a472d920e3b63960e0ff59a2f54666afc"><div class="ttname"><a href="class_r_t_s_camera.html#a472d920e3b63960e0ff59a2f54666afc">RTSCamera::getTargetAndRotationBinding</a></div><div class="ttdeci">virtual bool getTargetAndRotationBinding() const </div><div class="ttdef"><b>Definition:</b> <a href="rtscamera_8h_source.html#l00053">rtscamera.h:53</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="rtscamera_8h.html">rtscamera.h</a></li>
+    <li class="footer">Документация по Dune III. Последние изменения: Ср 16 Июл 2014 05:17:55. Создано системой
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

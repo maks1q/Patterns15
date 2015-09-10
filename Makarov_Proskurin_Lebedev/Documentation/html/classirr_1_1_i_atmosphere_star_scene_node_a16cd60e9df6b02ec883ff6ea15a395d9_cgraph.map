@@ -1,0 +1,5 @@
+<map id="irr::IAtmosphereStarSceneNode::clone" name="irr::IAtmosphereStarSceneNode::clone">
+<area shape="rect" id="node2" href="$classirr_1_1_i_atmosphere_star_scene_node.html#a2e4c42ab2b5c679248477390b248ca4b" title="Constructor. " alt="" coords="228,39,452,80"/>
+<area shape="rect" id="node3" href="$classirr_1_1_i_atmosphere_star_scene_node.html#afba5dfb7f9eda81e6efff6629f81da40" title="Sets the size of the billboard. " alt="" coords="500,5,675,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1_i_atmosphere_star_scene_node.html#a8b026ae73d78a16425b4163e8fb10ed7" title="irr::IAtmosphereStarScene\lNode::generateMesh" alt="" coords="500,71,675,112"/>
+</map>

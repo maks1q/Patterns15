@@ -1,0 +1,15 @@
+<map id="Object::setIDInGroup" name="Object::setIDInGroup">
+<area shape="rect" id="node2" href="$class_object.html#a03ed1f821d1d4fcf1f8313f348178656" title="Установить первичные данные об объекте " alt="" coords="196,300,303,327"/>
+<area shape="rect" id="node3" href="$class_a_i.html#aaab6580ac0c55b4901bd053734cdca65" title="Конструктор с параметрами " alt="" coords="433,5,488,32"/>
+<area shape="rect" id="node4" href="$class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="379,56,543,83"/>
+<area shape="rect" id="node5" href="$class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="377,107,545,133"/>
+<area shape="rect" id="node6" href="$class_construction_plant.html#a2641c23aeb27d102c53f8b864a0e077f" title="Конструктор с параметрами " alt="" coords="394,158,527,199"/>
+<area shape="rect" id="node7" href="$class_division.html#a0b99ca066a6590b0ac31670199ecc921" title="Конструктор с параметрами " alt="" coords="401,224,520,251"/>
+<area shape="rect" id="node8" href="$class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="365,275,556,301"/>
+<area shape="rect" id="node9" href="$class_harvester.html#a9d744b983895a695dbf1f448a7f6213f" title="Конструктор с параметрами " alt="" coords="391,325,530,352"/>
+<area shape="rect" id="node10" href="$class_layer_landscape.html#a91f21ec1a15277277e942957d027b4d4" title="Конструктор с параметрами " alt="" coords="351,376,571,403"/>
+<area shape="rect" id="node11" href="$class_layer_spice.html#a5bc3b600a8378851ee9d6f2b53957593" title="Конструктор с параметрами " alt="" coords="381,427,541,453"/>
+<area shape="rect" id="node12" href="$class_machine_plant.html#a28e7b650cb7374e95cd4a0aa9b85314d" title="Конструктор с параметрами " alt="" coords="367,477,555,504"/>
+<area shape="rect" id="node13" href="$class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="413,528,509,555"/>
+<area shape="rect" id="node14" href="$class_tank.html#a2f25bce0c635b6a391e3879ddd82f275" title="Конструктор с параметрами " alt="" coords="417,579,504,605"/>
+</map>

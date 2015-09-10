@@ -1,0 +1,12 @@
+<map id="Resource::setRes" name="Resource::setRes">
+<area shape="rect" id="node2" href="$class_resource.html#ac0764cc1c2cd2e4932d458ae45cba7be" title="Функция установки значений " alt="" coords="180,56,327,83"/>
+<area shape="rect" id="node5" href="$class_resource.html#a0e18775973c1ba91219aed4efe68594e" title="Метод забирания ресурсов " alt="" coords="182,209,325,236"/>
+<area shape="rect" id="node11" href="$class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130" title="Метод добавления ресурсов " alt="" coords="187,297,319,324"/>
+<area shape="rect" id="node3" href="$class_electric_power.html#aa7f99de038212d98784119dd293af9a0" title="Конструктор с параметрами " alt="" coords="375,5,565,32"/>
+<area shape="rect" id="node4" href="$class_spice.html#ac9cc8003f592a8ac13d3c57d3fc5de8d" title="Конструктор с параметрами " alt="" coords="422,56,518,83"/>
+<area shape="rect" id="node6" href="$class_construction_plant.html#a2d029071b1a6a68f93b1ab9a560d1695" title="Создание Харвестера строительным зданием " alt="" coords="403,107,537,149"/>
+<area shape="rect" id="node8" href="$class_construction_plant.html#a33f733a1c836c46807dd23d39323d67d" title="Создание Танка строительным зданием " alt="" coords="403,173,537,214"/>
+<area shape="rect" id="node9" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="387,290,553,331"/>
+<area shape="rect" id="node10" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="613,297,767,324"/>
+<area shape="rect" id="node7" href="$class_team.html#ab6e749d9dd44130832efe33ce21ce2e6" title="Обновление действий всех юнитов и зданий команды " alt="" coords="639,148,741,175"/>
+</map>

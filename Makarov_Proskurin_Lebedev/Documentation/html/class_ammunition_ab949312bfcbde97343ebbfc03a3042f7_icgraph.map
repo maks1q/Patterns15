@@ -1,0 +1,5 @@
+<map id="Ammunition::setDamage" name="Ammunition::setDamage">
+<area shape="rect" id="node2" href="$class_ammunition.html#a2d6d543dcc6e3053ba06524a3ae9222b" title="Установить данные о боеприпасах " alt="" coords="219,31,393,57"/>
+<area shape="rect" id="node3" href="$class_ammo_shell.html#ab00ad2fa140e0bd9ce8d41385fcae78a" title="Конструктор с параметрами " alt="" coords="443,5,607,32"/>
+<area shape="rect" id="node4" href="$class_ammunition.html#ace54e3063ccc9c7605aec4fe61234833" title="Конструктор с параметрами " alt="" coords="441,56,609,83"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="ammunition.h" name="ammunition.h">
+<area shape="rect" id="node2" href="$combatunit_8h.html" title="combatunit.h" alt="" coords="196,80,293,107"/>
+<area shape="rect" id="node8" href="$all__h_8h.html" title="all_h.h" alt="" coords="240,453,300,480"/>
+<area shape="rect" id="node16" href="$ammoshell_8h.html" title="ammoshell.h" alt="" coords="503,80,599,107"/>
+<area shape="rect" id="node18" href="$ammunition_8cpp.html" title="ammunition.cpp" alt="" coords="682,80,797,107"/>
+<area shape="rect" id="node3" href="$tank_8h.html" title="tank.h" alt="" coords="413,155,471,181"/>
+<area shape="rect" id="node5" href="$team_8h.html" title="team.h" alt="" coords="87,304,149,331"/>
+<area shape="rect" id="node15" href="$combatunit_8cpp.html" title="combatunit.cpp" alt="" coords="96,155,207,181"/>
+<area shape="rect" id="node4" href="$constructionplant_8h.html" title="constructionplant.h" alt="" coords="311,229,443,256"/>
+<area shape="rect" id="node14" href="$tank_8cpp.html" title="tank.cpp" alt="" coords="535,229,607,256"/>
+<area shape="rect" id="node13" href="$constructionplant_8cpp.html" title="constructionplant.cpp" alt="" coords="333,304,479,331"/>
+<area shape="rect" id="node6" href="$ai_8h.html" title="ai.h" alt="" coords="13,379,55,405"/>
+<area shape="rect" id="node12" href="$team_8cpp.html" title="team.cpp" alt="" coords="80,379,156,405"/>
+<area shape="rect" id="node7" href="$ai_8cpp.html" title="ai.cpp" alt="" coords="5,453,63,480"/>
+<area shape="rect" id="node9" href="$game_8h.html" title="game.h" alt="" coords="237,528,303,555"/>
+<area shape="rect" id="node11" href="$main_8cpp.html" title="main.cpp" alt="" coords="327,528,402,555"/>
+<area shape="rect" id="node10" href="$game_8cpp.html" title="game.cpp" alt="" coords="231,603,309,629"/>
+<area shape="rect" id="node17" href="$ammoshell_8cpp.html" title="ammoshell.cpp" alt="" coords="496,155,607,181"/>
+</map>

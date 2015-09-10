@@ -1,0 +1,6 @@
+<map id="CombatUnit::Attack" name="CombatUnit::Attack">
+<area shape="rect" id="node2" href="$class_unit.html#a3e156e5f51519719be7301cd3cb453f3" title="Метод движения к ноде " alt="" coords="193,5,332,32"/>
+<area shape="rect" id="node5" href="$class_combat_unit.html#abacd49e8ed5054049a98b6a881fba914" title="Функция выстрела орудием " alt="" coords="189,56,336,83"/>
+<area shape="rect" id="node3" href="$class_unit.html#ae71c7c0b439a8bcb95b1ac1700c87ff8" title="Метод движения юнита к точке " alt="" coords="384,5,523,32"/>
+<area shape="rect" id="node4" href="$class_unit.html#ae96da06ac633e36e90396e39ca2a955e" title="Метод поворота к точке " alt="" coords="571,5,660,32"/>
+</map>

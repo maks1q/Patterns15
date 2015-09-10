@@ -1,0 +1,13 @@
+<map id="Resource::getRes" name="Resource::getRes">
+<area shape="rect" id="node2" href="$class_construction_plant.html#a2d029071b1a6a68f93b1ab9a560d1695" title="Создание Харвестера строительным зданием " alt="" coords="379,5,512,47"/>
+<area shape="rect" id="node4" href="$class_construction_plant.html#a33f733a1c836c46807dd23d39323d67d" title="Создание Танка строительным зданием " alt="" coords="379,71,512,112"/>
+<area shape="rect" id="node5" href="$class_resource.html#a0e18775973c1ba91219aed4efe68594e" title="Метод забирания ресурсов " alt="" coords="184,137,327,163"/>
+<area shape="rect" id="node8" href="$class_resource.html#a7adc5fc3f83f3f39b4ca99939a667130" title="Метод добавления ресурсов " alt="" coords="379,238,511,265"/>
+<area shape="rect" id="node9" href="$class_resource.html#a9d41c00ad22349b809fbdb545c33a3fb" title="Возвращает значение оставшегося кол&#45;ва ресурса до макс. знач. " alt="" coords="180,238,331,265"/>
+<area shape="rect" id="node10" href="$class_resource.html#a4a26c9a895d6c219569210130ccc78a2" title="Проверка на пустоту " alt="" coords="571,305,715,331"/>
+<area shape="rect" id="node11" href="$class_resource.html#a6ce79ec52ae7e05f5a37dae4c4d8f26b" title="Проверка на загруженность " alt="" coords="387,347,503,374"/>
+<area shape="rect" id="node12" href="$class_resource.html#ad7cec375ccfbc6909f4cd80d5bf07717" title="Функция вывода информации о ресурсе " alt="" coords="181,390,329,417"/>
+<area shape="rect" id="node3" href="$class_team.html#ab6e749d9dd44130832efe33ce21ce2e6" title="Обновление действий всех юнитов и зданий команды " alt="" coords="591,46,694,73"/>
+<area shape="rect" id="node6" href="$class_extracting_unit.html#a851372499cd21d40108417aa9efa32bf" title="Функция для добычи ресурсов " alt="" coords="560,188,725,229"/>
+<area shape="rect" id="node7" href="$class_extracting_unit.html#a03f70242aabec0d7cdedeea1a3ebf1e2" title="Функция для обновления действия добывающего юнита " alt="" coords="773,254,927,281"/>
+</map>

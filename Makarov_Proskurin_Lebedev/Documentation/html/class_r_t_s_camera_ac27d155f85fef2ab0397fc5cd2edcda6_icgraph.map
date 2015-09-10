@@ -1,0 +1,9 @@
+<map id="RTSCamera::updateAnimationState" name="RTSCamera::updateAnimationState">
+<area shape="rect" id="node2" href="$class_r_t_s_camera.html#a286d40c4139c198269d897cef5eb9398" title="RTSCamera::setPosition" alt="" coords="251,56,416,83"/>
+<area shape="rect" id="node4" href="$class_r_t_s_camera.html#a96d8fc7922d2450fd36869223dd8b17c" title="RTSCamera::pointCameraAtNode" alt="" coords="464,107,680,133"/>
+<area shape="rect" id="node8" href="$class_r_t_s_camera.html#a62af4e64647bee8454110763bfb11fa6" title="RTSCamera::setTarget" alt="" coords="256,5,411,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Главный цикл " alt="" coords="547,56,597,83"/>
+<area shape="rect" id="node6" href="$class_r_t_s_camera.html#a30f8fe9e0f1367694c63fc917604314a" title="RTSCamera::animate" alt="" coords="499,5,645,32"/>
+<area shape="rect" id="node5" href="$class_r_t_s_camera.html#ad17faa59905a25c20eb19a6c8cabe56e" title="RTSCamera::OnEvent" alt="" coords="736,107,885,133"/>
+<area shape="rect" id="node7" href="$class_r_t_s_camera.html#aa74a5185a8cae06f491aa64ea7284d82" title="RTSCamera::OnAnimate" alt="" coords="728,5,893,32"/>
+</map>

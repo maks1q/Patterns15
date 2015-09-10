@@ -1,0 +1,5 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node2" href="$classirr_1_1_i_atmosphere_sky_scene_node.html" title="irr::IAtmosphereSkySceneNode" alt="" coords="150,5,354,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1_i_atmosphere_star_scene_node.html" title="irr::IAtmosphereStarSceneNode" alt="" coords="149,56,355,83"/>
+<area shape="rect" id="node4" href="$classirr_1_1_i_weather_manager_atmosphere.html" title="irr::IWeatherManagerAtmosphere" alt="" coords="145,107,359,133"/>
+</map>
